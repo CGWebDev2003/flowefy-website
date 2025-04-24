@@ -1,0 +1,63 @@
+.headerContainer {
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    max-width: 1920px;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoBox {
+    position: relative;
+    margin-left: 2rem;
+}
+
+.logo {
+    color: white;
+}
+
+.buttonBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headerButton {
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+.instagramButton {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 850px) {
+    .headerContainer {
+        height: 3.5rem;
+    }
+    
+    .header {
+        height: 3.5rem;
+    }
+
+    .logoBox {
+        margin-left: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .buttonBox {
+        margin-right: 1rem;
+    }
+}
