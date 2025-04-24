@@ -6,6 +6,7 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
+
 }
 
 .leftSide, .rightSide {
@@ -126,20 +127,43 @@
     color: #D7A7FF;
 }
 
-.legalLinks a {
-    color: #D7A7FF;
+.linksLegal {
+    margin-top: 1rem;
+    color: #cecece;
+}
+
+.linksLegal a {
+    color: #cecece;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 850px) {
     .placeholderSection {
         flex-direction: column;
+        height: auto;
     }
 
     .leftSide, .rightSide {
         width: 90%;
+        height: auto;
+    }
+
+    .rightSide {
+        height: 40rem;
+        margin-bottom: 10rem;
     }
 
     .leftSide {
         padding: 5rem 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contactContainer {
+        width: 98%;
+    }
+
+    .contactContent {
+        width: 85%;
     }
 }

@@ -1,9 +1,18 @@
 import "./placeholder.css";
+import "animate.css";
 
 function PlaceholderSection() {
+    function runAnimation(target, animation) {
+        const targetElement = document.getElementById(target);
+        targetElement.classList.add("animate__animated");
+        targetElement.classList.add(animation);
+    }
+
+
     function openContactForm() {
         const contactForm = document.getElementById("contactContainer");
         contactForm.style.display = "flex";
+        runAnimation("contactContainer", "animate__backInRight");
     }
 
     return(
@@ -48,6 +57,9 @@ function PlaceholderSection() {
                         <button type="button" className="sendButton" id="sendButton">
                             Senden                            <i class="bi bi-send-fill"></i>
                         </button>
+                    </div>
+                    <div className="linksLegal">
+                        <a href="#">Impressum</a> <span className='devider'>|</span> <a href="#"> Datenschutz</a>
                     </div>
                 </div>
             </div>

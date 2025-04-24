@@ -4,3 +4,9 @@
   overflow: auto;
   background-color: #981AFF;
 }
+
+@media screen and (max-width: 850px) {
+  .legalLinks {
+    display: none;
+  }
+}
