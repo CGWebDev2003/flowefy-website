@@ -151,6 +151,14 @@
         height: auto;
     }
 
+    .heroSubtitle {
+        font-size: 1.1rem;
+    }
+
+    .heroTitle {
+        line-height: 4rem;
+    }
+
     .leftSide, .rightSide {
         width: 90%;
         height: auto;
