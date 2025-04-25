@@ -5,10 +5,17 @@ import "animate.css";
 function PlaceholderSection() {
 
     useEffect(() => {
-        const script = document.createElement("script");
-        script.src = "https://www.ratedo.de/js/widgets/ratedo-badge.min.js";
-        script.async = true;
-        document.body.appendChild(script);
+        // Ratedo Badge Script
+        const badgeScript = document.createElement("script");
+        badgeScript.src = "https://www.ratedo.de/js/widgets/ratedo-badge.min.js";
+        badgeScript.async = true;
+        document.body.appendChild(badgeScript);
+
+        // Ratedo Widget Script
+        const widgetScript = document.createElement("script");
+        widgetScript.src = "https://www.ratedo.de/js/widgets/ratedo-widget18.min.js";
+        widgetScript.async = true;
+        document.body.appendChild(widgetScript);
     }, []);
 
     return (
@@ -31,7 +38,12 @@ function PlaceholderSection() {
                      data-type="default">
                 </div>
 
+                {/* Ratedo Widget eingebunden */}
+                <div className="ratedo-w18" 
+                     data-ratedo_id="868d2acc958777666a16632fd681871581822797">
+                </div>
             </div>
+
             <div className="rightSide">
                 <div className="contactContainer" id="contactContainer">
                     <div className="contactContent">
