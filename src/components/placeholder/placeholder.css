@@ -74,9 +74,17 @@
     gap: 1rem;
 }
 
+.contactTitle {
+    color: #410347;
+}
+
 .inputBox {
     display: flex;
     flex-direction: column;
+}
+
+.inputBox .inputTitle {
+    color: #410347;
 }
 
 .inputBox input {
