@@ -1,21 +1,17 @@
+import React, { useEffect } from 'react';
 import "./placeholder.css";
 import "animate.css";
 
 function PlaceholderSection() {
-    function runAnimation(target, animation) {
-        const targetElement = document.getElementById(target);
-        targetElement.classList.add("animate__animated");
-        targetElement.classList.add(animation);
-    }
 
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "https://www.ratedo.de/js/widgets/ratedo-badge.min.js";
+        script.async = true;
+        document.body.appendChild(script);
+    }, []);
 
-    function openContactForm() {
-        const contactForm = document.getElementById("contactContainer");
-        contactForm.style.display = "flex";
-        runAnimation("contactContainer", "animate__backInRight");
-    }
-
-    return(
+    return (
         <div className="placeholderSection">
             <div className="leftSide">
                 <span className="heroSubtitle">
@@ -27,9 +23,14 @@ function PlaceholderSection() {
                 <p className="heroText">
                     Leider befindet sich die Website aktuell noch im Bau. Ihre Nachrichten erreichen uns natürlich trotzdem. Besuchen Sie doch unseren Instagram Profil oder senden Sie uns eine Nachricht.
                 </p>
-                <button className="ctaButton" onClick={openContactForm}>
-                    Nachricht senden
-                </button>
+
+                {/* Ratedo Badge eingebunden */}
+                <div style={{ maxWidth: "110px", margin: "0" }} 
+                     className="ratedo_badge" 
+                     data-ratedo_id="868d2acc958777666a16632fd681871581822797" 
+                     data-type="default">
+                </div>
+
             </div>
             <div className="rightSide">
                 <div className="contactContainer" id="contactContainer">
@@ -37,25 +38,25 @@ function PlaceholderSection() {
                         <h1 className="contactTitle">Kontakt</h1>
                         <div className="inputBox">
                             <span>Vollständiger Name*</span>
-                            <input id="" placeholder="Max Mustermann" required></input>
+                            <input placeholder="Max Mustermann" required />
                         </div>
                         <div className="inputBox">
                             <span>Email*</span>
-                            <input id="" placeholder="beispiel@email.de" required></input>
+                            <input placeholder="beispiel@email.de" required />
                         </div>
                         <div className="inputBox">
                             <span>Telefon*</span>
-                            <input id="" placeholder="+49 123 456789" required></input>
+                            <input placeholder="+49 123 456789" required />
                         </div>
                         <div className="inputBox">
                             <span>Nachricht*</span>
-                            <input id="" placeholder="Ihre Nachricht..." required></input>
+                            <input placeholder="Ihre Nachricht..." required />
                         </div>
                         <span className="privacyText">
                             Mit dem senden akzeptieren Sie den <a className="privacyLink" href="#">Datenschutz</a>
                         </span>
                         <button type="button" className="sendButton" id="sendButton">
-                            Senden                            <i class="bi bi-send-fill"></i>
+                            Senden <i className="bi bi-send-fill"></i>
                         </button>
                     </div>
                     <div className="linksLegal">
