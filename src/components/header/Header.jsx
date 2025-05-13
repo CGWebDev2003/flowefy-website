@@ -7,7 +7,9 @@ function Header() {
         <div className="headerContainer">
             <header className="header">
                 <div className="logoBox">
-                    <h1 className="logo">flowefy.</h1>
+                    <a href="/" className="logoLink">
+                        <h1 className="logo">flowefy.</h1>
+                    </a>
                 </div>
                 <div className="buttonBox">
                     <a href="mailto:flowefy@skymail.de" className="headerButton">

@@ -20,6 +20,10 @@
     margin-left: 2rem;
 }
 
+.logoLink {
+    text-decoration: none;
+}
+
 .logo {
     color: white;
 }

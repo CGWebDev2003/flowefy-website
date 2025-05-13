@@ -6,6 +6,14 @@
   padding: 0;
 }
 
+:root {
+  --primary: #8F08FF;
+  --accent: #EA9403;
+  --title-color: #410347;
+  --sub-title-color: #360063;
+  --link-color: #981AFF;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }

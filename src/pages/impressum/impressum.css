@@ -1,0 +1,47 @@
+.mainContainerImpressum {
+    width: 100%;
+    height: calc(100vh - 4rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.impressumBox {
+    width: 70%;
+    height: 32rem;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.impressumTitle {
+    color: var(--title-color);
+}
+
+.headline {
+    color: var(--title-color);
+}
+
+.impressumSubTitle {
+    color: var(--sub-title-color);
+}
+
+.impressumDescription {
+    margin-top: 1.5rem;
+    color:rgb(146, 146, 146);
+}
+
+.link {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+    .impressumBox {
+        width: 90%;
+    }
+}
