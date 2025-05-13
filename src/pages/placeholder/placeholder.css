@@ -24,7 +24,7 @@
 .heroSubtitle {
     font-size: 1.3rem;
     font-weight: 500;
-    color: #360063;
+    color: var(--sub-title-color);
     margin-bottom: -.2rem;
 }
 
@@ -52,7 +52,7 @@
 .ctaButton:hover {
     cursor: pointer;
     transition: .4s ease-in-out;
-    background-color: #EA9403;
+    background-color: var(--accent);
 }
 
 .contactContainer {
@@ -75,7 +75,7 @@
 }
 
 .contactTitle {
-    color: #410347;
+    color: var(--title-color);
 }
 
 .inputBox {
@@ -84,7 +84,7 @@
 }
 
 .inputBox .inputTitle {
-    color: #410347;
+    color: var(--title-color);
 }
 
 .inputBox input {
@@ -108,7 +108,7 @@
 .sendButton:hover {
     cursor: pointer;
     transition: .4s ease-in-out;
-    background-color: #EA9403;
+    background-color: var(--accent);
 
 }
 
@@ -119,15 +119,7 @@
 
 .privacyLink {
     text-decoration: none;
-    color: #981AFF;
-}
-.legalLinks {
-    position: absolute;
-    bottom: 1.5rem;
-    left: 2rem;
-    display: flex;
-    align-items: center;
-    color: #D7A7FF;
+    color: var(--link-color);
 }
 
 .devider {
