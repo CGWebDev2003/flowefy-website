@@ -48,3 +48,17 @@
     text-decoration: none;
     margin: 0 1rem;
 }
+
+@media screen and (max-width: 850px) {
+    .footer {
+        height: auto;
+    }
+
+    .footerContent {
+        flex-direction: column;
+    }
+
+    .col2 {
+        height: .5rem;
+    }
+}
