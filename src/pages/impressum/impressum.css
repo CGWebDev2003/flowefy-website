@@ -40,19 +40,8 @@
     text-decoration: none;
 }
 
-.backButton {
-    margin-top: 2rem;
-    width: 12rem;
-    height: 3rem;
-    font-size: 1rem;
-    color: #ffffff;
-    background-color: var(--primary);
-    border-radius: 8px;
-    border: none;
-    display: flex;
-    gap: .4rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
+@media screen and (max-width: 850px) {
+    .impressumBox {
+        width: 90%;
+    }
 }

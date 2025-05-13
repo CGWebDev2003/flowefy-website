@@ -22,10 +22,6 @@ function Impressum() {
                         Tel: <a className="link" href="tel:017624693418">0177-4821477</a><br/>
                         E-Mail: <a className="link" href="mailto:colingrahmmedia@gmail.com">colingrahmmedia@gmail.com</a><br/>
                     </p>
-                    <a href="/" className="backButton">
-                        <i className="bi bi-arrow-left"></i>
-                        Zurück
-                    </a>
                 </div>
             </div>
             <Footer />

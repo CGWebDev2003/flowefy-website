@@ -1,0 +1,61 @@
+.mainContainerDatenschutz {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Oben starten */
+    box-sizing: border-box;
+}
+
+.datenschutzBox {
+    width: 70%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.datenschutzContent {
+    width: 100%;
+    max-width: 900px;
+    text-align: left;
+}
+
+.datenschutzTitle {
+    color: var(--title-color);
+    text-align: center;
+}
+
+.datenschutzSubTitle {
+    color: var(--sub-title-color);
+    margin-bottom: 2rem;
+}
+
+.datenschutzDescription {
+    margin-top: 1.5rem;
+    color: rgb(146, 146, 146);
+}
+
+.link {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+li {
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 850px) {
+    .datenschutzBox {
+        width: 90%;
+    }
+}

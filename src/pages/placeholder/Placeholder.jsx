@@ -99,7 +99,7 @@ function Placeholder() {
                             </div>
 
                             <span className="privacyText">
-                                Mit dem senden akzeptieren Sie den <a className="privacyLink" href="#">Datenschutz</a>
+                                Mit dem senden akzeptieren Sie den <a className="privacyLink" href="/datenschutz" target="_blank">Datenschutz</a>
                             </span>
 
                             <button type="button" className="sendButton" id="sendButton" onClick={sendForm}>
