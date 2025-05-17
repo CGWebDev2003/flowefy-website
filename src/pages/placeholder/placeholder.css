@@ -1,6 +1,7 @@
 .placeholderSection {
     width: 100%;
-    height: calc(100% - 4rem);
+    min-height: calc(100% - 4rem);
+    height: auto;
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -62,7 +63,7 @@
 .contactContainer {
     display: flex;
     width: 30rem;
-    height: 100%;
+    height: 38rem;
     background-color: #ffffff;
     border-radius: 12px;
     justify-content: center;
@@ -139,6 +140,11 @@
 
 }
 
+.g-recaptcha {
+    margin: 1rem 0;
+    width: 100% !important;
+} 
+
 .successMessage {
     display: none;
     width: 100%;
@@ -163,7 +169,7 @@
 @media screen and (max-width: 850px) {
     .placeholderSection {
         flex-direction: column;
-        height: auto;
+        height: 85rem;
     }
 
     .heroSubtitle {
@@ -186,6 +192,10 @@
 
     .leftSide {
         padding: 5rem 0;
+    }
+
+    .privacyText {
+        font-size: .8rem;
     }
 }
 
