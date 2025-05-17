@@ -27,6 +27,7 @@
 
 .col1 {
     flex-direction: column;
+    gap: 1rem;
 }
 
 .flowefyLogo {
@@ -35,7 +36,7 @@
 }
 
 .madeInGermanyLogo {
-    height: 1.5rem;
+    height: 1.3rem;
 }
 
 .col3 {

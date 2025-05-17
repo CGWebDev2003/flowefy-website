@@ -55,6 +55,10 @@
     background-color: var(--accent);
 }
 
+.ratedo_badge {
+    max-width: 7rem; 
+}
+
 .contactContainer {
     display: flex;
     width: 30rem;
