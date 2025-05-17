@@ -89,6 +89,7 @@
 }
 
 .inputBox .inputTitle {
+    margin-top: .3rem;
     color: var(--title-color);
 }
 
