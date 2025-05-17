@@ -100,8 +100,31 @@
     border: 1.5px solid #ccc;
 }
 
+.privacyText {
+    color: #ccc;
+    font-size: .9rem;
+}
+
+.privacyLink {
+    margin-top: .5rem;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.devider {
+    margin: 0 .3rem;
+    color: #D7A7FF;
+}
+
+.linksLegal a {
+    color: #cecece;
+    text-decoration: none;
+}
+
 .sendButton {
+    margin-top: .5rem;
     height: 2.7rem;
+    padding: 0 3rem;
     border: none;
     background-color: orange;
     color: #ffffff;
@@ -116,25 +139,26 @@
 
 }
 
-.privacyText {
-    color: #ccc;
-    font-size: .9rem;
+.successMessage {
+    display: none;
+    width: 100%;
+    background-color:rgb(214, 255, 204);
+    border: 1.5px solid #eee;
+    border-left: 5px solid #4CAF50;
+    border-radius: 8px;
+    padding: .7rem;
 }
 
-.privacyLink {
-    text-decoration: none;
-    color: var(--link-color);
+.errorMessage {
+    display: none;
+    width: 100%;
+    background-color:rgb(255, 204, 204);
+    border: 1.5px solid #eee;
+    border-left: 5px solid rgb(175, 76, 76);
+    border-radius: 8px;
+    padding: .7rem;
 }
 
-.devider {
-    margin: 0 .3rem;
-    color: #D7A7FF;
-}
-
-.linksLegal a {
-    color: #cecece;
-    text-decoration: none;
-}
 
 @media screen and (max-width: 850px) {
     .placeholderSection {
