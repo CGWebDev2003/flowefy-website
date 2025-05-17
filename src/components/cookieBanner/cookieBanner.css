@@ -53,14 +53,14 @@
 .acceptButton {
     width: 100px;
     height: 30px;
-    background-color: #7b57ff;
+    background-color: var(--primary);
     transition-duration: .2s;
     border: none;
     color: rgb(241, 241, 241);
     cursor: pointer;
     font-weight: 600;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px -1px #977ef3, 0 2px 4px -1px #977ef3;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1pxhsl(253, 83.00%, 60.40%), 0 2px 4px -1px #977ef3;
     transition: all .6s ease;
 }
 
@@ -73,7 +73,7 @@
     border: none;
     cursor: not-allowed;
     font-weight: 600;
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0 4px 6px -1px #bebdbd, 0 2px 4px -1px #bebdbd;
     transition: all .6s ease;
 }

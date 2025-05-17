@@ -12,12 +12,6 @@ function Placeholder() {
     const [message, setMessage] = useState('');
 
     useEffect(() => {
-        // Ratedo Badge Script
-        const badgeScript = document.createElement("script");
-        badgeScript.src = "https://www.ratedo.de/js/widgets/ratedo-badge.min.js";
-        badgeScript.async = true;
-        document.body.appendChild(badgeScript);
-
         // Ratedo Widget Script
         const widgetScript = document.createElement("script");
         widgetScript.src = "https://www.ratedo.de/js/widgets/ratedo-widget18.min.js";
@@ -41,9 +35,6 @@ function Placeholder() {
                     <p className="heroText">
                         Leider befindet sich die Website aktuell noch im Bau. Ihre Nachrichten erreichen uns natürlich trotzdem. Besuchen Sie doch unseren Instagram Profil oder senden Sie uns eine Nachricht.
                     </p>
-
-                    {/* Ratedo Badge */}
-                    <div class="ratedo_badge" data-ratedo_id="25293f2761d658cc70c19515861842d712751bdc" data-type="default"></div>
 
                     {/* Ratedo Widget */}
                     <div class="ratedo-w18" data-ratedo_id="25293f2761d658cc70c19515861842d712751bdc"></div>
