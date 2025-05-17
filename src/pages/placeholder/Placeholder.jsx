@@ -20,26 +20,38 @@ function Placeholder() {
         document.body.appendChild(widgetScript);
     }, []);
 
-    function sendForm(e) {
-        e.preventDefault();
+    function wait(seconds) {
+        let millisecoonds = seconds * 1000;
+        return new Promise(resolve => setTimeout(resolve, millisecoonds));
+    }
 
-        emailjs.sendForm(
+    async function sendForm(e) {
+    e.preventDefault();
+
+    try {
+        const result = await emailjs.sendForm(
             'service_1faxzhf',
             'template_dof4lck',
             form.current,
             'pI_Fi-QXsToZikOzI'
-        ).then((result) => {
-            console.log(result.text);
-            alert('Nachricht wurde erfolgreich gesendet!');
-            setName('');
-            setEmail('');
-            setPhone('');
-            setMessage('');
-        }, (error) => {
-            console.log(error.text);
-            alert('Fehler beim Senden. Bitte versuchen Sie es erneut.');
-        });
+        );
+
+        console.log(result.text);
+        document.getElementById('successMessage').style.display = 'block';
+        await wait(5);
+        document.getElementById('successMessage').style.display = 'none';
+
+        setName('');
+        setEmail('');
+        setPhone('');
+        setMessage('');
+    } catch (error) {
+        console.log(error.text);
+        document.getElementById('errorMessage').style.display = 'block';
+        await wait(2);
+        document.getElementById('errorMessage').style.display = 'none';
     }
+}
 
     return (
         <>
@@ -115,6 +127,14 @@ function Placeholder() {
                                     Senden <i className="bi bi-send-fill"></i>
                                 </button>
                             </form>
+
+                            <div className="successMessage animate__animated animate__rubberBand" id="successMessage">
+                                <span>Erfolgreich versendet!</span>
+                            </div>
+
+                            <div className="errorMessage animate__animated animate__rubberBand" id="errorMessage">
+                                <span>Fehler beim versenden!</span>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -100,24 +100,6 @@
     border: 1.5px solid #ccc;
 }
 
-.sendButton {
-    margin-top: .5rem;
-    height: 2.7rem;
-    padding: 0 3rem;
-    border: none;
-    background-color: orange;
-    color: #ffffff;
-    border-radius: 8px;
-    font-size: 1rem;
-}
-
-.sendButton:hover {
-    cursor: pointer;
-    transition: .4s ease-in-out;
-    background-color: var(--accent);
-
-}
-
 .privacyText {
     color: #ccc;
     font-size: .9rem;
@@ -138,6 +120,45 @@
     color: #cecece;
     text-decoration: none;
 }
+
+.sendButton {
+    margin-top: .5rem;
+    height: 2.7rem;
+    padding: 0 3rem;
+    border: none;
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.sendButton:hover {
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    background-color: var(--accent);
+
+}
+
+.successMessage {
+    display: none;
+    width: 100%;
+    background-color:rgb(214, 255, 204);
+    border: 1.5px solid #eee;
+    border-left: 5px solid #4CAF50;
+    border-radius: 8px;
+    padding: .7rem;
+}
+
+.errorMessage {
+    display: none;
+    width: 100%;
+    background-color:rgb(255, 204, 204);
+    border: 1.5px solid #eee;
+    border-left: 5px solid rgb(175, 76, 76);
+    border-radius: 8px;
+    padding: .7rem;
+}
+
 
 @media screen and (max-width: 850px) {
     .placeholderSection {
