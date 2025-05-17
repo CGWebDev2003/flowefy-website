@@ -18,6 +18,12 @@ function Placeholder() {
         widgetScript.src = "https://www.ratedo.de/js/widgets/ratedo-widget18.min.js";
         widgetScript.async = true;
         document.body.appendChild(widgetScript);
+
+        const recaptchaScript = document.createElement("script");
+        recaptchaScript.src = "https://www.google.com/recaptcha/api.js";
+        recaptchaScript.async = true;
+        recaptchaScript.defer = true;
+        document.body.appendChild(recaptchaScript);
     }, []);
 
     function wait(seconds) {
@@ -26,32 +32,39 @@ function Placeholder() {
     }
 
     async function sendForm(e) {
-    e.preventDefault();
+        e.preventDefault();
 
-    try {
-        const result = await emailjs.sendForm(
-            'service_1faxzhf',
-            'template_dof4lck',
-            form.current,
-            'pI_Fi-QXsToZikOzI'
-        );
+        const recaptchaValue = window.grecaptcha.getResponse();
+        if (!recaptchaValue) {
+            alert("Bitte bestätigen Sie, dass Sie kein Roboter sind.");
+            return;
+        }
 
-        console.log(result.text);
-        document.getElementById('successMessage').style.display = 'block';
-        await wait(5);
-        document.getElementById('successMessage').style.display = 'none';
+        try {
+            const result = await emailjs.sendForm(
+                'service_1faxzhf',
+                'template_dof4lck',
+                form.current,
+                'pI_Fi-QXsToZikOzI'
+            );
 
-        setName('');
-        setEmail('');
-        setPhone('');
-        setMessage('');
-    } catch (error) {
-        console.log(error.text);
-        document.getElementById('errorMessage').style.display = 'block';
-        await wait(2);
-        document.getElementById('errorMessage').style.display = 'none';
+            console.log(result.text);
+            document.getElementById('successMessage').style.display = 'block';
+            await wait(5);
+            document.getElementById('successMessage').style.display = 'none';
+
+            setName('');
+            setEmail('');
+            setPhone('');
+            setMessage('');
+            window.grecaptcha.reset(); // Reset reCAPTCHA
+        } catch (error) {
+            console.log(error.text);
+            document.getElementById('errorMessage').style.display = 'block';
+            await wait(2);
+            document.getElementById('errorMessage').style.display = 'none';
+        }
     }
-}
 
     return (
         <>
@@ -122,6 +135,9 @@ function Placeholder() {
                                 <span className="privacyText">
                                     Mit dem Senden akzeptieren Sie den <a className="privacyLink" href="/datenschutz" target="_blank">Datenschutz</a>
                                 </span>
+
+                                {/* reCAPTCHA */}
+                                <div className="g-recaptcha" data-sitekey="6LeOYz4rAAAAAO5dlMM13LN-_kI4SXViMkxss7iM"></div>
 
                                 <button type="submit" className="sendButton" id="sendButton">
                                     Senden <i className="bi bi-send-fill"></i>
