@@ -3,6 +3,7 @@ import "./placeholder.css";
 import "animate.css";
 import Header from "../../components/header/Header.jsx";
 import Footer from "../../components/footer/Footer.jsx";
+import CookieBanner from '../../components/cookieBanner/CookieBanner.jsx';
 
 function Placeholder() {
     const [name, setName] = useState('');
@@ -33,6 +34,7 @@ function Placeholder() {
         <>
             <Header></Header>
             <div className="placeholderSection">
+                <CookieBanner/>
                 <div className="leftSide">
                     <span className="heroSubtitle">creative. individual. easy.</span>
                     <h1 className="heroTitle">Marketing Made Easy</h1>
@@ -41,16 +43,10 @@ function Placeholder() {
                     </p>
 
                     {/* Ratedo Badge */}
-                    <div style={{ maxWidth: "110px", margin: "0" }} 
-                        className="ratedo_badge" 
-                        data-ratedo_id="868d2acc958777666a16632fd681871581822797" 
-                        data-type="default">
-                    </div>
+                    <div class="ratedo_badge" data-ratedo_id="25293f2761d658cc70c19515861842d712751bdc" data-type="default"></div>
 
                     {/* Ratedo Widget */}
-                    <div className="ratedo-w18" 
-                        data-ratedo_id="868d2acc958777666a16632fd681871581822797">
-                    </div>
+                    <div class="ratedo-w18" data-ratedo_id="25293f2761d658cc70c19515861842d712751bdc"></div>
                 </div>
 
                 <div className="rightSide">
