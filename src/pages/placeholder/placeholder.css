@@ -101,7 +101,9 @@
 }
 
 .sendButton {
+    margin-top: .5rem;
     height: 2.7rem;
+    padding: 0 3rem;
     border: none;
     background-color: orange;
     color: #ffffff;
@@ -122,6 +124,7 @@
 }
 
 .privacyLink {
+    margin-top: .5rem;
     text-decoration: none;
     color: var(--link-color);
 }
