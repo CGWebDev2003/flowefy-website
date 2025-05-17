@@ -132,12 +132,11 @@ function Placeholder() {
                                     />
                                 </div>
 
+                                <div className="g-recaptcha" data-sitekey="6LeOYz4rAAAAAO5dlMM13LN-_kI4SXViMkxss7iM"></div>
+
                                 <span className="privacyText">
                                     Mit dem Senden akzeptieren Sie den <a className="privacyLink" href="/datenschutz" target="_blank">Datenschutz</a>
                                 </span>
-
-                                {/* reCAPTCHA */}
-                                <div className="g-recaptcha" data-sitekey="6LeOYz4rAAAAAO5dlMM13LN-_kI4SXViMkxss7iM"></div>
 
                                 <button type="submit" className="sendButton" id="sendButton">
                                     Senden <i className="bi bi-send-fill"></i>
