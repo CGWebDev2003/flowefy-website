@@ -50,14 +50,13 @@ function Placeholder() {
 
             console.log(result.text);
             document.getElementById('successMessage').style.display = 'block';
-            await wait(5);
-            document.getElementById('successMessage').style.display = 'none';
-
             setName('');
             setEmail('');
             setPhone('');
             setMessage('');
-            window.grecaptcha.reset(); // Reset reCAPTCHA
+            window.grecaptcha.reset();
+            await wait(5);
+            document.getElementById('successMessage').style.display = 'none';
         } catch (error) {
             console.log(error.text);
             document.getElementById('errorMessage').style.display = 'block';
