@@ -1,9 +1,14 @@
-import "./header.css"
+import React, { useState } from "react";
+import "./header.css";
 
 function Header() {
+    const [isOpen, setIsOpen] = useState(false);
 
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
 
-    return(
+    return (
         <div className="headerContainer">
             <header className="header">
                 <div className="logoBox">
@@ -20,10 +25,25 @@ function Header() {
                 <div className="buttonBox">
                     <a href="/anfragen" className="anfrageButton">
                         Jetzt Anfragen
-                        <i class="bi bi-arrow-right"></i>
+                        <i className="bi bi-arrow-right"></i>
                     </a>
+                    <button
+                        type="button"
+                        className={`menuButton ${isOpen ? "open" : ""}`}
+                        onClick={toggleMenu}
+                    >
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </header>
+            {/* Sidebar */}
+            <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
+                <a href="/">Home</a>
+                <a href="/service">Service</a>
+                <a href="/portfolio">Portfolio</a>
+                <a href="/kontakt">Kontakt</a>
+            </div>
         </div>
     );
 }

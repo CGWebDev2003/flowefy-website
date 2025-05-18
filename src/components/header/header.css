@@ -86,6 +86,77 @@
     align-items: center;
 }
 
+.menuButton {
+    position: relative;
+    width: 30px;
+    height: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    gap: .7rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.menuButton span {
+    display: block;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Animation zum Kreuz */
+.menuButton.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menuButton.open span:nth-child(2) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 250px;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    transition: right 0.3s ease;
+    z-index: 999;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.sidebarOpen {
+    right: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .linkBox {
+        display: none;
+    }
+
+    .anfrageButton {
+        display: none;
+    }
+
+    .menuButton {
+        display: flex;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .headerContainer {
         height: 3.5rem;
