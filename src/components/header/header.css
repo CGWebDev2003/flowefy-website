@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1000000000000000;
 }
 
 .logoBox {
@@ -26,6 +27,35 @@
 
 .logo {
     color: white;
+}
+
+.linkBox {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.headerLink {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.headerLink::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px; /* etwas Abstand zum Text */
+    width: 0;
+    height: 5px;
+    background-color: var(--accent); /* deine Akzentfarbe */
+    transition: width 0.3s ease-in-out;
+}
+
+.headerLink:hover::after {
+    width: 100%;
 }
 
 .buttonBox {
@@ -42,6 +72,18 @@
 
 .instagramButton {
     font-size: 1.2rem;
+}
+
+.anfrageButton {
+    background-color: var(--accent);
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50rem;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
 }
 
 @media screen and (max-width: 850px) {

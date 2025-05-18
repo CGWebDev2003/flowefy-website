@@ -9,17 +9,24 @@ function Home() {
             <main>
                 <div className="mainContent">
                     <div className="heroSection">
+                        <h1 className="heroHeadline">Webdesign<br/>Agency</h1>
+                        <h3 className="heroSubTitle">creative. individual. easy.</h3>
 
+                        <div className="downArrows">
+                            <i className="bi bi-chevron-down downArrow"></i>
+                            <i className="bi bi-chevron-down downArrow"></i>
+                            <i className="bi bi-chevron-down downArrow"></i>
+                        </div>
                     </div>
                     <div className="runningBannerSection">
                         <div className="runningBannerWrapper">
                             <div className="runningBanner runningBanner-top">
                                 <div className="banner-track">
                                 <div className="banner-text">
-                                    BRANDING • SEO • WEB DEVELOPMENT • DESIGN • &nbsp;
+                                    Websites • One Pager • Flyer • Visitenkarten • &nbsp;
                                 </div>
                                 <div className="banner-text">
-                                    BRANDING • SEO • WEB DEVELOPMENT • DESIGN • &nbsp;
+                                    Websites • One Pager • Flyer • Visitenkarten • &nbsp;
                                 </div>
                                 </div>
                             </div>
@@ -27,10 +34,10 @@ function Home() {
                             <div className="runningBanner runningBanner-bottom">
                                 <div className="banner-track reverse">
                                 <div className="banner-text">
-                                    BRANDING • SEO • WEB DEVELOPMENT • DESIGN • &nbsp;
+                                    Websites • One Pager • Flyer • Visitenkarten • &nbsp;
                                 </div>
                                 <div className="banner-text">
-                                    BRANDING • SEO • WEB DEVELOPMENT • DESIGN • &nbsp;
+                                    Websites • One Pager • Flyer • Visitenkarten • &nbsp;
                                 </div>
                                 </div>
                             </div>
@@ -38,8 +45,20 @@ function Home() {
                     </div>
                 </div>
                 <div className="aboutSection">
-                    <h1>About Us</h1>
-                    
+                    <div className="aboutHeader">
+                        <div className="headlineBox">
+                            <h1 class="aboutHeadline">About Us</h1>
+                        </div>
+                        <div className="strokeBox">
+                            <div className="stroke"></div>
+                        </div>
+                        <div className="headerTextBox">
+                            <span className="location">
+                                <i className="bi bi-geo-alt"></i>
+                                Leipzig
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </main>
             <Footer />
