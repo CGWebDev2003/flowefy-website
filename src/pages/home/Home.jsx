@@ -1,9 +1,22 @@
-import aboutImage from "../../about_image.jpg";
+import { useEffect } from "react";
 import "./home.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 
 function Home() {
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "https://www.ratedo.de/js/widgets/ratedo-widget1.min.js";
+        script.async = true;
+        document.body.appendChild(script);
+
+        return () => {
+            // Script bereinigen, falls nötig
+            document.body.removeChild(script);
+        };
+    }, []);
+
+
     return (
         <>
             <Header></Header>
@@ -62,7 +75,9 @@ function Home() {
                     </div>
                     <div className="aboutContent">
                         <div className="imageBox">
-                            <img src={aboutImage} alt="About Us" className="aboutImage" />
+                            <div className="aboutImage1"></div>
+                            <div className="aboutImage2"></div>
+                            <div className="aboutImage3"></div>
                         </div>
                         <div className="textBox">
                             <h1 className="headline secondAboutHeadline">We are <span className="primaryHighlight nunitoText">flowefy.</span></h1>
@@ -80,7 +95,42 @@ function Home() {
                     <h1 className="headline">Unsere Services</h1>
                 </div>
                 <div className="testimonialSection">
-                    <h1 className="headline">Das sagen Kunden</h1>
+                    <h1 className="headline testimonialHeadline">Das sagen Kunden</h1>
+                    <div className="testimonialBox">
+                        <a href="https://www.ratedo.de/profil/colin-grahm-media" target="_blank" className="testimonial">
+                            <div className="testimonialTextBox">
+                                <p className="testimonialText">
+                                    "Unsere Erwartungen wurden weit übertroffen. Top Design, top Fachkenntnisse und super Service. Unsere Webseite wurde perfekt überarbeitet. Wir können Flowefy nur empfehlen!"
+                                </p>
+                            </div>
+                            <div className="testimonialAuthorBox">
+                                <span className="authorPosition">KNS Beschichtung</span>
+                            </div>
+                        </a>
+                        <a href="https://www.ratedo.de/profil/colin-grahm-media" target="_blank" className="testimonial">
+                            <div className="testimonialTextBox">
+                                <p className="testimonialText">
+                                    "Sehr gute Komplettbetreuung vom Anfang bis zum Finale des Projektes. Dazu gehören gesamtes Layout, auf Wunsch Erstellung von Fotos, Beratung zu Bildern, Textgestaltung, gut durchdachter und logischer Aufbau der Homepage. Hoher Ideenreichtum, ausgezeichnete Kreativität, zügige Umsetzung. Top."
+                                </p>
+                            </div>
+                            <div className="testimonialAuthorBox">
+                                <span className="authorPosition">Dr. Scholz</span>
+                            </div>
+                        </a>
+                        <a href="https://www.ratedo.de/profil/colin-grahm-media" target="_blank" className="testimonial">
+                            <div className="testimonialTextBox">
+                                <p className="testimonialText">
+                                    "Hier habe ich die perfekte Lösung für mein Grafikdesign und mein Branding gefunden. [...]"
+                                </p>
+                            </div>
+                            <div className="testimonialAuthorBox">
+                                <span className="authorPosition">Funkendesign</span>
+                            </div>
+                        </a>
+                        <div className="testimonial">
+                            <div className="ratedo-w1" data-ratedo_id="25293f2761d658cc70c19515861842d712751bdc"></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="contactUsSection">
                     <div className="contactUsBox">
