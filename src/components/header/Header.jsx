@@ -43,6 +43,10 @@ function Header() {
                 <a href="/service">Service</a>
                 <a href="/portfolio">Portfolio</a>
                 <a href="/kontakt">Kontakt</a>
+                <a href="/anfragen" className="anfrageButton">
+                    Jetzt Anfragen
+                    <i className="bi bi-arrow-right"></i>
+                </a>
             </div>
         </div>
     );

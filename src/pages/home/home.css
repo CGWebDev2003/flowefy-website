@@ -202,3 +202,60 @@ main {
     display: flex;
     gap: .5rem;
 }
+
+@media screen and (max-width: 800px) {
+    .heroHeadline {
+		font-size: 5rem !important;
+		line-height: 5rem;
+	}
+
+	.heroSubTitle {
+		margin-top: 1rem;
+		font-size: 1.5rem !important;
+	}
+
+	.downArrows {
+		margin-top: 5rem;
+	}
+
+	.runningBanner {
+		height: 5rem;
+	}
+
+	.banner-text {
+		font-size: 3rem !important;
+	}
+
+	.runningBannerSection {
+		height: 3rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.heroHeadline {
+		margin-top: 4rem;
+		font-size: 3.5rem !important;
+		line-height: 3.5rem;
+	}
+
+	.heroSubTitle {
+		margin-top: 1rem;
+		font-size: 1.2rem !important;
+	}
+
+	.downArrows {
+		margin-top: 7rem;
+	}
+
+	.runningBanner {
+		height: 5rem;
+	}
+
+	.banner-text {
+		font-size: 2.5rem !important;
+	}
+
+	.runningBannerSection {
+		height: 3rem;
+	}
+}
