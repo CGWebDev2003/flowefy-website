@@ -25,7 +25,7 @@ function Header() {
                 <div className="buttonBox">
                     <a href="/anfragen" className="anfrageButton">
                         Jetzt Anfragen
-                        <i className="bi bi-arrow-right"></i>
+                        <i className="bi bi-arrow-up-right"></i>
                     </a>
                     <button
                         type="button"
@@ -45,7 +45,7 @@ function Header() {
                 <a href="/kontakt">Kontakt</a>
                 <a href="/anfragen" className="anfrageButton">
                     Jetzt Anfragen
-                    <i className="bi bi-arrow-right"></i>
+                    <i className="bi bi-arrow-up-right"></i>
                 </a>
             </div>
         </div>

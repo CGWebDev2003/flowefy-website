@@ -1,3 +1,4 @@
+import aboutImage from "../../about_image.jpg";
 import "./home.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
@@ -57,6 +58,42 @@ function Home() {
                                 <i className="bi bi-geo-alt"></i>
                                 Leipzig
                             </span>
+                        </div>
+                    </div>
+                    <div className="aboutContent">
+                        <div className="imageBox">
+                            <img src={aboutImage} alt="About Us" className="aboutImage" />
+                        </div>
+                        <div className="textBox">
+                            <h1 className="headline secondAboutHeadline">We are <span className="primaryHighlight nunitoText">flowefy.</span></h1>
+                            <p className="aboutText">
+                                Wir sind eine kreative Webdesign-Agentur mit Sitz nahe Leipzig. Unser Ziel ist es, individuelle und ansprechende Websites zu erstellen, die den Bedürfnissen unserer Kunden entsprechen. Egal, ob du ein kleines Unternehmen oder ein großes Unternehmen bist, wir haben die Lösungen, die du brauchst.
+                            </p>
+                            <a href="/anfragen" className="anfrageButton">
+                                Jetzt Anfragen
+                                <i className="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="serviceSection">
+                    <h1 className="headline">Unsere Services</h1>
+                </div>
+                <div className="testimonialSection">
+                    <h1 className="headline">Das sagen Kunden</h1>
+                </div>
+                <div className="contactUsSection">
+                    <div className="contactUsBox">
+                        <h1 className="bigTitle contactTitle">Ready to Grow?</h1>
+                        <p className="contactText">
+                            Ganz einfach eine Nachricht schreiben und wir melden uns bei dir!
+                        </p>
+                        <div className="contactButtonBox">
+                            flowefy@skymail.de
+                            <a href="/anfragen" className="contactButton anfrageButton">
+                                Jetzt Anfragen
+                                <i className="bi bi-arrow-up-right"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -18,3 +18,44 @@
 body {
   font-family: "Nunito", sans-serif;
 }
+
+.primaryHighlight {
+  color: var(--primary);
+}
+
+.nunitoText {
+  font-family: "Nunito", sans-serif;
+}
+
+.bigTitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.headline {
+  color: #ffffff !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+  .bigTitle{
+
+  }
+  
+  .headline {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bigTitle {
+
+  }
+  
+  .headline {
+    font-size: 1.5rem;
+  }
+}
