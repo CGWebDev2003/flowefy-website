@@ -9,7 +9,7 @@ function ContactSection() {
                     Ganz einfach eine Nachricht schreiben und wir melden uns bei dir!
                 </p>
                 <div className="contactButtonBox">
-                    flowefy@skymail.de
+                    <a href="mailto:flowefy@skymail.de" className="mailLink">flowefy@skymail.de</a>
                     <a href="/anfragen" className="contactButton anfrageButton">
                         Jetzt Anfragen
                         <i className="bi bi-arrow-up-right"></i>
