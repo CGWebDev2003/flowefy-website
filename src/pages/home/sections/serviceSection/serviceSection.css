@@ -36,7 +36,7 @@
   cursor: pointer;
   border-radius: 2rem;
   background-color: var(--bg-darker);
-  border: 1px solid #cecece;
+  border: 1px solid var(--border-color);
 }
 
 .serviceCard:hover {

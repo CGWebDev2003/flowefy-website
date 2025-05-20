@@ -12,6 +12,8 @@
   --bg-darker: #ffffff;
   --bg-contrast: #121212;
 
+  --border-color: #cecece;
+
   --text-color: #121212;
   --text-color-reverse: #ffffff;
   --title-color: #410347;
@@ -30,6 +32,8 @@
     --bg-color:rgb(23, 22, 22);
     --bg-darker: #121212;
     --bg-contrast: #ffffff;
+
+    --border-color:rgb(32, 32, 32);
 
     --text-color: #ffffff;
     --text-color-reverse: #121212;
