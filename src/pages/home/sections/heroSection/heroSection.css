@@ -5,8 +5,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary);
     z-index: 100;
+    background: linear-gradient(300deg,#b969ff,#8f08ff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .heroHeadline {

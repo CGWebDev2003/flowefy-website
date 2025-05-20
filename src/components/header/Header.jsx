@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./header.css";
 
 function Header() {
@@ -37,7 +37,6 @@ function Header() {
                     </button>
                 </div>
             </header>
-            {/* Sidebar */}
             <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
                 <a href="/">Home</a>
                 <a href="/service">Service</a>

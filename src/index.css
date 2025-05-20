@@ -24,7 +24,7 @@
   --primary: #8F08FF;
 
   --accent: #EA9403;
-  --accent-hover:rgb(202, 128, 0);
+  --accent-hover:rgb(214, 136, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,6 +56,7 @@ body {
 .primaryHighlight {
   color: var(--primary);
   font-weight: 700;
+  font-style: italic;
 }
 
 .nunitoText {
