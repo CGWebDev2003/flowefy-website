@@ -90,7 +90,19 @@
 .anfrageButton:hover {
     background-color: var(--accent-hover);
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .menuButton {
