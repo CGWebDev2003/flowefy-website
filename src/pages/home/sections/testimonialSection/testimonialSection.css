@@ -122,4 +122,8 @@
 	.testimonial {
 		width: 90%;
 	}
+
+	.testimonialTextBox {
+		font-size: 1rem;
+	}
 }
