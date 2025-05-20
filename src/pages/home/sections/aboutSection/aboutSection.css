@@ -4,7 +4,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: #121212;
+    background-color: var(--bg-color);
     flex-direction: column;
     z-index: 400;
 }
@@ -29,7 +29,7 @@
 }
 
 .aboutHeadline {
-    color: white;
+    color: var(--text-color);
     font-family: "Poppins", sans-serif;
     font-size: 4rem;
 }
@@ -45,7 +45,7 @@
 .stroke {
     width: 70%;
     height: .3rem;
-    background-color: #ffffff;
+    background-color: var(--bg-contrast);
 }
 
 .headerTextBox {
@@ -59,7 +59,7 @@
 .location {
     font-family: "Poppins", sans-serif;
     font-size: 2rem;
-    color: #ffffff;
+    color: var(--text-color);
     display: flex;
     gap: .5rem;
 }
@@ -119,14 +119,15 @@
 
 }
 
-.aboutText {
-	color: #ffffff;
-	font-size: 1.3rem;
+.secondAboutHeadline {
 	text-align: center;
-	text-align: center;
+  color: var(--text-color) !important;
 }
 
-.secondAboutHeadline {
+.aboutText {
+	color: var(--text-color);
+	font-size: 1.3rem;
+	text-align: center;
 	text-align: center;
 }
 
