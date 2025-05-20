@@ -1,6 +1,6 @@
 .aboutSection {
     width: 100vw !important;
-    height: 120vh !important;
+    height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -147,6 +147,23 @@
 	.location {
 		font-size: 1.5rem;
 	}
+
+  .aboutContent {
+    flex-direction: column-reverse;
+  }
+
+  .imageBox {
+    width: 90%;
+    height: 30rem;
+    margin-top: 2rem;
+  }
+
+  .textBox {
+    width: 90%;
+    height: 15rem;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -173,4 +190,9 @@
 	.location {
 		font-size: 1rem;
 	}
+
+  .imageBox {
+    width: 90%;
+    height: 20rem;
+  }
 }
