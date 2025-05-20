@@ -55,6 +55,7 @@ body {
 
 .primaryHighlight {
   color: var(--primary);
+  font-weight: 700;
 }
 
 .nunitoText {
