@@ -92,6 +92,10 @@
     display: none;
 }
 
+.swipeText {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .serviceContent {
     display: none;

@@ -192,6 +192,11 @@
 	border: 1px solid #cecece;	
 }
 
+  .mailLink {
+    color: #fff;
+    text-decoration: none;
+  }
+
 @media screen and (max-width: 800px) {
   .contactUsSection {
     height: 85vh;

@@ -1,6 +1,6 @@
 .aboutSection {
     width: 100vw !important;
-    height: auto;
+    height: 120vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -131,7 +131,11 @@
 }
 
 @media screen and (max-width: 800px) {
-	.aboutHeadline {
+	.aboutSection {
+    height: auto;
+  }
+
+  .aboutHeadline {
 		font-size: 2rem;
 	}
 
