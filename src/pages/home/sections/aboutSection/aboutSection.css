@@ -45,7 +45,7 @@
 .stroke {
     width: 70%;
     height: .3rem;
-    background-color: var(--bg-contrast);
+    background-color: var(--bg-contrast) !important;
 }
 
 .headerTextBox {
