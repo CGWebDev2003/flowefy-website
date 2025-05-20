@@ -22,6 +22,7 @@
   --link-color-darker:#acacac;
 
   --primary: #8F08FF;
+  --primary-hover:#7905d7;
 
   --accent: #EA9403;
   --accent-hover:rgb(214, 136, 1);
@@ -43,6 +44,7 @@
     --link-color-darker:#acacac;
 
     --primary: #8F08FF;
+    --primary-hover:#7905d7;
 
     --accent: #EA9403;
     --accent-hover:rgb(202, 128, 0);
