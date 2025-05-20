@@ -87,3 +87,56 @@
     font-size: 1.2rem;
     margin-top: 4rem;
 }
+
+.serviceContentMobile {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .serviceContent {
+    display: none;
+  }
+
+  .serviceHeadline {
+    font-size: 2.2rem;
+  }
+
+  .serviceContentMobile {
+    display: flex;
+    width: 90%;
+    height: calc(100% - 20rem);
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .swiperSlide {
+    width: 90%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceCard {
+    margin: auto;
+  }
+
+  .swipeText {
+    height: 2.5rem;
+    width: 90%;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.48);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .moreServiceButton {
+    margin-top: 2rem;
+  }
+}
+
+
+
