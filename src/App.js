@@ -1,6 +1,10 @@
 
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
+import Service from './pages/service/Service';
+import Portfolio from './pages/portfolio/Portfolio';
+import Kontakt from './pages/kontakt/Kontakt';
+import Anfragen from './pages/anfragen/Anfragen';
 import Placeholder from './pages/placeholder/Placeholder';
 import Impressum from './pages/impressum/Impressum';
 import Datenschutz from './pages/datenschutz/Datenschutz';
@@ -11,9 +15,13 @@ function App() {
     <div className="app">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/placeholder" element={<Placeholder />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/kontakt" element={<Kontakt />} />
+        <Route path="/anfragen" element={<Anfragen />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
+        <Route path="/placeholder" element={<Placeholder />} />
       </Routes>
     </div>
   );

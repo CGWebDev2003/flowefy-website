@@ -92,7 +92,7 @@
 
 .moreServiceButton {
     display: flex;
-    gap: .5rem;
+    gap: .5rem; 
     color: var(--text-color) !important; 
     font-size: 1.2rem;
     margin-top: 3rem;
