@@ -35,8 +35,17 @@ function TestimonialSection() {
                         <span className="authorPosition">Funkendesign</span>
                     </div>
                 </a>
-                <div className="testimonial">
-                    <div className="ratedo-w1" data-ratedo_id="25293f2761d658cc70c19515861842d712751bdc"></div>
+                <div className="testimonial testimonial-4">
+                    <span className="testimonialScore">4.7/5.0</span>
+                    <span className="testimonialStars">
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-half"></i>
+                    </span>
+                    <span className="testimonialExcelent">SEHR GUT</span>
+                    <span className="testimonialRecommendation">100% Empfehlungen</span>
+                    <span classNAme="testimonialAverage">Durchschnitt aus 4 Bewertungen</span>
                 </div>
             </div>
         </div>
