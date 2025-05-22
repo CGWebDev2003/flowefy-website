@@ -41,6 +41,9 @@
 .testimonial:hover {
 	background-color: var(--primary);
 	transition: all 0.3s ease-in-out;
+	-webkit-box-shadow:0px 0px 75px 10px rgba(144,8,255,0.20);
+	-moz-box-shadow: 0px 0px 75px 10px rgba(144,8,255,0.20);
+	box-shadow: 0px 0px 75px 10px rgba(144,8,255,0.20);
 }
 
 .testimonial:hover .testimonialTextBox {
