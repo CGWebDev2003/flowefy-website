@@ -15,15 +15,13 @@ function HeroSection() {
 
     return (
         <div className="heroSection">
-            <Atropos shadow={false} activeOffset={40} stretchZ={200} className="my-atropos">
-                {/* Ebene 5 – Arrows (Vordergrund) */}
+            <Atropos shadow={false} activeOffset={50} stretchZ={200} className="my-atropos">
                 <div
                     className="atropos-layer heroAtroposBox handArrowBox"
                     data-atropos-offset="5"
                 >
                 </div>
                 
-                {/* Ebene 3 – Headline (Vordergrund) */}
                 <div
                     className="atropos-layer"
                     data-atropos-offset="3"
@@ -33,14 +31,12 @@ function HeroSection() {
                     </h1>
                 </div>
 
-                {/* Ebene 5 – Arrows (Vordergrund) */}
                 <div
                     className="atropos-layer heroAtroposBox smallIconBox"
                     data-atropos-offset="2"
                 >
                 </div>
 
-                {/* Ebene 1 – Subheadline */}
                 <div
                     className="atropos-layer"
                     data-atropos-offset="0"
@@ -50,14 +46,12 @@ function HeroSection() {
                     </h3>
                 </div>
 
-                {/* Ebene 5 – Arrows (Vordergrund) */}
                 <div
                     className="atropos-layer heroAtroposBox bigIconBox"
                     data-atropos-offset="1"
                 >
                 </div>
 
-                {/* Ebene 2 – Down Arrows */}
                 <div
                     className="atropos-layer"
                     data-atropos-offset="2"
