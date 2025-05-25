@@ -7,10 +7,10 @@ function BannerSection() {
                 <div className="runningBanner runningBanner-top">
                     <div className="banner-track">
                         <div className="banner-text">
-                            Websites • One Pager • Flyer • Visitenkarten • &nbsp;
+                            Qualitatives Webdesign aus Leipzig • Creative. Individual. Unique. • &nbsp;
                         </div>
                         <div className="banner-text">
-                            Websites • One Pager • Flyer • Visitenkarten • &nbsp;
+                            Qualitatives Webdesign aus Leipzig • Creative. Individual. Unique. • &nbsp;
                         </div>
                     </div>
                 </div>

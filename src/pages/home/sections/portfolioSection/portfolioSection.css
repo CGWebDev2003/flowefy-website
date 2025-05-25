@@ -1,0 +1,21 @@
+.portfolioSection {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+
+    //background-color: aqua;
+}
+
+.portfolioHeadline {
+    text-align: center;
+    color: var(--text-color);
+}
+
+
+

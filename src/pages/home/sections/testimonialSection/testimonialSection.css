@@ -39,7 +39,9 @@
 }
 
 .testimonial:hover {
-	background-color: var(--primary);
+	background: linear-gradient(300deg,#b969ff,#8f08ff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
 	transition: all 0.3s ease-in-out;
 	-webkit-box-shadow:0px 0px 75px 10px rgba(144,8,255,0.20);
 	-moz-box-shadow: 0px 0px 75px 10px rgba(144,8,255,0.20);
@@ -47,17 +49,15 @@
 }
 
 .testimonial:hover .testimonialTextBox {
-	color: var(--text-color-reverse) !important;
-	transition: all 0.3s ease-in-out;
+	color: var(--text-color) !important;
+	transition: 0.3s ease-in-out;
 }
 
 .testimonial-4 {
 	border: none;
-	background-color: var(--primary);
-}
-
-.testimonial-4:hover {
-	background-color: var(--primary);
+	background: linear-gradient(300deg,#b969ff,#8f08ff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
 }
 
 .testimonialTextBox {

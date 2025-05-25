@@ -18,13 +18,13 @@ function HeroSection() {
             <Atropos shadow={false} activeOffset={50} stretchZ={200} className="my-atropos">
                 <div
                     className="atropos-layer heroAtroposBox handArrowBox"
-                    data-atropos-offset="5"
+                    data-atropos-offset="2"
                 >
                 </div>
                 
                 <div
                     className="atropos-layer"
-                    data-atropos-offset="3"
+                    data-atropos-offset="1"
                 >
                     <h1 className="heroHeadline">
                         Webdesign<br />Agency
@@ -33,7 +33,7 @@ function HeroSection() {
 
                 <div
                     className="atropos-layer heroAtroposBox smallIconBox"
-                    data-atropos-offset="2"
+                    data-atropos-offset="-3"
                 >
                 </div>
 
@@ -42,7 +42,7 @@ function HeroSection() {
                     data-atropos-offset="0"
                 >
                     <h3 className="heroSubTitle">
-                        creative. individual. easy.
+                        Creative. Individual. Unique.
                     </h3>
                 </div>
 
