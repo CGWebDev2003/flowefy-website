@@ -6,9 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(300deg,#b969ff,#8f08ff);
-    background-size: 120% 120%;
-    animation: gradient-animation 12s ease infinite;
+    background: transparent !important; 
+    //background: linear-gradient(300deg,#b969ff,#8f08ff);
+    //background-size: 120% 120%;
+    //!SECTIONanimation: gradient-animation 12s ease infinite;
     z-index: 1000000000000000;
 }
 

@@ -23,7 +23,19 @@
   }
 }
 
+.my-atropos {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+}
+
 .heroHeadline {
+    margin-top: 2rem;
     font-family: "Poppins", sans-serif;
     font-size: 8rem;
     line-height: 7.5rem;
