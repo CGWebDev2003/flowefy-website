@@ -51,6 +51,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }

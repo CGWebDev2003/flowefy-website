@@ -2,7 +2,7 @@ import "./bannerSection.css";
 
 function BannerSection() {
     return(
-        <div className="runningBannerSection">
+        <div className="runningBannerSection" id="banner-section">
             <div className="runningBannerWrapper">
                 <div className="runningBanner runningBanner-top">
                     <div className="banner-track">

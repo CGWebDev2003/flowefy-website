@@ -7,6 +7,12 @@ import heroIconsSmall from "../../../../assets/hero/hero_icons_small.png";
 import heroIconsBig from "../../../../assets/hero/hero_icons_big.png";
 
 function HeroSection() {
+    function scrollToSection() {
+    document.getElementById("banner-section").scrollIntoView({
+        behavior: "smooth"
+    });
+    }
+
     return (
         <div className="heroSection">
             <Atropos shadow={false} activeOffset={40} stretchZ={200} className="my-atropos">
@@ -56,11 +62,11 @@ function HeroSection() {
                     className="atropos-layer"
                     data-atropos-offset="2"
                 >
-                    <div className="downArrows">
+                    <button type="button" onClick={scrollToSection} className="downArrows">
                         <i className="bi bi-chevron-down downArrow"></i>
                         <i className="bi bi-chevron-down downArrow"></i>
                         <i className="bi bi-chevron-down downArrow"></i>
-                    </div>
+                    </button>
                 </div>
 
                 
