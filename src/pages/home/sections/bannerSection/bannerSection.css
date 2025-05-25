@@ -63,7 +63,8 @@
   font-weight: 700;
   font-size: 4.5rem;
   padding-right: 4rem;
-  color: var(--text-color-reverse);
+  color: var(--text-color-reverse); 
+  user-select: none;
 }
 
 @keyframes marquee {

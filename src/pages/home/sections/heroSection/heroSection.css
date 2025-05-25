@@ -99,6 +99,12 @@
     background: transparent;
 }
 
+.downArrows:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 .downArrow {
     font-size: 2rem;
     color: #ffffff;
