@@ -2,10 +2,6 @@ import "./heroSection.css";
 import 'atropos/css';
 import Atropos from 'atropos/react';
 
-import heroHanddrawn from "../../../../assets/hero/hero_handdrawn_arrows.png";
-import heroIconsSmall from "../../../../assets/hero/hero_icons_small.png";
-import heroIconsBig from "../../../../assets/hero/hero_icons_big.png";
-
 function HeroSection() {
     function scrollToSection() {
     document.getElementById("banner-section").scrollIntoView({
