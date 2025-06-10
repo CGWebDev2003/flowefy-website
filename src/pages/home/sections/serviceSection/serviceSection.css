@@ -5,7 +5,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    background-color: var(--bg-color);
+  background-color: var(--bg-color);
+  margin-top: 5rem;
 }
 
 .serviceHeadline {
@@ -40,7 +41,9 @@
 }
 
 .serviceCard:hover {
-  	background-color: var(--primary);
+  	background: linear-gradient(300deg,#b969ff,#8f08ff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
     color: var(--text-color) !important;
     transition: all 0.3s ease-in-out;
     cursor: default;
