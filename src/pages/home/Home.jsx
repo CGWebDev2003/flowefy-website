@@ -4,7 +4,7 @@ import Header from "../../components/header/Header";
 import HeroSection from "./sections/heroSection/HeroSection";
 import BannerSection from "./sections/bannerSection/BannerSection";
 import AboutSection from "./sections/aboutSection/AboutSection";
-import CheckupSection from "./sections/portfolioSection/checkupSection";
+import CheckupSection from "./sections/checkupSection/CheckupSection";
 import ServiceSection from "./sections/serviceSection/ServiceSection";
 import TestimonialSection from "./sections/testimonialSection/TestimonialSection";
 import ContactSection from "./sections/contactSection/ContactSection";
