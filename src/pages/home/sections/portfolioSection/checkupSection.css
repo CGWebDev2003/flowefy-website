@@ -18,7 +18,9 @@
     height: auto;
     min-height: 20rem;
     padding: 2rem 0;
-    background-color: var(--primary);
+    background: linear-gradient(300deg,#b969ff,#8f08ff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;

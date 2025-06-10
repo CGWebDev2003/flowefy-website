@@ -12,6 +12,10 @@ function PortfolioSection() {
                         <div className="checkupService">
                             <p className="checkupItem">
                                 <i className="bi bi-check-circle"></i> 
+                                Design
+                            </p>
+                            <p className="checkupItem">
+                                <i className="bi bi-check-circle"></i> 
                                 Performance
                             </p>
                             <p className="checkupItem">
