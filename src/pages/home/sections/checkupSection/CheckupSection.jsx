@@ -8,8 +8,8 @@ function CheckupSection() {
             <div className="checkupSection">
                 <div className="content checkupContent">
                     <Atropos shadow={false} activeOffset={30} stretchZ={100} className="checkup-atropos">
-                        <div className="checkupBox atropos-layer" data-atropos-offset="0">
-                            <h1 className="checkupTitle headline atropos-layer" data-atropos-offset="2" >Dein Gratis Website Check</h1>
+                        <div className="checkupBox atropos-layer" data-atropos-offset="-1">
+                            <h1 className="checkupTitle headline atropos-layer" data-atropos-offset="1" >Dein Gratis Website Check</h1>
                             <p className="checkupText atropos-layer" data-atropos-offset="1">Lasse deine Website im kostenlosen flowefy-Website-Check testen und erfahre wo noch Luft nach oben ist. Dafür brauchst nicht mehr, als deine URL und eine Email. </p>
                             <div className="checkupService">
                                 <p className="checkupItem atropos-layer" data-atropos-offset="2">

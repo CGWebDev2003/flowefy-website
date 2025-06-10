@@ -1,4 +1,6 @@
 import "./serviceSection.css";
+import 'atropos/css';
+import Atropos from 'atropos/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
@@ -7,39 +9,45 @@ function ServiceSection() {
         <div className="serviceSection">
             <h1 className="headline serviceHeadline">Unsere Services</h1>
             <div className="serviceContent">
-                <div class="serviceCard">
-                    <div class="content">
-                        <div class="title">Landingpage</div>
-                        <div class="price"><span className="ab">ab</span> 999€</div>
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
+                    <div class="serviceCard">
+                        <div class="content">
+                            <div class="title atropos-layer" data-atropos-offset="1">Landingpage</div>
+                            <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 999€</div>
+                            <div class="description atropos-layer" data-atropos-offset="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                        </div>
+                        <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
+                            Anfragen
+                            <i className="bi bi-arrow-up-right"></i>
+                        </a>
                     </div>
-                    <a href="/anfragen" className="anfrageButton">
-                        Anfragen
-                        <i className="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
-                <div class="serviceCard">
-                    <div class="content">
-                        <div class="title">One Pager</div>
-                        <div class="price"><span className="ab">ab</span> 1999€</div>
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                </Atropos>
+                <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
+                    <div class="serviceCard">
+                        <div class="content">
+                            <div class="title atropos-layer" data-atropos-offset="1">One Pager</div>
+                            <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 1999€</div>
+                            <div class="description atropos-layer" data-atropos-offset="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                        </div>
+                        <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
+                            Anfragen
+                            <i className="bi bi-arrow-up-right"></i>
+                        </a>
                     </div>
-                    <a href="/anfragen" className="anfrageButton">
-                        Anfragen
-                        <i className="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
-                <div class="serviceCard">
-                    <div class="content">
-                        <div class="title">Full Website</div>
-                        <div class="price"><span className="ab">ab</span> 4999€</div>
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                </Atropos>
+                <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
+                    <div class="serviceCard">
+                        <div class="content">
+                            <div class="title atropos-layer" data-atropos-offset="1">Full Website</div>
+                            <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 4999€</div>
+                            <div class="description atropos-layer" data-atropos-offset="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                        </div>
+                        <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
+                            Anfragen
+                            <i className="bi bi-arrow-up-right"></i>
+                        </a>
                     </div>
-                    <a href="/anfragen" className="anfrageButton">
-                        Anfragen
-                        <i className="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
+                </Atropos>
             </div>
             <div className="serviceContentMobile">
                 <Swiper
@@ -95,10 +103,7 @@ function ServiceSection() {
                 <i className="bi bi-chevron-double-right"></i>
             </span>
             <div className="moreServiceBox">
-                <a href="/service" className="moreServiceButton">
-                    Alle Services 
-                    <i className="bi bi-arrow-up-right"></i>
-                </a>
+                
             </div>
         </div>
     );
