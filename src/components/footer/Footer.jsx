@@ -12,7 +12,7 @@ function Footer() {
                 </div>
                 <div className="col col2">
                     <div className="footerNavigation">
-                        <a className="footerLink" href="/">Home</a>
+                        <a className="footerLink" href="#home">Home</a>
                         <a className="footerLink" href="#about">Über uns</a>
                         <a className="footerLink" href="#checkup">Check Up</a>
                         <a className="footerLink" href="#service">Service</a>

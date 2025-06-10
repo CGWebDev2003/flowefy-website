@@ -17,7 +17,7 @@ function Header() {
                     </a>
                 </div>
                 <div className="linkBox">
-                    <a href="/" className="headerLink">Home</a>
+                    <a href="#home" className="headerLink">Home</a>
                     <a href="#about" className="headerLink">Über uns</a>
                     <a href="#checkup" className="headerLink">Check Up</a>
                     <a href="#service" className="headerLink">Service</a>
@@ -39,7 +39,7 @@ function Header() {
                 </div>
             </header>
             <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
-                <a href="/" className="headerLink">Home</a>
+                <a href="#home" className="headerLink">Home</a>
                 <a href="#about" className="headerLink">Über uns</a>
                 <a href="#checkup" className="headerLink">Check Up</a>
                 <a href="#service" className="headerLink">Service</a>

@@ -10,7 +10,7 @@ function HeroSection() {
     }
 
     return (
-        <div className="heroSection">
+        <div className="heroSection" id="home">
             <Atropos shadow={false} activeOffset={50} stretchZ={200} className="my-atropos">
                 <div
                     className="atropos-layer heroAtroposBox handArrowBox"
