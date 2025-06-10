@@ -13,9 +13,10 @@ function Footer() {
                 <div className="col col2">
                     <div className="footerNavigation">
                         <a className="footerLink" href="/">Home</a>
-                        <a className="footerLink" href="/service">Service</a>
-                        <a className="footerLink" href="/portfolio">Portfolio</a>
-                        <a className="footerLink" href="/kontakt">Kontakt</a>
+                        <a className="footerLink" href="#about">Über uns</a>
+                        <a className="footerLink" href="#checkup">Check Up</a>
+                        <a className="footerLink" href="#service">Service</a>
+                        <a className="footerLink" href="#testimonials">Bewertungen</a>
                         <a className="footerLink" href="/impressum">Impressum</a>
                         <a className="footerLink" href="/datenschutz">Datenschutz</a>
                     </div>
