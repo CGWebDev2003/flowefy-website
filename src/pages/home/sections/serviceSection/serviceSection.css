@@ -5,7 +5,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    background-color: var(--bg-color);
+  background-color: var(--bg-color);
+  margin-top: 5rem;
 }
 
 .serviceHeadline {

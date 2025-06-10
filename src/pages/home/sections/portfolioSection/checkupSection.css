@@ -1,0 +1,67 @@
+.checkupSection {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.checkupTitle {
+    font-size: 3rem;
+}
+
+.checkupBox {
+    width: 1200px;
+    height: auto;
+    min-height: 20rem;
+    padding: 2rem 0;
+    background-color: var(--primary);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.checkupText {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 80%;
+    color: white;
+}
+
+.checkupService {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.checkupItem {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.bi-check-circle {
+    margin-right: .3rem;
+}
+
+.checkupButton {
+    padding: .8rem 2rem;
+    background-color: var(--accent);
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    user-select: none;
+    border-radius: 5rem;
+}
+
+.checkupButton:hover {
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    background-color: var(--accent-hover);
+}
