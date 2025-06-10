@@ -18,9 +18,10 @@ function Header() {
                 </div>
                 <div className="linkBox">
                     <a href="/" className="headerLink">Home</a>
-                    <a href="/service" className="headerLink">Service</a>
-                    <a href="/portfolio" className="headerLink">Portfolio</a>
-                    <a href="/kontakt" className="headerLink">Kontakt</a>
+                    <a href="#about" className="headerLink">Über uns</a>
+                    <a href="#checkup" className="headerLink">Check Up</a>
+                    <a href="#service" className="headerLink">Service</a>
+                    <a href="#testimonials" className="headerLink">Bewertungen</a>
                 </div>
                 <div className="buttonBox">
                     <a href="/anfragen" className="anfrageButton">
@@ -38,10 +39,11 @@ function Header() {
                 </div>
             </header>
             <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
-                <a href="/">Home</a>
-                <a href="/service">Service</a>
-                <a href="/portfolio">Portfolio</a>
-                <a href="/kontakt">Kontakt</a>
+                <a href="/" className="headerLink">Home</a>
+                <a href="#about" className="headerLink">Über uns</a>
+                <a href="#checkup" className="headerLink">Check Up</a>
+                <a href="#service" className="headerLink">Service</a>
+                <a href="#testimonials" className="headerLink">Bewertungen</a>
                 <a href="/anfragen" className="anfrageButton">
                     Jetzt Anfragen
                     <i className="bi bi-arrow-up-right"></i>

@@ -5,7 +5,7 @@ import Atropos from 'atropos/react';
 function CheckupSection() {
     return(
         <>
-            <div className="checkupSection">
+            <div className="checkupSection" id="checkup">
                 <div className="content checkupContent">
                         <div className="checkupBox">
                             <h1 className="checkupTitle headline">Dein Gratis Website Check</h1>

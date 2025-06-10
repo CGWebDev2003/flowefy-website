@@ -6,7 +6,7 @@ import 'swiper/css';
 
 function ServiceSection() {
     return(
-        <div className="serviceSection">
+        <div className="serviceSection" id="service">
             <h1 className="headline serviceHeadline">Unsere Services</h1>
             <div className="serviceContent">
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
