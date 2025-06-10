@@ -11,12 +11,15 @@ function Footer() {
                     <img src={madeInGermanyLogo} className="madeInGermanyLogo" />
                 </div>
                 <div className="col col2">
-                    <a className="footerLink" href="/">Home</a>
-                    <a className="footerLink" href="/service">Service</a>
-                    <a className="footerLink" href="/portfolio">Portfolio</a>
-                    <a className="footerLink" href="/kontakt">Kontakt</a>
-                    <a className="footerLink" href="/impressum">Impressum</a>
-                    <a className="footerLink" href="/datenschutz">Datenschutz</a>
+                    <div className="footerNavigation">
+                        <a className="footerLink" href="/">Home</a>
+                        <a className="footerLink" href="/service">Service</a>
+                        <a className="footerLink" href="/portfolio">Portfolio</a>
+                        <a className="footerLink" href="/kontakt">Kontakt</a>
+                        <a className="footerLink" href="/impressum">Impressum</a>
+                        <a className="footerLink" href="/datenschutz">Datenschutz</a>
+                    </div>
+                    <p className="copyright">&copy; 2025 flowefy. Eine Marke von Colin Grahm Media & Commerce | Alle Rechte vorbehalten.</p>
                 </div>
             </div>
             <div className="secondFooter">
