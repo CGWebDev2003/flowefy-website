@@ -1,8 +1,9 @@
 .footer {
     width: 100%;
-    height: 12rem;
+    height: auto;
     background-color: #360063;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -51,6 +52,26 @@
     margin: 0 1rem;
     padding: 0.5rem;
     padding-bottom: 3rem;
+}
+
+.secondFooter {
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(29, 0, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondFooter p {
+    color: white;
+}
+
+.flowefy {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    color: #981AFF;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 850px) {

@@ -19,6 +19,9 @@ function Footer() {
                     <a className="footerLink" href="/datenschutz">Datenschutz</a>
                 </div>
             </div>
+            <div className="secondFooter">
+                <p>Designed and delivered by <a href="https://flowefy.de" target="_blank" className="flowefy">flowefy.</a></p>
+            </div>
         </div>
     );
 }

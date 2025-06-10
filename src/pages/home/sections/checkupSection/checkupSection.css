@@ -11,10 +11,12 @@
 
 .checkupTitle {
     font-size: 3rem;
+    text-align: center;
 }
 
 .checkupBox {
-    width: 1200px;
+    width: calc(100% - 4rem);
+    margin-left: 2rem;
     height: auto;
     min-height: 20rem;
     padding: 2rem 0;
@@ -39,6 +41,8 @@
 .checkupService {
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     align-items: center;
     justify-content: space-around;
 }
