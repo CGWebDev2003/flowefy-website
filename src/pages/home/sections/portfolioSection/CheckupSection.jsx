@@ -1,7 +1,7 @@
 import "./checkupSection.css";
 import 'atropos/css'
 
-function PortfolioSection() {
+function CheckupSection() {
     return(
         <>
             <div className="checkupSection">
@@ -39,4 +39,4 @@ function PortfolioSection() {
     );
 }
 
-export default PortfolioSection;
+export default CheckupSection;

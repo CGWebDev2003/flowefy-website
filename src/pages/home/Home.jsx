@@ -4,7 +4,7 @@ import Header from "../../components/header/Header";
 import HeroSection from "./sections/heroSection/HeroSection";
 import BannerSection from "./sections/bannerSection/BannerSection";
 import AboutSection from "./sections/aboutSection/AboutSection";
-import PortfolioSection from "./sections/portfolioSection/CheckupSection";
+import CheckupSection from "./sections/portfolioSection/checkupSection";
 import ServiceSection from "./sections/serviceSection/ServiceSection";
 import TestimonialSection from "./sections/testimonialSection/TestimonialSection";
 import ContactSection from "./sections/contactSection/ContactSection";
@@ -31,7 +31,7 @@ function Home() {
                     <HeroSection />
                     <BannerSection />
                     <AboutSection />
-                    <PortfolioSection />
+                    <CheckupSection />
                     <ServiceSection />
                     <TestimonialSection />
                     <ContactSection />
