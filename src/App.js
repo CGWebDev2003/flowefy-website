@@ -5,9 +5,10 @@ import Service from './pages/service/Service';
 import Portfolio from './pages/portfolio/Portfolio';
 import Kontakt from './pages/kontakt/Kontakt';
 import Anfragen from './pages/anfragen/Anfragen';
-import Placeholder from './pages/placeholder/Placeholder';
+import WebsiteCheck from './pages/websiteCheck/WebsiteCheck';
 import Impressum from './pages/impressum/Impressum';
 import Datenschutz from './pages/datenschutz/Datenschutz';
+import Placeholder from './pages/placeholder/Placeholder';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/anfragen" element={<Anfragen />} />
+        <Route path="/checkup" element={<WebsiteCheck />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/placeholder" element={<Placeholder />} />
