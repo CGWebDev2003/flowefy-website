@@ -12,9 +12,20 @@ function ServiceSection() {
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
                     <div class="serviceCard">
                         <div class="content">
-                            <div class="title atropos-layer" data-atropos-offset="1">Landingpage</div>
+                            <div class="title atropos-layer" data-atropos-offset="1">🚀 Landingpage</div>
                             <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 999€</div>
-                            <div class="description atropos-layer" data-atropos-offset="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                            <div class="description atropos-layer" data-atropos-offset="1">
+                                Für Kampagnen, Produkte oder Events. Klar fokussiert, schnell & individuell. <br/>
+
+                                <div className="features">
+                                    <strong className="contents">Enthalten:</strong><br/>
+                                    <i className="bi bi-check-circle"></i> Individuelles Design <br/>
+                                    <i className="bi bi-check-circle"></i> Conversion-Optimierung <br/>
+                                    <i className="bi bi-check-circle"></i> Responsiv (mobil & desktop) <br/>
+                                    <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                    <i className="bi bi-check-circle"></i> SEO-Basics <br/>
+                                </div>
+                            </div>
                         </div>
                         <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
                             Anfragen
@@ -25,9 +36,20 @@ function ServiceSection() {
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
                     <div class="serviceCard">
                         <div class="content">
-                            <div class="title atropos-layer" data-atropos-offset="1">One Pager</div>
+                            <div class="title atropos-layer" data-atropos-offset="1">📄 One Pager</div>
                             <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 1999€</div>
-                            <div class="description atropos-layer" data-atropos-offset="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                            <div class="description atropos-layer" data-atropos-offset="1">
+                                Ideal für Startups, Freelancer & kleine Unternehmen. Alle Inhalte auf einer Seite – klar & effektiv. <br/>
+
+                                <div className="features">
+                                    <strong className="contents">Enthalten:</strong> <br/>
+                                    <i className="bi bi-check-circle"></i> Strukturierte Abschnitte (z. B. Über uns, Kontakt) <br/>
+                                    <i className="bi bi-check-circle"></i> Maßgeschneidertes Design <br/>
+                                    <i className="bi bi-check-circle"></i> Mobile-Optimierung <br/>
+                                    <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                    <i className="bi bi-check-circle"></i> SEO & Performance <br/>
+                                </div>
+                            </div>
                         </div>
                         <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
                             Anfragen
@@ -38,9 +60,20 @@ function ServiceSection() {
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
                     <div class="serviceCard">
                         <div class="content">
-                            <div class="title atropos-layer" data-atropos-offset="1">Full Website</div>
+                            <div class="title atropos-layer" data-atropos-offset="1">🌐 Full Website</div>
                             <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 4999€</div>
-                            <div class="description atropos-layer" data-atropos-offset="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                            <div class="description atropos-layer" data-atropos-offset="1">
+                                Für Unternehmen mit mehreren Seiten & komplexeren Anforderungen. <br/>
+
+                                <div className="features">
+                                    <strong className="contents">Enthalten:</strong> <br/>
+                                    <i className="bi bi-check-circle"></i> Mehrseitige Website <br/>
+                                    <i className="bi bi-check-circle"></i> Individuelles, modulares Design <br/>
+                                    <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                    <i className="bi bi-check-circle"></i> Responsiv & schnell <br/>
+                                    <i className="bi bi-check-circle"></i> SEO-Basics <br/>
+                                </div>
+                            </div>
                         </div>
                         <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
                             Anfragen
@@ -51,9 +84,20 @@ function ServiceSection() {
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
                     <div class="serviceCard">
                         <div class="content">
-                            <div class="title atropos-layer" data-atropos-offset="1">Startup Bundle</div>
+                            <div class="title atropos-layer" data-atropos-offset="1">🌱 Startup Bundle</div>
                             <div class="price atropos-layer" data-atropos-offset="2">2499€</div>
-                            <div class="description atropos-layer" data-atropos-offset="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                            <div class="description atropos-layer" data-atropos-offset="1">Das Komplettpaket für Gründer:innen.
+                            Kompakt, professionell & sofort startklar. <br/>
+
+                            <div className="features">
+                                <strong className="contents">Enthalten:</strong> <br/>
+                                <i className="bi bi-check-circle"></i> Onepager <br/>
+                                <i className="bi bi-check-circle"></i> Digitale Visitenkarten <br/>
+                                <i className="bi bi-check-circle"></i> E-Mail-Signatur <br/>
+                                <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                <i className="bi bi-check-circle"></i> Beratung zu Hosting & Domain <br/>
+                            </div>
+                        </div>
                         </div>
                         <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
                             Anfragen
@@ -74,7 +118,18 @@ function ServiceSection() {
                             <div class="content">
                                 <div class="title">Landingpage</div>
                                 <div class="price"><span className="ab">ab</span> 999€</div>
-                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                                <div class="description">
+                                    Für Kampagnen, Produkte oder Events. Klar fokussiert, schnell & individuell. <br/>
+
+                                    <div className="features">
+                                        <strong className="contents">Enthalten:</strong><br/>
+                                        <i className="bi bi-check-circle"></i> Individuelles Design <br/>
+                                        <i className="bi bi-check-circle"></i> Conversion-Optimierung <br/>
+                                        <i className="bi bi-check-circle"></i> Responsiv (mobil & desktop) <br/>
+                                        <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                        <i className="bi bi-check-circle"></i> SEO-Basics <br/>
+                                    </div>
+                                </div>
                             </div>
                             <a href="/anfragen" className="anfrageButton">
                                 Anfragen
@@ -87,7 +142,18 @@ function ServiceSection() {
                             <div class="content">
                                 <div class="title">One Pager</div>
                                 <div class="price"><span className="ab">ab</span> 1999€</div>
-                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                                <div class="description">
+                                    Ideal für Startups, Freelancer & kleine Unternehmen. Alle Inhalte auf einer Seite – klar & effektiv. <br/>
+
+                                    <div className="features">
+                                        <strong className="contents">Enthalten:</strong> <br/>
+                                        <i className="bi bi-check-circle"></i> Strukturierte Abschnitte (z. B. Über uns, Kontakt) <br/>
+                                        <i className="bi bi-check-circle"></i> Maßgeschneidertes Design <br/>
+                                        <i className="bi bi-check-circle"></i> Mobile-Optimierung <br/>
+                                        <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                        <i className="bi bi-check-circle"></i> SEO & Performance <br/>
+                                    </div>
+                                </div>
                             </div>
                             <a href="/anfragen" className="anfrageButton">
                                 Anfragen
@@ -100,7 +166,18 @@ function ServiceSection() {
                             <div class="content">
                                 <div class="title">Full Website</div>
                                 <div class="price"><span className="ab">ab</span> 4999€</div>
-                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                                <div class="description">
+                                    Für Unternehmen mit mehreren Seiten & komplexeren Anforderungen. <br/>
+
+                                    <div className="features">
+                                        <strong className="contents">Enthalten:</strong> <br/>
+                                        <i className="bi bi-check-circle"></i> Mehrseitige Website <br/>
+                                        <i className="bi bi-check-circle"></i> Individuelles, modulares Design <br/>
+                                        <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                        <i className="bi bi-check-circle"></i> Responsiv & schnell <br/>
+                                        <i className="bi bi-check-circle"></i> SEO-Basics <br/>
+                                    </div>
+                                </div>
                             </div>
                             <a href="/anfragen" className="anfrageButton">
                                 Anfragen
@@ -113,7 +190,18 @@ function ServiceSection() {
                             <div class="content">
                                 <div class="title">Startup Bundle</div>
                                 <div class="price">2499€</div>
-                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                                <div class="description">
+                                    Kompakt, professionell & sofort startklar. <br/>
+
+                                    <div className="features">
+                                        <strong className="contents">Enthalten:</strong> <br/>
+                                        <i className="bi bi-check-circle"></i> Onepager <br/>
+                                        <i className="bi bi-check-circle"></i> Digitale Visitenkarten <br/>
+                                        <i className="bi bi-check-circle"></i> E-Mail-Signatur <br/>
+                                        <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                        <i className="bi bi-check-circle"></i> Beratung zu Hosting & Domain <br/>
+                                    </div>
+                                </div>
                             </div>
                             <a href="/anfragen" className="anfrageButton">
                                 Anfragen
