@@ -101,11 +101,19 @@
 }
 
 @media screen and (max-width: 800px) {
+
     .col2 {
         padding-bottom: 5rem;
         width: 90%;
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
 
+    }
+
+    .footerNavigation {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
     }
 }
 
@@ -120,13 +128,5 @@
 
     .footer {
         height: auto;
-    }
-
-    .col2 {
-        width: 90% !important;
-        height: 30rem !important;
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-bottom: 5rem;
     }
 }
