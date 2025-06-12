@@ -38,7 +38,6 @@
 .linkBox {
     display: flex;
     align-items: center;
-    gap: 2rem;
 }
 
 .headerLink {
@@ -62,6 +61,12 @@
 
 .headerLink:hover::after {
     width: 100%;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .buttonBox {
@@ -123,6 +128,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0;
+    z-index: 1000;
 }
 
 .menuButton span {
@@ -167,17 +173,15 @@
     right: 0;
 }
 
-@media screen and (max-width: 750px) {
-    .linkBox {
-        display: none;
-    }
+.sidebarNav {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
 
-    .anfrageButton {
-        display: none;
-    }
-
-    .menuButton {
-        display: flex;
+@media screen and (max-width: 1000px) {
+    .headerNav {
+        gap: 1rem;
     }
 }
 
@@ -200,5 +204,23 @@
 
     .buttonBox {
         margin-right: 1rem;
+    }
+
+    .headerNav {
+        gap: .5rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .linkBox {
+        display: none;
+    }
+
+    .anfrageButton {
+        display: none;
+    }
+
+    .menuButton {
+        display: flex;
     }
 }

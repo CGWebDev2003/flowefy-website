@@ -98,8 +98,8 @@
   line-height: 1.5rem;
 }
 
-.bi-check-circle {
-  color: green;
+.features i {
+  color: green !important;
 }
 
 .content .title {

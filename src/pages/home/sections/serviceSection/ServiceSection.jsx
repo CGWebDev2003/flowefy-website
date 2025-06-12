@@ -195,11 +195,11 @@ function ServiceSection() {
 
                                     <div className="features">
                                         <strong className="contents">Enthalten:</strong> <br/>
-                                        <i className="bi bi-check-circle"></i> Onepager <br/>
-                                        <i className="bi bi-check-circle"></i> Digitale Visitenkarten <br/>
-                                        <i className="bi bi-check-circle"></i> E-Mail-Signatur <br/>
-                                        <i className="bi bi-check-circle"></i> React & CSS <br/>
-                                        <i className="bi bi-check-circle"></i> Beratung zu Hosting & Domain <br/>
+                                        <i className="bi bi-check-circle serviceCheck"></i> Onepager <br/>
+                                        <i className="bi bi-check-circle serviceCheck"></i> Digitale Visitenkarten <br/>
+                                        <i className="bi bi-check-circle serviceCheck"></i> E-Mail-Signatur <br/>
+                                        <i className="bi bi-check-circle serviceCheck"></i> React & CSS <br/>
+                                        <i className="bi bi-check-circle serviceCheck"></i> Beratung zu Hosting & Domain <br/>
                                     </div>
                                 </div>
                             </div>

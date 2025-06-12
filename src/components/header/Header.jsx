@@ -17,11 +17,13 @@ function Header() {
                     </a>
                 </div>
                 <div className="linkBox">
-                    <a href="#home" className="headerLink">Home</a>
-                    <a href="#about" className="headerLink">Über uns</a>
-                    <a href="#checkup" className="headerLink">Check Up</a>
-                    <a href="#service" className="headerLink">Service</a>
-                    <a href="#testimonials" className="headerLink">Bewertungen</a>
+                    <nav className="headerNav">
+                        <a href="#home" className="headerLink">Home</a>
+                        <a href="#about" className="headerLink">Über uns</a>
+                        <a href="#checkup" className="headerLink">Check Up</a>
+                        <a href="#service" className="headerLink">Service</a>
+                        <a href="#testimonials" className="headerLink">Bewertungen</a>
+                    </nav>
                 </div>
                 <div className="buttonBox">
                     <a href="/anfragen" className="anfrageButton">
@@ -39,11 +41,13 @@ function Header() {
                 </div>
             </header>
             <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
-                <a href="#home" className="headerLink">Home</a>
-                <a href="#about" className="headerLink">Über uns</a>
-                <a href="#checkup" className="headerLink">Check Up</a>
-                <a href="#service" className="headerLink">Service</a>
-                <a href="#testimonials" className="headerLink">Bewertungen</a>
+                <nav className="sidebarNav">
+                    <a href="#home" className="headerLink">Home</a>
+                    <a href="#about" className="headerLink">Über uns</a>
+                    <a href="#checkup" className="headerLink">Check Up</a>
+                    <a href="#service" className="headerLink">Service</a>
+                    <a href="#testimonials" className="headerLink">Bewertungen</a>
+                </nav>
                 <a href="/anfragen" className="anfrageButton">
                     Jetzt Anfragen
                     <i className="bi bi-arrow-up-right"></i>
