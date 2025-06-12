@@ -1,13 +1,13 @@
 .websiteCheckSection {
     width: 100%;
-    height: 100%;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .websiteCheckBox {
-    width: 90%;
+    width: calc(100vw - 2rem) !important;
     max-width: 800px;
     height: auto;
     min-height: 30rem;
@@ -82,4 +82,25 @@ label {
 .statusMessage {
     margin-top: 1rem;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    .websiteCheckBox {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .websiteCheckBox {
+        width: calc(100vw - 6rem) !important;
+        max-width: none;
+    }
+
+    .checkText {
+        width: 90%;
+    }
+
+    .websiteCheckForm {
+        width: 90%;
+    }
 }
