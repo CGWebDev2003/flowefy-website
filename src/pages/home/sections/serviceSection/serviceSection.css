@@ -103,13 +103,29 @@
 }
 
 .content .title {
-  	font-weight: 600;
-  	text-transform: uppercase;
-  	color: var(--text-color);
-  	margin-top: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-top: 10px;
   font-size: 1rem;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;   
+}
+
+.inqButton {
+  background-color: var(--accent);  
+  color: #ffffff;
+  padding: .8rem 1.5rem;
+  border-radius: 50rem;
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  margin: auto;
 }
 
 .moreServiceBox {

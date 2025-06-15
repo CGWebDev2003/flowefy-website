@@ -34,9 +34,9 @@ function WebsiteCheck() {
             <div className="websiteCheckSection">
                 <div className="websiteCheckBox">
                     <h1 className="checkTitle">
-                        <span className="flowefy flowefyCheck">flowefy</span>-Website-Check
+                        <span className="flowefy flowefyCheck">flowefy</span> Website Check
                     </h1>
-                    <p className="checkText">Lass deine Website zu 100% gratis von uns testen!</p>
+                    <p className="checkText">Lass deine Website gratis von uns testen!</p>
 
                     <form ref={form} onSubmit={sendEmail} className="websiteCheckForm">
                         <label>Email</label>

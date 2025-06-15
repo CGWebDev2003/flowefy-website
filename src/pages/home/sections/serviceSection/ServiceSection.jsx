@@ -5,6 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 function ServiceSection() {
+    function openInquiry() {
+        window.location.href = "/anfragen";
+    }
+
     return(
         <div className="serviceSection" id="service">
             <h1 className="headline serviceHeadline">Unsere Services</h1>
@@ -130,11 +134,10 @@ function ServiceSection() {
                                         <i className="bi bi-check-circle"></i> SEO-Basics <br/>
                                     </div>
                                 </div>
+                                <div className="inqButtonBox">
+                                    <button type="button" className="inqButton" onClick={openInquiry}>Jetzt Anfragen</button>
+                                </div>
                             </div>
-                            <a href="/anfragen" className="anfrageButton">
-                                Anfragen
-                                <i className="bi bi-arrow-up-right"></i>
-                            </a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiperSlide">
@@ -155,10 +158,9 @@ function ServiceSection() {
                                     </div>
                                 </div>
                             </div>
-                            <a href="/anfragen" className="anfrageButton">
-                                Anfragen
-                                <i className="bi bi-arrow-up-right"></i>
-                            </a>
+                            <div className="inqButtonBox">
+                                <button type="button" className="inqButton" onClick={openInquiry}>Jetzt Anfragen</button>
+                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiperSlide">
@@ -179,10 +181,9 @@ function ServiceSection() {
                                     </div>
                                 </div>
                             </div>
-                            <a href="/anfragen" className="anfrageButton">
-                                Anfragen
-                                <i className="bi bi-arrow-up-right"></i>
-                            </a>
+                            <div className="inqButtonBox">
+                                <button type="button" className="inqButton" onClick={openInquiry}>Jetzt Anfragen</button>
+                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiperSlide">
@@ -203,10 +204,9 @@ function ServiceSection() {
                                     </div>
                                 </div>
                             </div>
-                            <a href="/anfragen" className="anfrageButton">
-                                Anfragen
-                                <i className="bi bi-arrow-up-right"></i>
-                            </a>
+                            <div className="inqButtonBox">
+                                <button type="button" className="inqButton" onClick={openInquiry}>Jetzt Anfragen</button>
+                            </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
