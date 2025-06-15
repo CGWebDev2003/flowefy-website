@@ -30,7 +30,7 @@ function HeroSection() {
 
                     <div
                         className="atropos-layer heroAtroposBox smallIconBox"
-                        data-atropos-offset="-3"
+                        data-atropos-offset="-3å"
                     >
                     </div>
 

@@ -54,20 +54,54 @@
     top: 0;
 }
 
+/* === DEFAULT (Desktop) === */
 .handArrowBox {
   top: -3rem;
-  background-image: url('../../../../assets/hero/hero_handdrawn_arrows.png');
+  background-image: url('../../../../assets/hero/desktop/hero_handdrawn_arrows.webp');
 }
 
 .smallIconBox {
-    top: -1rem;
-    background-image: url('../../../../assets/hero/hero_icons_small.png');
+  top: -1rem;
+  background-image: url('../../../../assets/hero/desktop/hero_icons_small.webp');
 }
 
 .bigIconBox {
-    top: -3rem;
-    background-image: url('../../../../assets/hero/hero_icons_big.png');
+  top: -3rem;
+  background-image: url('../../../../assets/hero/desktop/hero_icons_big.webp');
 }
+
+
+/* === TABLET (768px – 1023px) === */
+@media screen and (max-width: 1023px) {
+  .handArrowBox {
+    background-image: url('../../../../assets/hero/tablet/hero_handdrawn_arrows.webp');
+  }
+
+  .smallIconBox {
+    background-image: url('../../../../assets/hero/tablet/hero_icons_small.webp');
+  }
+
+  .bigIconBox {
+    background-image: url('../../../../assets/hero/tablet/hero_icons_big.webp');
+  }
+}
+
+
+/* === MOBILE (max-width: 767px) === */
+@media screen and (max-width: 767px) {
+  .handArrowBox {
+    background-image: url('../../../../assets/hero/mobile/hero_handdrawn_arrows.webp');
+  }
+
+  .smallIconBox {
+    background-image: url('../../../../assets/hero/mobile/hero_icons_small.webp');
+  }
+
+  .bigIconBox {
+    background-image: url('../../../../assets/hero/mobile/hero_icons_big.webp');
+  }
+}
+
 
 .handdrawnImage {
     position: absolute;
@@ -117,6 +151,10 @@
     font-size: 2rem;
     color: #ffffff;
     margin-bottom: -1.2rem;
+}
+
+@media screen and (max-width: 1500px) {
+
 }
 
 @media screen and (max-width: 800px) {
