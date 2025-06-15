@@ -58,31 +58,40 @@
 .handArrowBox {
   top: -3rem;
   background-image: url('../../../../assets/hero/desktop/hero_handdrawn_arrows.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .smallIconBox {
   top: -1rem;
   background-image: url('../../../../assets/hero/desktop/hero_icons_small.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .bigIconBox {
   top: -3rem;
   background-image: url('../../../../assets/hero/desktop/hero_icons_big.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
 /* === TABLET (768px – 1023px) === */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1150px) {
   .handArrowBox {
-    background-image: url('../../../../assets/hero/tablet/hero_handdrawn_arrows.webp');
+    background-image: url('../../../../assets/hero/desktop/hero_handdrawn_arrows.webp');
   }
 
   .smallIconBox {
-    background-image: url('../../../../assets/hero/tablet/hero_icons_small.webp');
+    background-image: url('../../../../assets/hero/desktop/hero_icons_small.webp');
   }
 
   .bigIconBox {
-    background-image: url('../../../../assets/hero/tablet/hero_icons_big.webp');
+    background-image: url('../../../../assets/hero/desktop/hero_icons_big.webp');
   }
 }
 
@@ -153,11 +162,7 @@
     margin-bottom: -1.2rem;
 }
 
-@media screen and (max-width: 1500px) {
-
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1150px) {
     .heroHeadline {
 		font-size: 5rem !important;
 		line-height: 5rem;
@@ -190,6 +195,6 @@
 	}
 
 	.downArrows {
-		margin-top: 7rem;
+		margin-top: 1rem;
 	}
 }
