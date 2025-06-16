@@ -1,5 +1,5 @@
 .heroSection {
-    width: 100%;
+    width: 100vw;
     height: calc(100vh - 11rem);
     display: flex;
     flex-direction: column;
@@ -24,17 +24,17 @@
 }
 
 .my-atropos {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: transparent;
 }
 
 .my-atropos-content {
+  width: 100vw;
   height: 100%;
   display: flex;
   flex-direction: column;
