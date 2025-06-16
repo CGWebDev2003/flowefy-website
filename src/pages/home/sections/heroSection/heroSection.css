@@ -154,7 +154,7 @@
 
 @keyframes downArrowsPulse {
   25% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   50% {
