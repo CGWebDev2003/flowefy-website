@@ -183,10 +183,6 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .heroSection {
-    height: calc(100vh - 7rem);
-  }
-  
   .heroHeadline {
 		font-size: 5rem !important;
 		line-height: 5rem;
@@ -203,10 +199,6 @@
 }
 
 @media screen and (max-width: 500px) {
-  .heroSection {
-    height: calc(100vh - 7rem);
-  }
-
   .heroHeadline {
 		margin-top: 4rem;
 		font-size: 3.5rem !important;
