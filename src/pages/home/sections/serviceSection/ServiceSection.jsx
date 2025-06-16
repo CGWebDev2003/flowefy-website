@@ -25,10 +25,9 @@ function ServiceSection() {
                                     <strong className="contents">Enthalten:</strong><br/>
                                     <i className="bi bi-check-circle"></i> Individuelles Design <br/>
                                     <i className="bi bi-check-circle"></i> Conversion-Optimierung <br/>
-                                    <i className="bi bi-check-circle"></i> Responsiv (mobil & desktop) <br/>
-                                    <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                    <i className="bi bi-check-circle"></i> Responsive (Mobil & Desktop) <br/>
                                     <i className="bi bi-check-circle"></i> SEO-Basics <br/>
-                                    <i className="bi bi-check-circle"></i> SEO-Basics <br/>
+                                    <i className="bi bi-check-circle"></i> Coding in React & CSS <br/>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +40,7 @@ function ServiceSection() {
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
                     <div class="serviceCard">
                         <div class="content">
-                            <div class="title atropos-layer" data-atropos-offset="1">📄 One Pager</div>
+                            <div class="title atropos-layer" data-atropos-offset="1">📄 Onepager</div>
                             <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 1999€</div>
                             <div class="description atropos-layer" data-atropos-offset="1">
                                 Ideal für Startups, Freelancer & kleine Unternehmen. Alle Inhalte auf einer Seite – klar & effektiv. <br/>
@@ -51,7 +50,7 @@ function ServiceSection() {
                                     <i className="bi bi-check-circle"></i> Strukturierte Abschnitte (z. B. Über uns, Kontakt) <br/>
                                     <i className="bi bi-check-circle"></i> Maßgeschneidertes Design <br/>
                                     <i className="bi bi-check-circle"></i> Mobile-Optimierung <br/>
-                                    <i className="bi bi-check-circle"></i> React & CSS <br/>
+                                    <i className="bi bi-check-circle"></i> Coding in React & CSS <br/>
                                     <i className="bi bi-check-circle"></i> SEO & Performance <br/>
                                 </div>
                             </div>
@@ -74,8 +73,8 @@ function ServiceSection() {
                                     <strong className="contents">Enthalten:</strong> <br/>
                                     <i className="bi bi-check-circle"></i> Mehrseitige Website <br/>
                                     <i className="bi bi-check-circle"></i> Individuelles, modulares Design <br/>
-                                    <i className="bi bi-check-circle"></i> React & CSS <br/>
-                                    <i className="bi bi-check-circle"></i> Responsiv & schnell <br/>
+                                    <i className="bi bi-check-circle"></i> Coding in React & CSS <br/>
+                                    <i className="bi bi-check-circle"></i> Responsive & Schnell <br/>
                                     <i className="bi bi-check-circle"></i> SEO-Basics <br/>
                                 </div>
                             </div>
@@ -144,7 +143,7 @@ function ServiceSection() {
                     <SwiperSlide className="swiperSlide">
                         <div class="serviceCard">
                             <div class="content">
-                                <div class="title">One Pager</div>
+                                <div class="title">Onepager</div>
                                 <div class="price"><span className="ab">ab</span> 1999€</div>
                                 <div class="description">
                                     Ideal für Startups, Freelancer & kleine Unternehmen. Alle Inhalte auf einer Seite – klar & effektiv. <br/>
