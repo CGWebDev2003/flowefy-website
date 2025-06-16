@@ -1,4 +1,4 @@
-import madeInGermanyLogo from "../../assets/mig_logo.png";
+import madeInGermanyLogo from "../../assets/mig_logo.webp";
 import "./footer.css";
 
 
