@@ -20,7 +20,9 @@ function Footer() {
                         <a className="footerLink" href="/impressum">Impressum</a>
                         <a className="footerLink" href="/datenschutz">Datenschutz</a>
                     </div>
-                    <p className="copyright">&copy; 2025 flowefy. Eine Marke von Colin Grahm Media & Commerce | Alle Rechte vorbehalten.</p>
+                    <p className="copyright">
+                        &copy; {new Date().getFullYear()} Colin Grahm Media & Commerce | Alle Rechte vorbehalten.
+                    </p>
                 </div>
             </div>
             <div className="secondFooter">
