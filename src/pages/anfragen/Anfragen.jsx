@@ -1,4 +1,3 @@
-import inquiryImage from "../../assets/inquiry_image.jpg";
 import "./anfragen.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
