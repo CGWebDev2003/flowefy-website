@@ -190,6 +190,7 @@
     }
     
     .header {
+        width: calc(100vw - 2rem) !important;
         height: 3.5rem;
     }
 
