@@ -19,11 +19,17 @@
 }
 
 .impressumTitle {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
     color: var(--title-color);
+    margin-bottom: -2rem !important;
 }
 
-.headline {
-    color: var(--title-color);
+.impressumHeadline {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--title-color) !important;
+    margin-bottom: 1rem !important;
 }
 
 .impressumSubTitle {
@@ -32,11 +38,11 @@
 
 .impressumDescription {
     margin-top: 1.5rem;
-    color:rgb(146, 146, 146);
+    color: var(--text-color-reverse);
 }
 
 .link {
-    color: var(--link-color);
+    color: var(--primary) !important;
     text-decoration: none;
 }
 
