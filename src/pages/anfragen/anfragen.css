@@ -1,0 +1,197 @@
+.inquirySection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.mainContent {
+    width: 96%;
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inquiryContainer {
+    width: calc(100vw - 2rem) !important;
+    max-width: 1000px;
+    height: auto;
+    min-height: 30rem;
+    background-color: var(--bg-darker);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.inquiryFormBox {
+    width: 50%;
+    height: 100%;
+}
+
+.inquiryHeadline {
+    padding: 2rem;
+    padding-bottom: 0;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.inquiryForm {
+    padding: 2rem;
+}
+
+.inquiryForm label {
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.inquiryForm input {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.inquiryForm textarea {
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    resize: none;
+}
+
+.inquiryForm select {
+    font-family: "Poppins", sans-serif;
+    width: 103%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bg-color);
+    color: var(--text-color); 
+    font-size: 1rem;  
+}
+
+.inquiryForm .privacyText {
+    margin-bottom: 1rem;
+}
+
+.inquirySendButton {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--primary);
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.inquirySendButton:hover {
+    background-color: var(--primary-hover);
+    animation: pulse 0.5s;
+}
+
+.toast {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--bg-darker);
+    color: var(--text-color);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1000000000;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.successToast {
+    display: none;
+    border-left: 7px solid rgb(43, 255, 74);
+}
+
+.errorToast {
+    display: none;
+    border-left: 7px solid rgb(255, 43, 82);
+}
+
+.inquiryImageBox {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inquiryImage {
+    width: 100%;
+    height: 100vh;
+    border-radius: 20px;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+@media screen and (max-width: 1200px) {
+    .inquiryContainer {
+        flex-direction: column;
+        width: 70% !important;
+        max-width: none;
+        height: auto;
+    }
+
+    .inquiryFormBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inquiryImageBox {
+        width: 70% !important;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .inquiryImage {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        object-fit: cover;
+        filter: brightness(0.5);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .inquiryContainer {
+        width: 80% !important;
+        max-width: 400px !important;
+    }
+}

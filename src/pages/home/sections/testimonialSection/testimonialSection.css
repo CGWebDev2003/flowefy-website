@@ -1,0 +1,132 @@
+.testimonialSection {
+	width: 100vw;
+	height: 120vh;
+	padding-bottom: 7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bg-color);
+}
+
+.testimonialHeadline {
+	margin-top: 5rem;
+	color: var(--text-color) !important;
+}
+
+.testimonialBox {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem;
+	flex-wrap: wrap;
+}
+
+.testimonial {
+	width: 40%;
+	height: 17rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2rem;
+	border: 1px solid var(--border-color);	
+	text-decoration: none;
+	background-color: var(--bg-darker);
+}
+
+.testimonial:hover {
+	background: linear-gradient(300deg,#b969ff,#8f08ff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
+	transition: all 0.3s ease-in-out;
+	-webkit-box-shadow:0px 0px 75px 10px rgba(144,8,255,0.20);
+	-moz-box-shadow: 0px 0px 75px 10px rgba(144,8,255,0.20);
+	box-shadow: 0px 0px 75px 10px rgba(144,8,255,0.20);
+}
+
+.testimonial:hover .testimonialTextBox {
+	color: var(--text-color) !important;
+	transition: 0.3s ease-in-out;
+}
+
+.testimonial-4 {
+	border: none;
+	background: linear-gradient(300deg,#b969ff,#8f08ff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
+}
+
+.testimonialTextBox {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: var(--text-color);
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.authorPosition {
+	color: var(--text-color);
+	font-size: 1.2rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+}
+
+.testimonialScore {
+	color: #ffffff;
+	font-size: .7rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+.testimonialStars {
+	color:rgb(255, 208, 0);
+	font-size: 2.8rem;
+	display: flex;
+	gap	: .7rem;
+}
+
+.testimonialExcelent {
+	color: #ffffff;
+	font-size: 1.7rem;
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+}
+
+.testimonialRecommendation {
+	color: #ffffff;
+	font-size: 1.2rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+}
+
+.testimonialAverage {
+	color: #ffffff !important;
+	font-size: 1.2rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+	.testimonialSection {
+		height: auto;
+	}
+
+	.testimonialBox {
+		width: 100%;
+	}
+	.testimonial {
+		width: 90%;
+	}
+
+	.testimonialTextBox {
+		font-size: 1rem;
+	}
+}

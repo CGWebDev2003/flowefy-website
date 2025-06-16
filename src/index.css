@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 * {
@@ -7,13 +8,115 @@
 }
 
 :root {
-  --primary: #8F08FF;
-  --accent: #EA9403;
+  --bg-color: #F7F7F7;
+  --bg-darker: #ffffff;
+  --bg-contrast: #121212;
+
+  --border-color: #cecece;
+
+  --text-color: #121212;
+  --text-color-reverse: #ffffff;
   --title-color: #410347;
   --sub-title-color: #360063;
-  --link-color: #981AFF;
+  --link-color: #cccccc;
+  --link-color-darker:#acacac;
+
+  --primary: #8F08FF;
+  --primary-hover:#7905d7;
+
+  --accent: #EA9403;
+  --accent-hover:rgb(214, 136, 1);
+
+  --headline-size: 4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color:rgb(23, 22, 22);
+    --bg-darker: #121212;
+    --bg-contrast: #ffffff;
+
+    --border-color:rgb(32, 32, 32);
+
+    --text-color: #ffffff;
+    --text-color-reverse: #121212;
+    --title-color: #410347;
+    --sub-title-color: #360063;
+    --link-color: #cccccc;
+    --link-color-darker:#acacac;
+
+    --primary: #8F08FF;
+    --primary-hover:#7905d7;
+
+    --accent: #EA9403;
+    --accent-hover:rgb(202, 128, 0);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+html {
+  scroll-behavior: smooth !important;
 }
 
 body {
   font-family: "Nunito", sans-serif;
 }
+
+.primaryHighlight {
+  color: var(--primary);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.nunitoText {
+  font-family: "Nunito", sans-serif;
+}
+
+.bigTitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.headline {
+  color: #ffffff !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+  /*.bigTitle{
+
+  }*/
+  
+  .headline {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /*.bigTitle {
+
+  }*/
+  
+  .headline {
+    font-size: 2.2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

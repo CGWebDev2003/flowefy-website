@@ -1,0 +1,199 @@
+.serviceSection {
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  background-color: var(--bg-color);
+  padding-top: 5rem;
+}
+
+.serviceHeadline {
+    margin-bottom: 2rem;
+    color: var(--text-color) !important;
+}
+
+.serviceContent {
+	width: 100%;
+	height: calc(100% - 20rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4rem;
+}
+
+.service-atropos {
+  width: 260px;
+  height: auto;
+}
+
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 2rem;
+  background-color: var(--bg-darker);
+  border: 1px solid var(--border-color);
+}
+
+.serviceCard:hover {
+  	background: linear-gradient(300deg,#b969ff,#8f08ff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
+    color: var(--text-color) !important;
+    transition: all 0.3s ease-in-out;
+    cursor: default;
+}
+
+.serviceCard:hover .price {
+	color: var(--text-color-reverse) !important;
+	transition: all 0.3s ease-in-out;
+}
+
+.serviceCard:hover .anfragenButton {
+  color: var(--text-color-reverse) !important;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 10px 20px 10px 15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 20px 10px 15px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 20px 10px 15px rgba(0,0,0,0.75);
+}
+
+.content {
+  padding: 20px;
+}
+
+.content .price {
+    font-family: "nunito", sans-serif;
+    color: white;
+  	font-weight: 800;
+  	font-size: 2.7rem;
+  	color: var(--text-color);
+	margin: 1rem 0;
+}
+
+.ab {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+
+
+.content .description {
+  	color: var(--text-color);
+  	margin-top: 10px;
+  	font-size: 14px;
+}
+
+.features {
+  padding-top: 2rem !important;
+  padding-bottom: 1rem !important;
+  line-height: 1.5rem;
+}
+
+.features i {
+  color: green !important;
+}
+
+.content .title {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-top: 10px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;   
+}
+
+.inqButton {
+  background-color: var(--accent);  
+  color: #ffffff;
+  padding: .8rem 1.5rem;
+  border-radius: 50rem;
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  margin: auto;
+}
+
+.moreServiceBox {
+    padding-bottom: 6rem;
+}
+
+.moreServiceButton {
+    display: flex;
+    gap: .5rem; 
+    color: var(--text-color) !important; 
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+.serviceContentMobile {
+    display: none;
+}
+
+.swipeText {
+  display: none;
+  color: var(--link-color) !important;
+}
+
+@media screen and (max-width: 800px) {
+  .serviceContent {
+    display: none;
+  }
+
+  .serviceHeadline {
+    font-size: 2.2rem;
+  }
+
+  .serviceContentMobile {
+    display: flex;
+    width: 90%;
+    height: calc(100% - 20rem);
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .swiperSlide {
+    width: 90%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceCard {
+    margin: auto;
+  }
+
+  .swipeText {
+    height: 2.5rem;
+    width: 90%;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.48);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .moreServiceButton {
+    margin-top: 2rem;
+  }
+}
+
+
+

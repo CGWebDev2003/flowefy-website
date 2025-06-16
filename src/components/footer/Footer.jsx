@@ -1,4 +1,4 @@
-import madeInGermanyLogo from "../../mig_logo.png";
+import madeInGermanyLogo from "../../assets/mig_logo.png";
 import "./footer.css";
 
 
@@ -10,11 +10,21 @@ function Footer() {
                     <h1 className="flowefyLogo">flowefy.</h1>
                     <img src={madeInGermanyLogo} className="madeInGermanyLogo" />
                 </div>
-                <div className="col col2"></div>
-                <div className="col col3">
-                    <a className="footerLink" href="/impressum">Impressum</a>
-                    <a className="footerLink" href="/datenschutz">Datenschutz</a>
+                <div className="col col2">
+                    <div className="footerNavigation">
+                        <a className="footerLink" href="#home">Home</a>
+                        <a className="footerLink" href="#about">Über uns</a>
+                        <a className="footerLink" href="#checkup">Check Up</a>
+                        <a className="footerLink" href="#service">Service</a>
+                        <a className="footerLink" href="#testimonials">Bewertungen</a>
+                        <a className="footerLink" href="/impressum">Impressum</a>
+                        <a className="footerLink" href="/datenschutz">Datenschutz</a>
+                    </div>
+                    <p className="copyright">&copy; 2025 flowefy. Eine Marke von Colin Grahm Media & Commerce | Alle Rechte vorbehalten.</p>
                 </div>
+            </div>
+            <div className="secondFooter">
+                <p>Designed and delivered by <a href="https://flowefy.de" target="_blank" className="flowefy">flowefy.</a></p>
             </div>
         </div>
     );

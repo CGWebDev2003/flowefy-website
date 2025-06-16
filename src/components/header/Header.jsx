@@ -1,9 +1,14 @@
-import "./header.css"
+import { useState } from "react";
+import "./header.css";
 
 function Header() {
+    const [isOpen, setIsOpen] = useState(false);
 
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
 
-    return(
+    return (
         <div className="headerContainer">
             <header className="header">
                 <div className="logoBox">
@@ -11,15 +16,43 @@ function Header() {
                         <h1 className="logo">flowefy.</h1>
                     </a>
                 </div>
+                <div className="linkBox">
+                    <nav className="headerNav">
+                        <a href="/#home" className="headerLink">Home</a>
+                        <a href="/#about" className="headerLink">Über uns</a>
+                        <a href="/#checkup" className="headerLink">Check Up</a>
+                        <a href="/#service" className="headerLink">Service</a>
+                        <a href="/#testimonials" className="headerLink">Bewertungen</a>
+                    </nav>
+                </div>
                 <div className="buttonBox">
-                    <a href="mailto:flowefy@skymail.de" className="headerButton">
-                        <i class="bi bi-envelope"></i>
+                    <a href="/anfragen" className="anfrageButton">
+                        Jetzt Anfragen
+                        <i className="bi bi-arrow-up-right"></i>
                     </a>
-                    <a href="https://www.instagram.com/flowefy.web/" className="headerButton instagramButton">
-                        <i class="bi bi-instagram"></i>
-                    </a>
+                    <button
+                        type="button"
+                        className={`menuButton ${isOpen ? "open" : ""}`}
+                        onClick={toggleMenu}
+                    >
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </header>
+            <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
+                <nav className="sidebarNav">
+                    <a href="/#home" className="headerLink">Home</a>
+                    <a href="/#about" className="headerLink">Über uns</a>
+                    <a href="/#checkup" className="headerLink">Check Up</a>
+                    <a href="/#service" className="headerLink">Service</a>
+                    <a href="/#testimonials" className="headerLink">Bewertungen</a>
+                </nav>
+                <a href="/anfragen" className="anfrageButton">
+                    Jetzt Anfragen
+                    <i className="bi bi-arrow-up-right"></i>
+                </a>
+            </div>
         </div>
     );
 }
