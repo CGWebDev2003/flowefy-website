@@ -1,33 +1,42 @@
 .checkupSection {
-    width: 100%;
-    max-width: 1920px;
+    width: 100vw !important;
     height: auto;
-    min-height: 50vh;
+    min-height: 45vh !important;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 20px;
+    justify-content: center;
+    background-color: var(--bg-color);
 }
 
-.checkupTitle {
-    font-size: 2.5rem;
-    text-align: center;
+.checkupInner {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem !important;
 }
 
 .checkupBox {
-    width: 100%;
+    width: 80%;
     height: auto;
     min-height: 20rem;
-    padding: 2rem 0;
+    padding: 2rem;
     background: linear-gradient(300deg,#b969ff,#8f08ff);
     background-size: 120% 120%;
     animation: gradient-animation 12s ease infinite;
-    border-radius: 1rem;
+    border-radius: 1rem !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+}
+
+.checkupTitle {
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .checkupText {
@@ -69,4 +78,10 @@
     transition: .4s ease-in-out;
     cursor: pointer;
     background-color: var(--accent-hover);
+}
+
+@media screen and (max-width: 750px) {
+    .checkupBox {
+        width: 70% !important;
+    }
 }
