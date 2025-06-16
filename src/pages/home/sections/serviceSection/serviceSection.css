@@ -18,23 +18,23 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: stretch; /* geändert: sorgt dafür, dass alle Cards gleich hoch sind */
+	align-items: stretch; 
 	gap: 4rem;
 }
 
 .service-atropos {
 	width: 260px;
-	height: 100%; /* NEU: volle Höhe der Cards übernehmen */
-	display: flex; /* wichtig für flexiblen Inhalt */
+	height: 100%; 
+	display: flex; 
 }
 
 .serviceCard {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between; /* geändert für gleichmäßigen Inhalt */
+	justify-content: space-between;
 	width: 100%;
-	height: 100% !important; /* NEU: Card nimmt volle Höhe ein */
+	height: 100% !important;
 	padding: 2rem 0;
 	text-align: center;
 	position: relative;
@@ -123,8 +123,6 @@
 	color: var(--link-color) !important;
 }
 
-/* ---------- RESPONSIVE ---------- */
-
 @media screen and (max-width: 800px) {
 	.serviceContent {
 		display: none;
@@ -137,7 +135,7 @@
 	.serviceContentMobile {
 		display: flex;
 		width: 90%;
-		height: auto; /* geändert: dynamische Höhe */
+		height: auto;
 		justify-content: center;
 		align-items: center;
 		gap: 4rem;
@@ -145,14 +143,14 @@
 
 	.swiperSlide {
 		width: 90%;
-		height: auto; /* geändert: dynamisch basierend auf Inhalt */
+		height: auto; 
 		display: flex;
-		align-items: stretch; /* NEU */
+		align-items: stretch; 
 		justify-content: center;
 	}
 
 	.swiperSlide .serviceCard {
-		height: 100%; /* NEU: sorgt für gleich hohe Cards in Swiper */
+		height: 100%; 
 	}
 
 	.serviceCard {
