@@ -44,28 +44,6 @@
   border: 1px solid var(--border-color);
 }
 
-.serviceCard:hover {
-  	background: linear-gradient(300deg,#b969ff,#8f08ff);
-    background-size: 120% 120%;
-    animation: gradient-animation 12s ease infinite;
-    color: var(--text-color) !important;
-    transition: all 0.3s ease-in-out;
-    cursor: default;
-}
-
-.serviceCard:hover .price {
-	color: var(--text-color-reverse) !important;
-	transition: all 0.3s ease-in-out;
-}
-
-.serviceCard:hover .anfragenButton {
-  color: var(--text-color-reverse) !important;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 10px 20px 10px 15px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 20px 10px 15px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 20px 10px 15px rgba(0,0,0,0.75);
-}
-
 .content {
   padding: 20px;
 }
