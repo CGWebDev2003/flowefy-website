@@ -53,7 +53,7 @@ function WebsiteCheck() {
                             <label><input type="checkbox" name="checklist" value="SEO" /> SEO</label>
                         </div>
 
-                        <button type="submit">Absenden</button>
+                        <button type="submit" className="sendButton">Absenden <i className="bi bi-arrow-bar-right"></i></button>
                         {statusMessage && <p className="statusMessage">{statusMessage}</p>}
                     </form>
                 </div>

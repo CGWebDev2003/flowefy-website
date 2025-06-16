@@ -89,8 +89,8 @@ function Anfragen() {
                                         <label htmlFor="message">Nachricht</label><br />
                                         <textarea id="message" name="message" placeholder="Ihre Nachricht..." required></textarea>
                                     </div>
-                                    <p className="privacyText">Mit dem Absenden akzeptierst du die <a href="/datenschutz">Datenschutzbestimmungen</a></p>
-                                    <button type="submit" className="inquirySendButton">Absenden</button>
+                                    <p className="privacyText">Mit dem Absenden akzeptierst du die <a href="/datenschutz">Datenschutzbestimmungen</a>.</p>
+                                    <button type="submit" className="inquirySendButton">Absenden <i className="bi bi-arrow-bar-right"></i></button>
                                 </form>
                             </div>
                         </div>
