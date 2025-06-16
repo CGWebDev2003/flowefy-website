@@ -69,9 +69,14 @@
     margin: 2rem 0;
     flex-direction: column;
     gap: 0;
+    padding: 1rem !important;
+  }
+
+  .contactButtonBox p {
+    margin-top: 1rem;
   }
 
   .contactInqButton {
-    margin-top: 1rem;
+    margin-top: .5rem;
   }
 }
