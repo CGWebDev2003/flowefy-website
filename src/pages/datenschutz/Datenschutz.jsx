@@ -20,7 +20,7 @@ function Datenschutz() {
                             <strong>Vertreten durch:</strong><br/>
                             <strong>Colin Grahm (Geschäftsführer)</strong><br/>
                             <br/>
-                            Tel: <a className="link" href="tel:017624693418">0177-4821477</a><br/>
+                            Tel: <a className="link" href="tel:017624693418">+49 176 24693418</a><br/>
                             E-Mail: <a className="link" href="mailto:colingrahmmedia@gmail.com">colingrahmmedia@gmail.com</a><br/>
                         </p>
 

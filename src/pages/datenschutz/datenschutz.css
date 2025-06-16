@@ -27,6 +27,7 @@
 }
 
 .datenschutzTitle {
+    font-family: "Poppins", sans-serif;
     color: var(--title-color);
     text-align: center;
 }
@@ -34,20 +35,22 @@
 .datenschutzSubTitle {
     color: var(--sub-title-color);
     margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
 }
 
 .datenschutzDescription {
     margin-top: 1.5rem;
-    color: rgb(146, 146, 146);
+    color: var(--text-color-reverse);
 }
 
 .link {
-    color: var(--link-color);
+    color: var(--primary);
     text-decoration: none;
 }
 
 h2 {
     margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
 }
 
 li {
