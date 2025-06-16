@@ -9,7 +9,7 @@ function Impressum() {
             <div className="mainContainerImpressum">
                 <div className="impressumBox">
                     <h1 className="impressumTitle">Impressum</h1>
-                    <h2 className="headline">Angaben gemäß § 5 TMG:</h2>
+                    <h2 className="impressumHeadline">Angaben gemäß § 5 TMG:</h2>
                     <h3 className="impressumSubTitle">Colin Grahm Media & Commerce</h3>
                     <p className="impressumDescription">
                         Schwedenstraße 29A<br/>
