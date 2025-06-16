@@ -10,7 +10,7 @@ function Impressum() {
                 <div className="impressumBox">
                     <h1 className="impressumTitle">Impressum</h1>
                     <h2 className="headline">Angaben gemäß § 5 TMG:</h2>
-                    <h3 className="impressumSubTitle">flowefy. - Eine Marke von Colin Grahm Media & Commerce</h3>
+                    <h3 className="impressumSubTitle">Colin Grahm Media & Commerce</h3>
                     <p className="impressumDescription">
                         Schwedenstraße 29A<br/>
                         04420 Markranstädt<br/>
