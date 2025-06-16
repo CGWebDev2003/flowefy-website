@@ -2,7 +2,7 @@ import "./testimonialSection.css";
 
 function TestimonialSection() {
     return(
-        <div className="testimonialSection" id="testimonial">
+        <div className="testimonialSection" id="testimonials">
             <h1 className="headline testimonialHeadline">Das sagen Kunden</h1>
             <div className="testimonialBox">
                 <div href="https://www.ratedo.de/profil/colin-grahm-media" target="_blank" className="testimonial">
