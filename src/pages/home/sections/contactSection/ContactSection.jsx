@@ -15,7 +15,7 @@ function ContactSection() {
                 <div className="contactButtonBox">
                     <p>Jetzt deine Website </p>
                     <div className="inqButtonBox contactInqButton">
-                        <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
+                        <button type="button" className="inqButton inqButtonContact" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
                     </div>
                 </div>
             </div>

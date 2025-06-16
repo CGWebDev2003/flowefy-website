@@ -34,9 +34,20 @@
 	gap: 1.5rem;
 	color: #ffffff;
 	font-size: 1.2rem;
-	padding: 1rem;
+	padding: .5rem;
 	border-radius: 50rem;
 	border: 1px solid #cecece;	
+}
+
+.inqButtonContact {
+  margin-top: 1rem;
+}
+
+.inqButtonContact:hover {
+  transition: .4s ease-in-out;
+  cursor: pointer;
+  background-color: var(--accent-hover);
+  animation: pulse 0.5s;
 }
 
 @media screen and (max-width: 800px) {
@@ -58,9 +69,14 @@
     margin: 2rem 0;
     flex-direction: column;
     gap: 0;
+    padding: 1rem !important;
+  }
+
+  .contactButtonBox p {
+    margin-top: 1rem;
   }
 
   .contactInqButton {
-    margin-top: 1rem;
+    margin-top: .5rem;
   }
 }

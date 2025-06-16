@@ -78,6 +78,7 @@
     transition: .4s ease-in-out;
     cursor: pointer;
     background-color: var(--accent-hover);
+    animation: pulse 0.5s;
 }
 
 @media screen and (max-width: 750px) {
