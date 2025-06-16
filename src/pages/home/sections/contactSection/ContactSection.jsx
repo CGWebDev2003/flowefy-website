@@ -1,6 +1,10 @@
 import "./contactSection.css";
 
 function ContactSection() {
+    function openInquiry() {
+        window.location.href = "/anfragen";
+    }
+
     return(
         <div className="contactUsSection">
             <div className="contactUsBox">
@@ -9,11 +13,10 @@ function ContactSection() {
                     Ganz einfach eine Nachricht schreiben und wir melden uns bei dir!
                 </p>
                 <div className="contactButtonBox">
-                    <a href="mailto:flowefy@skymail.de" className="mailLink">flowefy@skymail.de</a>
-                    <a href="/anfragen" className="contactButton anfrageButton">
-                        Jetzt Anfragen
-                        <i className="bi bi-arrow-up-right"></i>
-                    </a>
+                    <p>Jetzt deine Website </p>
+                    <div className="inqButtonBox contactInqButton">
+                        <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
+                    </div>
                 </div>
             </div>
         </div>

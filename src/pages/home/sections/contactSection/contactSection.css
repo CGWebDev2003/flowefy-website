@@ -39,14 +39,13 @@
 	border: 1px solid #cecece;	
 }
 
-  .mailLink {
-    color: #fff;
-    text-decoration: none;
-  }
-
 @media screen and (max-width: 800px) {
   .contactUsSection {
     height: 85vh;
+  }
+
+  .contactTitle {
+    font-size: 4rem;
   }
   
   .contactUsBox {
@@ -56,18 +55,12 @@
 
   .contactButtonBox {
     width: 90%;
-    margin-top: 2rem;
+    margin: 2rem 0;
+    flex-direction: column;
     gap: 0;
   }
 
-  .mailLink {
-    color: #fff;
-    text-decoration: none;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .contactTitle {
-    font-size: 4rem;
+  .contactInqButton {
+    margin-top: 1rem;
   }
 }

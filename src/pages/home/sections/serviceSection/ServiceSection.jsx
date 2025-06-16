@@ -135,7 +135,7 @@ function ServiceSection() {
                                     </div>
                                 </div>
                                 <div className="inqButtonBox">
-                                    <button type="button" className="inqButton" onClick={openInquiry}>Jetzt Anfragen</button>
+                                    <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@ function ServiceSection() {
                                 </div>
                             </div>
                             <div className="inqButtonBox">
-                                <button type="button" className="inqButton" onClick={openInquiry}>Jetzt Anfragen</button>
+                                <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -182,7 +182,7 @@ function ServiceSection() {
                                 </div>
                             </div>
                             <div className="inqButtonBox">
-                                <button type="button" className="inqButton" onClick={openInquiry}>Jetzt Anfragen</button>
+                                <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -205,7 +205,7 @@ function ServiceSection() {
                                 </div>
                             </div>
                             <div className="inqButtonBox">
-                                <button type="button" className="inqButton" onClick={openInquiry}>Jetzt Anfragen</button>
+                                <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
                             </div>
                         </div>
                     </SwiperSlide>
