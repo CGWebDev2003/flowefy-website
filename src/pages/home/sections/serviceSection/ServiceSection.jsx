@@ -28,6 +28,7 @@ function ServiceSection() {
                                     <i className="bi bi-check-circle"></i> Responsiv (mobil & desktop) <br/>
                                     <i className="bi bi-check-circle"></i> React & CSS <br/>
                                     <i className="bi bi-check-circle"></i> SEO-Basics <br/>
+                                    <i className="bi bi-check-circle"></i> SEO-Basics <br/>
                                 </div>
                             </div>
                         </div>
