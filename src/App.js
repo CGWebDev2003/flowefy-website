@@ -1,4 +1,5 @@
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Anfragen from './pages/anfragen/Anfragen';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/datenschutz" element={<Datenschutz />} />
       </Routes>
       <SpeedInsights />
+      <Analytics />
     </div>
   );
 }
