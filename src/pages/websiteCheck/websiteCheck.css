@@ -6,6 +6,17 @@
     justify-content: center;
 }
 
+
+
+
+
+
+/* 
+    ==========================
+            Old Shit
+    ==========================
+*/
+
 .websiteCheckBox {
     width: calc(100vw - 2rem) !important;
     max-width: 800px;

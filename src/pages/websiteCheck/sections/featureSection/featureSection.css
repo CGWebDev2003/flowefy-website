@@ -1,0 +1,93 @@
+.featureSection {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+}
+
+.featureContent {
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.featureHeader {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featureHeadline {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.checkInquiryButton {
+    background-color: var(--accent);
+    color: #ffffff;
+    padding: .8rem 1.5rem;
+    border-radius: 50rem;
+    border: none;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.checkInquiryButton:hover {
+    margin-right: .1rem;
+    background-color: var(--accent-hover);
+    cursor: pointer;
+    animation: pulse 0.5s;
+}
+
+.featureList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.featureCard {
+    flex: 1 1 300px;
+    max-width: calc(100% - 3rem) !important;
+    background-color: #360063;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.cardTitle {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-left: 10%;
+    font-size: var(--big-text-size);
+}
+
+.cardDescription {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-left: 10%;
+    font-size: var(--normal-text-size);
+    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    lang: de;
+}
