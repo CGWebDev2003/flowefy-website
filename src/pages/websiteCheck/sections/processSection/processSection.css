@@ -70,22 +70,26 @@
     transition: transform 0.3s ease;
 }
 
-.cardTitle {
+.processCardTitle {
     color: var(--text-color);
     margin-bottom: 1rem;
     text-align: start;
     width: 80%;
     margin-left: 10%;
     font-size: var(--big-text-size);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
 }
 
-.cardDescription {
+.processCardDescription {
     color: var(--text-color);
     margin-bottom: 1rem;
     text-align: start;
     width: 80%;
     margin-left: 10%;
     font-size: var(--normal-text-size);
+    text-align: center;
     hyphens: auto;
     overflow-wrap: break-word;
     word-break: break-word;

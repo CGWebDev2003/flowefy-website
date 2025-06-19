@@ -1,0 +1,19 @@
+import "./ctaSection.css";
+
+function CTASection() {
+    return(
+        <div className="ctaSection">
+            <div className="ctaContent">
+                <h1 className="ctaHeadline">
+                    Bereit für einen ehrlichen Blick auf deine Website?
+                </h1>
+                <h2 className="ctaSubTitle">
+                    100% unverbindlich – keine versteckten Kosten
+                </h2>
+                <a href="/checkupTest" className="checkInquiryButtonPrimary" >Test Starten <i className="bi bi-play-circle"></i></a>
+            </div>
+        </div>
+    );
+}
+
+export default CTASection;

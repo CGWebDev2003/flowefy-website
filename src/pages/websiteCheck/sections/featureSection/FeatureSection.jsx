@@ -10,7 +10,7 @@ function FeatureSection() {
                 </div>
                 <div className='featureList'>
                     <div className='featureCard'>
-                        <h3 className='cardTitle'>
+                        <h3 className='featureCardTitle'>
                             ✅ UX & Design Bewertung
                         </h3>
                         <p className='cardDescription'>
@@ -18,15 +18,15 @@ function FeatureSection() {
                         </p>
                     </div>
                     <div className='featureCard'>
-                        <h3 className='cardTitle'>
-                            ⚡ Performance-Analyse (Pagespeed etc.)
+                        <h3 className='featureCardTitle'>
+                            ⚡ Performance-Analyse
                         </h3>
                         <p className='cardDescription'>
                             Ladezeiten sind entscheidend: Wir prüfen, wie schnell deine Website lädt und wo technische Bremsen versteckt sind. Dazu gehören z. B. große Bilder, unoptimierter Code oder unnötige Skripte.
                         </p>
                     </div>
                     <div className='featureCard'>
-                        <h3 className='cardTitle'>
+                        <h3 className='featureCardTitle'>
                             📱 Mobile-Optimierung
                         </h3>
                         <p className='cardDescription'>
@@ -34,7 +34,7 @@ function FeatureSection() {
                         </p>
                     </div>
                     <div className='featureCard'>
-                        <h3 className='cardTitle'>
+                        <h3 className='featureCardTitle'>
                             🧠 SEO-Basics & technische Struktur
                         </h3>
                         <p className='cardDescription'>
@@ -42,7 +42,7 @@ function FeatureSection() {
                         </p>
                     </div>
                     <div className='featureCard'>
-                        <h3 className='cardTitle'>
+                        <h3 className='featureCardTitle'>
                             🧩 Branding & CI-Konsistenz
                         </h3>
                         <p className='cardDescription'>

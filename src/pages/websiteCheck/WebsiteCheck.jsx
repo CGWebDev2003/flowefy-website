@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import CheckHeroSection from "./sections/heroSection/HeroSection";
 import FeatureSection from "./sections/featureSection/FeatureSection";
 import ProcessSection from "./sections/processSection/ProcessSection";
+import CTASection from "./sections/ctaSection/CTASection";
 
 import "./websiteCheck.css";
 
@@ -51,6 +52,7 @@ function WebsiteCheck() {
                 <CheckHeroSection />
                 <FeatureSection />
                 <ProcessSection />
+                <CTASection />
             </main>
             <Footer />
         </>

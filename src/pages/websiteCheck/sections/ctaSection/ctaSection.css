@@ -1,0 +1,36 @@
+.ctaSection {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    border-radius: 75px 75px 0 0;
+}
+
+.ctaContent {
+    width: 80vw;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    overflow: hidden;
+    border-radius: 75px;
+    background-color: var(--accent);
+}
+
+.ctaHeadline {
+    text-align: center;
+    color: var(--text-color);
+    line-height: 5rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+}
+
+.checkInquiryButtonPrimary {
+
+}
