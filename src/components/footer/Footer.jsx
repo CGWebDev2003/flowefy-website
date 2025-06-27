@@ -1,32 +1,49 @@
 import madeInGermanyLogo from "../../assets/mig_logo.webp";
 import "./footer.css";
 
-
 function Footer() {
     return (
         <div className="footer">
             <div className="footerContent">
                 <div className="col col1">
                     <h1 className="flowefyLogo">flowefy.</h1>
-                    <img src={madeInGermanyLogo} className="madeInGermanyLogo" />
+                    <div className="footerSocialButtons">
+                        <a className="socialLink" href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-instagram"></i>
+                        </a>
+                        <a className="socialLink" href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-linkedin"></i>
+                        </a>
+                        <a className="socialLink" href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-behance"></i>
+                        </a>
+                    </div>
+                    <img
+                        src={madeInGermanyLogo}
+                        className="madeInGermanyLogo"
+                        alt="Made in Germany Logo"
+                    />
                 </div>
+
                 <div className="col col2">
                     <div className="footerNavigation">
-                        <a className="footerLink" href="#home">Home</a>
-                        <a className="footerLink" href="#about">Über uns</a>
-                        <a className="footerLink" href="#checkup">Check Up</a>
-                        <a className="footerLink" href="#service">Service</a>
-                        <a className="footerLink" href="#testimonials">Bewertungen</a>
+                        <h2 className="footerColTitle">Links</h2>
+                        <a className="footerLink" href="/#home">Home</a>
+                        <a className="footerLink" href="/#about">Über uns</a>
+                        <a className="footerLink" href="/checkup">Check Up</a>
+                        <a className="footerLink" href="/#service">Service</a>
+                        <a className="footerLink" href="/#testimonials">Bewertungen</a>
+                    </div>
+                </div>
+
+                <div className="col col3">
+                    <div className="footerNavigation">
+                        <h2 className="footerColTitle">Kontakt</h2>
+                        <a className="footerLink" href="mailto:hey@flowefy.de">hey<i className="bi bi-at"></i>flowefy.de</a>
                         <a className="footerLink" href="/impressum">Impressum</a>
                         <a className="footerLink" href="/datenschutz">Datenschutz</a>
                     </div>
-                    <p className="copyright">
-                        &copy; {new Date().getFullYear()} Colin Grahm Media & Commerce | Alle Rechte vorbehalten.
-                    </p>
                 </div>
-            </div>
-            <div className="secondFooter">
-                <p>Designed and delivered by <a href="https://flowefy.de" target="_blank" className="flowefy">flowefy.</a></p>
             </div>
         </div>
     );
