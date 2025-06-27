@@ -4,8 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6rem;
+    padding: 8rem;
     border-radius: 75px 75px 0 0;
+    background-color: #f7f7f7;
 }
 
 .featureContent {
@@ -30,7 +31,7 @@
 .featureHeadline {
     font-size: 3rem;
     font-weight: 800;
-    color: var(--text-color);
+    color: #121212;
 }
 
 .checkInquiryButton {
@@ -53,6 +54,13 @@
     animation: pulse 0.5s;
 }
 
+.featureText {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #4f5865;
+}
+
 .featureList {
     display: flex;
     flex-wrap: wrap;
@@ -65,40 +73,63 @@
     padding: 1rem;
     flex: 1 1 300px;
     max-width: calc(100% - 3rem) !important;
-    background-color: #360063;
+    background-color: white;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.processCardIcon {
+.featureIconBox {
+    height: 3rem;
+    width: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
-    color: var(--text-color);
+    border-radius: 12px;
+}
+
+.designIconBox {
+    background-color: #e94579;
+}
+
+.performanceIconBox {
+    background-color: #f09033;
+}
+
+.barriereIconBox {
+    background-color: #60bf71;
+}
+
+.codeIconBox {
+    background-color: #399ce5;
+}
+
+.seoIconBox {
+    background-color: #9a58f6;
+}
+
+.featureIconBox i {
+    color: white;
+    font-size: 1.5rem;
 }
 
 .featureCardTitle {
-    color: var(--text-color);
-    margin-bottom: 1rem;
-    text-align: start;
-    width: 80%;
-    margin-left: 10%;
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
 }
 
-.cardDescription {
-    color: var(--text-color);
-    margin-bottom: 1rem;
-    text-align: start;
-    width: 80%;
-    margin-left: 10%;
-    font-size: var(--normal-text-size);
-    hyphens: auto;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    lang: de;
+.featureCardText {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    width: 90%;
 }
+
+.inclusive {
+    font-weight: 600;
+    color: #79ce7b;
+}
+

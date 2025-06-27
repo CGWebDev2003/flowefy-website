@@ -5,9 +5,10 @@
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
-    background-image: radial-gradient(rgba(12, 12, 12, 0.171) 2px, transparent 0);
+    background-image: radial-gradient(rgba(12, 12, 12, 0.1) 2px, transparent 0);
     background-size: 30px 30px;
     background-position: -5px -5px;
+    /*background-color: white;*/
 }
 
 .checkHeroSectionContent {
@@ -81,7 +82,7 @@
     border: none;
     border-radius: 12px;
     background-color: var(--primary);
-    color: var(--text-color);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;

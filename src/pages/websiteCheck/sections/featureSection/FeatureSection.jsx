@@ -5,49 +5,50 @@ function FeatureSection() {
         <div className="featureSection">
             <div className="featureContent">
                 <div className="featureHeader">
-                    <h2 className="featureHeadline">Was wird gecheckt?</h2>
+                    <h2 className="featureHeadline">Was wird analysiert?</h2>
                     <a href="/checkupTest" className="checkInquiryButton" >Test Starten <i className="bi bi-play-circle"></i></a>
                 </div>
                 <div className='featureList'>
+                    <p className="featureText">Unser umfassender Website-Check deckt alle wichtigen Bereiche ab, die für den Erfolg deiner Website entscheidend sind.</p>
                     <div className='featureCard'>
-                        <h3 className='featureCardTitle'>
-                            ✅ UX & Design Bewertung
-                        </h3>
-                        <p className='cardDescription'>
-                            Wir analysieren, wie benutzerfreundlich deine Website aufgebaut ist – vom Seitenaufbau bis zur Navigation. Dabei achten wir auf klare Strukturen, intuitive Bedienung und visuelle Hierarchien, die deine Zielgruppe optimal ansprechen.
-                        </p>
+                        <div className="featureIconBox designIconBox">
+                            <i className="bi bi-palette-fill"></i>
+                        </div>
+                        <h3 className="featureCardTitle">Design-Analyse</h3>
+                        <p className="featureCardText">Bewertung von Layout, Farbgebung, Typografie und visueller Hierarchie für optimale Nutzererfahrung</p>
+                        <p className="inclusive"><i className="bi bi-check2-circle"></i> Kostenlos enthalten</p>
                     </div>
                     <div className='featureCard'>
-                        <h3 className='featureCardTitle'>
-                            ⚡ Performance-Analyse
-                        </h3>
-                        <p className='cardDescription'>
-                            Ladezeiten sind entscheidend: Wir prüfen, wie schnell deine Website lädt und wo technische Bremsen versteckt sind. Dazu gehören z. B. große Bilder, unoptimierter Code oder unnötige Skripte.
-                        </p>
+                        <div className="featureIconBox performanceIconBox">
+                            <i className="bi bi-lightning-charge-fill"></i>
+                        </div>
+                        <h3 className="featureCardTitle">Performance-Check</h3>
+                        <p className="featureCardText">Ladegeschwindigkeit, Core Web Vitals und technische Optimierungen für bessere Rankings</p>
+                        <p className="inclusive"><i className="bi bi-check2-circle"></i> Kostenlos enthalten</p>
                     </div>
                     <div className='featureCard'>
-                        <h3 className='featureCardTitle'>
-                            📱 Mobile-Optimierung
-                        </h3>
-                        <p className='cardDescription'>
-                            Mehr als 60 % der Nutzer sind mobil unterwegs – wir zeigen dir, wie gut deine Seite auf Smartphones und Tablets funktioniert. Dabei bewerten wir sowohl Layout-Anpassungen als auch die Touch-Bedienbarkeit.
-                        </p>
+                        <div className="featureIconBox barriereIconBox">
+                            <i className="bi bi-eye-fill"></i>
+                        </div>
+                        <h3 className="featureCardTitle">Barrierefreiheit</h3>
+                        <p className="featureCardText">Bewertung der Zugänglichkeit von Layout, Farbkontrasten, Schriftgestaltung und Struktur zur Sicherstellung einer inklusiven und barrierearmen Nutzererfahrung.</p>
+                        <p className="inclusive"><i className="bi bi-check2-circle"></i> Kostenlos enthalten</p>
                     </div>
                     <div className='featureCard'>
-                        <h3 className='featureCardTitle'>
-                            🧠 SEO-Basics & technische Struktur
-                        </h3>
-                        <p className='cardDescription'>
-                            Wird deine Website bei Google gefunden? Wir prüfen, ob grundlegende SEO-Faktoren stimmen – wie z. B. saubere Überschriftenstruktur, Meta-Tags, Alt-Texte und Crawlability.
-                        </p>
+                        <div className="featureIconBox codeIconBox">
+                            <i className="bi bi-code-slash"></i>
+                        </div>
+                        <h3 className="featureCardTitle">Technische Umsetzung</h3>
+                        <p className="featureCardText">Code-Qualität, Struktur und technische Standards für maximale Stabilität</p>
+                        <p className="inclusive"><i className="bi bi-check2-circle"></i> Kostenlos enthalten</p>
                     </div>
                     <div className='featureCard'>
-                        <h3 className='featureCardTitle'>
-                            🧩 Branding & CI-Konsistenz
-                        </h3>
-                        <p className='cardDescription'>
-                            Wir werfen einen Blick darauf, wie gut dein Markenauftritt auf der Website umgesetzt ist – von Farben und Typografie bis zur Bildsprache. Eine konsistente Corporate Identity sorgt für Wiedererkennung und Professionalität.
-                        </p>
+                        <div className="featureIconBox seoIconBox">
+                            <i className="bi bi-search"></i>
+                        </div>
+                        <h3 className="featureCardTitle">SEO-Bewertung</h3>
+                        <p className="featureCardText">Suchmaschinenoptimierung, Meta-Tags und Ranking-Faktoren für bessere Sichtbarkeit</p>
+                        <p className="inclusive"><i className="bi bi-check2-circle"></i> Kostenlos enthalten</p>
                     </div>
                 </div>
             </div>
