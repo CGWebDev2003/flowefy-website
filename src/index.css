@@ -65,6 +65,11 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+::selection {
+  background: #8F08FF; /* dunkles Lila */
+  color: #fff;
+}
+
 .primaryHighlight {
   color: var(--primary);
   font-weight: 700;
