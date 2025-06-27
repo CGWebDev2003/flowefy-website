@@ -1,8 +1,0 @@
-// vercel.json
-{
-  "functions": {
-    "api/**.js": {
-      "regions": ["fra1"]
-    }
-  }
-}
