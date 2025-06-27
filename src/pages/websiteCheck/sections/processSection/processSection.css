@@ -32,6 +32,7 @@
     font-size: 3rem;
     font-weight: 800;
     color: #121212;
+    text-align: center;
 }
 
 .checkInquiryButton {
@@ -104,4 +105,16 @@
     overflow-wrap: break-word;
     word-break: break-word;
     lang: de;
+}
+
+@media screen and (max-width: 800px) {
+.processHeadline {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .processHeadline {
+        font-size: 1.5rem;
+    }
 }
