@@ -10,7 +10,7 @@ function CTASection() {
                 <h2 className="ctaSubTitle">
                     100% unverbindlich – keine versteckten Kosten
                 </h2>
-                <a href="/checkupTest" className="checkInquiryButtonPrimary" >Test Starten <i className="bi bi-play-circle"></i></a>
+                <a href="https://tally.so/r/wk4EG1" target="_blank" className="checkInquiryButtonPrimary" >Test Starten <i className="bi bi-play-circle"></i></a>
             </div>
         </div>
     );

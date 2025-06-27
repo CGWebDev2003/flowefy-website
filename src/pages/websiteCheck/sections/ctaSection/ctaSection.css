@@ -48,7 +48,7 @@
     margin-top: 1rem;
     padding: .8rem 2rem;
     border: none;
-    border-radius: 12px;
+    border-radius: 5rem;
     background-color: var(--accent);
     color: white;
     text-decoration: none;
@@ -58,6 +58,7 @@
     transition: .3s ease-in-out;
     cursor: pointer;
     background-color: var(--accent-hover);
+    animation: pulse 0.5s;
 }
 
 @media screen and (max-width: 800px) {

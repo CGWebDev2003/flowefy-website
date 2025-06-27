@@ -13,7 +13,7 @@ function CheckHeroSection() {
                     <span className="heroFeature"><i className="bi bi-check2-circle checkFeatureIcon"></i> SEO-Bewertung</span>
                     <span className="heroFeature"><i className="bi bi-check2-circle checkFeatureIcon"></i> Mehr</span>
                 </div>
-                <button className="checkHeroCTAButton" type="button">Jetzt kostenlos prüfen <i class="bi bi-arrow-right"></i></button>
+                <a href="https://tally.so/r/wk4EG1" target="_blank" className="checkHeroCTAButton" type="button">Jetzt kostenlos prüfen <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     );

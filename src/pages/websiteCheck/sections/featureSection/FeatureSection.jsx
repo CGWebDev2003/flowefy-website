@@ -6,7 +6,7 @@ function FeatureSection() {
             <div className="featureContent">
                 <div className="featureHeader">
                     <h2 className="featureHeadline">Was wird analysiert?</h2>
-                    <a href="/checkupTest" className="checkInquiryButton" >Test Starten <i className="bi bi-play-circle"></i></a>
+                    <a href="https://tally.so/r/wk4EG1" target="_blank" className="checkInquiryButton" >Test Starten <i className="bi bi-play-circle"></i></a>
                 </div>
                 <div className='featureList'>
                     <p className="featureText">Unser umfassender Website-Check deckt alle wichtigen Bereiche ab, die für den Erfolg deiner Website entscheidend sind.</p>
