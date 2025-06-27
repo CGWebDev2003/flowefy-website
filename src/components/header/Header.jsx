@@ -20,7 +20,7 @@ function Header() {
                     <nav className="headerNav">
                         <a href="/#home" className="headerLink">Home</a>
                         <a href="/#about" className="headerLink">Über uns</a>
-                        <a href="/#checkup" className="headerLink">Check Up</a>
+                        <a href="/checkup" className="headerLink">Check Up</a>
                         <a href="/#service" className="headerLink">Service</a>
                         <a href="/#testimonials" className="headerLink">Bewertungen</a>
                     </nav>
@@ -44,7 +44,7 @@ function Header() {
                 <nav className="sidebarNav">
                     <a href="/#home" className="headerLink">Home</a>
                     <a href="/#about" className="headerLink">Über uns</a>
-                    <a href="/#checkup" className="headerLink">Check Up</a>
+                    <a href="/checkup" className="headerLink">Check Up</a>
                     <a href="/#service" className="headerLink">Service</a>
                     <a href="/#testimonials" className="headerLink">Bewertungen</a>
                 </nav>
