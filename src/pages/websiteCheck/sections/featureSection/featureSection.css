@@ -155,6 +155,7 @@
     }
 
     .checkInquiryButton {
+        justify-content: center;
         width: 9rem;
         margin-top: 2rem;
         padding: .8rem 1rem !important;
