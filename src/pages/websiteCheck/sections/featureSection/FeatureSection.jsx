@@ -6,7 +6,6 @@ function FeatureSection() {
             <div className="featureContent">
                 <div className="featureHeader">
                     <h2 className="featureHeadline">Was wird analysiert?</h2>
-                    <a href="https://tally.so/r/wk4EG1" target="_blank" className="checkInquiryButton" >Test Starten <i className="bi bi-play-circle"></i></a>
                 </div>
                 <div className='featureList'>
                     <p className="featureText">Unser umfassender Website-Check deckt alle wichtigen Bereiche ab, die für den Erfolg deiner Website entscheidend sind.</p>
@@ -50,6 +49,9 @@ function FeatureSection() {
                         <p className="featureCardText">Suchmaschinenoptimierung, Meta-Tags und Ranking-Faktoren für bessere Sichtbarkeit</p>
                         <p className="inclusive"><i className="bi bi-check2-circle"></i> Kostenlos enthalten</p>
                     </div>
+                </div>
+                <div className="processButtonBox">
+                    <a href="https://tally.so/r/wk4EG1" target="_blank" className="checkInquiryButton" >Test Starten <i className="bi bi-play-circle"></i></a>
                 </div>
             </div>
         </div>

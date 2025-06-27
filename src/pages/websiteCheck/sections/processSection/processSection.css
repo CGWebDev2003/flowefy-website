@@ -109,12 +109,14 @@
 
 @media screen and (max-width: 850px) {
 .processHeadline {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
     }
 }
 
 @media screen and (max-width: 450px) {
     .processHeadline {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
     }
 }
