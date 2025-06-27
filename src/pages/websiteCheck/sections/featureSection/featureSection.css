@@ -134,3 +134,26 @@
     color: #79ce7b;
 }
 
+@media screen and (max-width: 800px) {
+    .featureHeadline {
+        font-size: 2rem;
+    }
+
+    .checkInquiryButton {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .featureHeadline {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .checkInquiryButton {
+        width: 9rem;
+        margin-top: 2rem;
+        padding: .5rem 1rem !important;
+        font-size: .9rem !important;
+    }
+}
