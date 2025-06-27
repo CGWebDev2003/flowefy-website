@@ -61,6 +61,8 @@
 
 .checkHeroFeatures {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
 }
@@ -93,4 +95,23 @@
     transition: .3s ease-in-out;
     background-color: var(--primary-hover);
     cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    .topPill {
+        font-size: .8rem;
+    }
+    
+    .checkHeroTitle {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .checkHeroText {
+        font-size: 1.2rem;
+    }
+
+    .checkHeroFeatures {
+        gap: 0.5rem;
+    }
 }
