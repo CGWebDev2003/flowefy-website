@@ -11,7 +11,7 @@ function Footer() {
                         <a className="socialLink" href="https://www.instagram.com/flowefy/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-instagram"></i>
                         </a>
-                        <a className="socialLink" href="https://www.linkedin.com/company/" target="_blank" rel="noopener noreferrer">
+                        <a className="socialLink" href="https://www.linkedin.com/company/flowefy/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-linkedin"></i>
                         </a>
                         <a className="socialLink" href="https://www.behance.net/colingrahm2" target="_blank" rel="noopener noreferrer">
