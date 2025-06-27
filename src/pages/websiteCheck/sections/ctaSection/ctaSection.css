@@ -4,33 +4,55 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4rem;
-    border-radius: 75px 75px 0 0;
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+    background-color: #F7F7F7;
 }
 
 .ctaContent {
     width: 80vw;
     height: 100%;
-    padding: 2rem;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: .5rem;
     overflow: hidden;
-    border-radius: 75px;
-    background-color: var(--accent);
+    border-radius: 35px;
+    background-image: url(../../../../assets/checkup/checkupCTAImage.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .ctaHeadline {
     text-align: center;
-    color: var(--text-color);
-    line-height: 5rem;
+    color: var(--accent);
+    line-height: 4rem;
     font-size: 3.5rem;
-    font-weight: 800;
+    font-weight: 900;
+    font-style: italic;
     font-family: "Poppins", sans-serif;
+    margin-bottom: -1rem !important;
+}
+
+.ctaSubTitle {
+ color: white;
 }
 
 .checkInquiryButtonPrimary {
+    margin-top: 1rem;
+    padding: .8rem 2rem;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--accent);
+    color: white;
+    text-decoration: none;
+}
 
+.checkInquiryButtonPrimary:hover {
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    background-color: var(--accent-hover);
 }

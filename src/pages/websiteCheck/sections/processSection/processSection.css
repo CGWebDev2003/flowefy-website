@@ -4,7 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    background-color: #F7F7F7;
 }
 
 .processContent {
@@ -23,13 +25,13 @@
     height: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .processHeadline {
     font-size: 3rem;
     font-weight: 800;
-    color: var(--text-color);
+    color: #121212;
 }
 
 .checkInquiryButton {
@@ -63,16 +65,24 @@
 .processCard {
     flex: 1 1 300px;
     max-width: calc(100% - 3rem) !important;
-    background-color: #360063;
+    background-color: #FFFFFF;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     transition: transform 0.3s ease;
 }
+.processCardIcon {
+    width: 100%;
+    font-size: 2.5rem;
+    color: #121212;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
 
 .processCardTitle {
-    color: var(--text-color);
-    margin-bottom: 1rem;
+    color: #121212;
+    margin-bottom: .5rem;
     text-align: start;
     width: 80%;
     margin-left: 10%;
@@ -83,7 +93,7 @@
 }
 
 .processCardDescription {
-    color: var(--text-color);
+    color: #121212;
     margin-bottom: 1rem;
     text-align: start;
     width: 80%;
