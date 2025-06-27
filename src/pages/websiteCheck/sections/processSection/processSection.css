@@ -107,13 +107,13 @@
     lang: de;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
 .processHeadline {
         font-size: 2rem;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .processHeadline {
         font-size: 1.5rem;
     }
