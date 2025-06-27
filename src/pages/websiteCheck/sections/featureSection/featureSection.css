@@ -142,6 +142,10 @@
     .checkInquiryButton {
         margin-top: 2rem;
     }
+
+    .featureText {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -153,7 +157,11 @@
     .checkInquiryButton {
         width: 9rem;
         margin-top: 2rem;
-        padding: .5rem 1rem !important;
+        padding: .8rem 1rem !important;
         font-size: .9rem !important;
+    }
+
+    .featureText {
+        font-size: 1.1rem;
     }
 }
