@@ -43,7 +43,7 @@ function ProcessSection() {
                     </div>
                 </div>
                 <div className="processButtonBox">
-                    <a href="https://tally.so/r/wk4EG1" target="_blank" className="checkInquiryButton" >Test Starten <i className="bi bi-play-circle"></i></a>
+                    <a href="https://tally.so/r/wk4EG1" target="_blank" className="checkInquiryButton" >Test Starten <i className="bi bi-arrow-up-right"></i></a>
                 </div>
             </div>
         </div>
