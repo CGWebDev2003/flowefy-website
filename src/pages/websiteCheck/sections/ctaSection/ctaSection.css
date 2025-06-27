@@ -27,6 +27,7 @@
 }
 
 .ctaHeadline {
+    width: 90%;
     text-align: center;
     color: var(--accent);
     line-height: 4rem;
@@ -38,7 +39,9 @@
 }
 
 .ctaSubTitle {
- color: white;
+    width: 90%;
+    text-align: center;
+    color: white;
 }
 
 .checkInquiryButtonPrimary {
@@ -55,4 +58,30 @@
     transition: .3s ease-in-out;
     cursor: pointer;
     background-color: var(--accent-hover);
+}
+
+@media screen and (max-width: 800px) {
+    .ctaHeadline {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+
+    .ctaSubTitle {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .ctaHeadline {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .ctaSubTitle {
+        width: 80%;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
 }
