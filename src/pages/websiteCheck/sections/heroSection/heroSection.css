@@ -14,36 +14,82 @@
     width: 80vw;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
     overflow: hidden;
 }
 
-.checkHeroTitle {
-    padding: 2rem;
-    text-align: start;
-    font-weight: 900;
-    font-size: 7rem;
-    line-height: 7.5rem;
-    font-family: "Poppins", sans-serif;
+.topPill {
+    padding: .5rem 1rem;
+    border-radius: 5rem;
+    background-color: #e3d4ff;
+    font-weight: 600;
     color: var(--primary);
+}
+
+.checkHeroTitle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, rgba(93, 74, 234, 1) 0%, rgba(148, 77, 234, 1) 50%, rgba(93, 74, 234, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-shadow: -15px 15px 25px rgba(0, 0, 0, 0.25);
 }
 
-.gratis {
-    text-decoration: underline;
+
+.checkHeroText {
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #535b69;
+    font-family: "Poppins", sans-serif;
 }
 
-.checklistImage {
-    position: relative;
-    width: 50%;
-    animation: upDown 4s infinite;
-    filter: drop-shadow(-15px 15px 25px rgba(0, 0, 0, 0.4));
+.highlighted {
+    color: var(--primary);
 }
 
-@keyframes upDown {
-    50% {
-        transform: translateY(-1rem);
-    }
+.bold {
+    font-weight: 700;
+}
+
+.checkHeroFeatures {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.checkFeatureIcon {
+    font-size: 1.5rem;
+    color: #79ce7b;
+}
+
+.heroFeature {
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    color: #4f5865;
+}
+
+.checkHeroCTAButton {
+    padding: .8rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--primary);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.checkHeroCTAButton:hover {
+    transition: .3s ease-in-out;
+    background-color: var(--primary-hover);
+    cursor: pointer;
 }
