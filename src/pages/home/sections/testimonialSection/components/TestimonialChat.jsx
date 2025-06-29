@@ -151,7 +151,7 @@ export default function TestimonialChat() {
                                 {answer && (
                                     <div className='answer-box'>
                                         <p className='message-header answer-header '>
-                                            flowefy:
+                                            flowefy.
                                         </p>
                                         <p className='answer-text'>
                                             {answer.answer}
@@ -167,6 +167,9 @@ export default function TestimonialChat() {
                         ))
                     )}
                 </div>
+            </div>
+            <div className="flowefyProductBanner">
+                <p className="flowefyProductBannerText">Ein Produkt von flowefy.</p>
             </div>
         </div>
     );
