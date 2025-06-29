@@ -51,9 +51,9 @@ function Header() {
                 </nav>
                 <div className="sidebarButtonBox">
                     <div className="sidebarSocialButtonBox">
-                        <a href="#" className="sidebarSocialButton"><i className="bi bi-instagram"></i></a>
-                        <a href="#" className="sidebarSocialButton"><i className="bi bi-linkedin"></i></a>
-                        <a href="#" className="sidebarSocialButton"><i className="bi bi-behance"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/flowefy/" className="sidebarSocialButton"><i className="bi bi-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/flowefy/" className="sidebarSocialButton"><i className="bi bi-linkedin"></i></a>
+                        <a target="_blank" href="https://www.behance.net/colingrahm2" className="sidebarSocialButton"><i className="bi bi-behance"></i></a>
                     </div>
                     <a href="/anfragen" className="anfrageButton sidebarInquiryButton">Jetzt anfragen <i className="bi bi-arrow-up-right"></i></a>
                 </div>
