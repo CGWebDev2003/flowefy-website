@@ -51,10 +51,14 @@ export default function TestimonialChat() {
     }, []);
 
     return (
-        <div className="chatBoxElement">
+        <div className='chatBoxElement'>
             <div className='chatBoxHeader'>
-                <img src={flowefyPB} className="flowefyPB" alt="flowefy Profilbild"></img>
-                <span className="chatTitle">Kundenstimmen</span>
+                <img
+                    src={flowefyPB}
+                    className='flowefyPB'
+                    alt='flowefy Profilbild'
+                ></img>
+                <span className='chatTitle'>Kundenstimmen</span>
             </div>
             <div className='chat-container'>
                 <div className='chatMessageBox'>
@@ -101,12 +105,30 @@ export default function TestimonialChat() {
                                                         )}
                                                     {testimonial.rating !==
                                                         null && (
-                                                        <p>
+                                                        <p className='rating-stars'>
                                                             <strong>
                                                                 Bewertung:
                                                             </strong>{" "}
-                                                            {testimonial.rating}{" "}
-                                                            / 5
+                                                            {Array.from(
+                                                                { length: 5 },
+                                                                (_, i) =>
+                                                                    i <
+                                                                    testimonial.rating ? (
+                                                                        <i
+                                                                            key={
+                                                                                i
+                                                                            }
+                                                                            className='bi bi-star-fill'
+                                                                        />
+                                                                    ) : (
+                                                                        <i
+                                                                            key={
+                                                                                i
+                                                                            }
+                                                                            className='bi bi-star'
+                                                                        />
+                                                                    )
+                                                            )}
                                                         </p>
                                                     )}
                                                     {typeof testimonial.recommendation ===
@@ -168,8 +190,10 @@ export default function TestimonialChat() {
                     )}
                 </div>
             </div>
-            <div className="flowefyProductBanner">
-                <p className="flowefyProductBannerText">Ein Produkt von flowefy.</p>
+            <div className='flowefyProductBanner'>
+                <p className='flowefyProductBannerText'>
+                    v1.0.0 | Ein Produkt von flowefy.
+                </p>
             </div>
         </div>
     );

@@ -73,13 +73,20 @@
   background-color: #f9fafb;
   border: 1px solid #d1d5db;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 20;
   width: max-content;
-  max-width: 250px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #111827;
+}
+
+.bi-star-fill {
+    color: var(-accent);
+}
+
+.bi-star {
+    color: var(--text-color);
 }
 
 .hover-name-wrapper:hover .info-panel {
@@ -126,10 +133,13 @@
     height: 2rem;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     border-radius: 0 0 15px 15px;
-    background-color: #dcb1ff;
+    background-color: #FFFFFF;
 }
 
 .flowefyProductBannerText {
-    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: .8rem;
+    color: var(--text-color);
 }
