@@ -10,7 +10,7 @@ function HeroSection() {
 
     return (
         <div className="heroSection" id="home">
-            <span className="topPill"><i className="bi bi-geo-alt-fill"></i> Leipzig  <i className="bi bi-arrow-right"></i>  [🇩🇪🇦🇹🇨🇭 DACH ]</span>
+            <span className="topPill"><i className="bi bi-geo-alt-fill"></i> Leipzig  <i className="bi bi-arrow-right"></i> 🇩🇪🇦🇹🇨🇭 DACH</span>
             <h1 className="heroTitle">Webdesign für<br/>Startups & Macher</h1>
             <p className="heroText">
                 Wir denken uns in eure Marke und eure Kunden hinein – und gestalten Websites, die nicht nur gut aussehen, sondern funktionieren. Kreativ, durchdacht und mit dem Anspruch, echte Qualität abzuliefern.
