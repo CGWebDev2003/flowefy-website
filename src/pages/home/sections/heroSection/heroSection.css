@@ -71,6 +71,7 @@
 }
 
 .heroDownButton {
+    margin-top: 1rem;
   font-size: 1.8rem;
   color: #535b69;
   animation: upDown 10s infinite;
