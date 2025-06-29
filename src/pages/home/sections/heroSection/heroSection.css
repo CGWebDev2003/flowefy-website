@@ -1,216 +1,99 @@
 .heroSection {
     width: 100vw;
-    height: calc(100vh - 11rem);
+    min-height: calc(100vh - 6rem);
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 100;
-    background: linear-gradient(300deg,#b969ff,#8f08ff);
-    background-size: 120% 120%;
-    animation: gradient-animation 12s ease infinite;
+    gap: 1rem;
+    background-color: #F7F7F7;
+    background-image: radial-gradient(rgba(12, 12, 12, 0.1) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    padding: 2rem 0;
 }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.topPill {
+    padding: .5rem 1rem;
+    border-radius: 5rem;
+    background-color: #e3d4ff;
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--primary);
 }
 
-.my-atropos {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.heroTitle {
     text-align: center;
-}
-
-.my-atropos-content {
-  width: 100vw;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.heroAtroposBox {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-}
-
-/* === DEFAULT (Desktop) === */
-.handArrowBox {
-  top: -3rem;
-  background-image: url('../../../../assets/hero/desktop/hero_handdrawn_arrows.webp');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.smallIconBox {
-  top: -1rem;
-  background-image: url('../../../../assets/hero/desktop/hero_icons_small.webp');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.bigIconBox {
-  top: -3rem;
-  background-image: url('../../../../assets/hero/desktop/hero_icons_big.webp');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-
-/* === TABLET (768px – 1023px) === */
-@media screen and (max-width: 1150px) {
-  .handArrowBox {
-    background-image: url('../../../../assets/hero/desktop/hero_handdrawn_arrows.webp');
-  }
-
-  .smallIconBox {
-    background-image: url('../../../../assets/hero/desktop/hero_icons_small.webp');
-  }
-
-  .bigIconBox {
-    background-image: url('../../../../assets/hero/desktop/hero_icons_big.webp');
-  }
-}
-
-
-/* === MOBILE (max-width: 767px) === */
-@media screen and (max-width: 767px) {
-  .handArrowBox {
-    background-image: url('../../../../assets/hero/mobile/hero_handdrawn_arrows.webp');
-  }
-
-  .smallIconBox {
-    background-image: url('../../../../assets/hero/mobile/hero_icons_small.webp');
-  }
-
-  .bigIconBox {
-    background-image: url('../../../../assets/hero/mobile/hero_icons_big.webp');
-  }
-}
-
-
-.handdrawnImage {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    z-index: 0;
-    pointer-events: none;
-}
-
-.heroHeadline {
-    margin-top: 6rem;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 5.5rem;
     font-family: "Poppins", sans-serif;
-    font-size: 8rem;
-    line-height: 7.5rem;
-    color: #ffffff;
+    background: linear-gradient(90deg, rgba(93, 74, 234, 1) 0%, rgba(148, 77, 234, 1) 50%, rgba(93, 74, 234, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: -15px 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+.heroText {
+    width: 60%;
+    font-size: 1.2rem;
     text-align: center;
-}
-
-.heroSubTitle {
-    margin-top: 2rem;
-    font-size: 1.7rem;
-    color: var(--sub-title-color);
-}
-
-.downArrows {
-    position: sticky;
-    margin: 0 auto;  
-    margin-top: 0 !important;
-    width: 3rem;
-    height: 5rem;
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #535b69;
+    font-family: "Poppins", sans-serif;
+}
+
+.heroCTAButton {
+  margin-top: 1rem;
+    padding: .8rem 2rem;
+    font-size: 1rem;
     border: none;
-    background: transparent;
-    animation: downArrowsPulse 5s infinite;
+    border-radius: 12px;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: none;
 }
 
-@keyframes downArrowsPulse {
-  25% {
-    transform: scale(1.1);
-  }
-
-  50% {
-    transform: scale(1);
-  }
-
-  75% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-.downArrows:hover {
+.heroCTAButton:hover {
+    transition: .3s ease-in-out;
+    background-color: var(--primary-hover);
     cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
 }
 
-.downArrow {
-    font-size: 2rem;
-    color: #ffffff;
-    margin-bottom: -1.2rem;
+.heroDownButton {
+  font-size: 1.8rem;
+  color: #535b69;
+  animation: upDown 10s infinite;
 }
 
-@media screen and (max-width: 1150px) {
-  .heroHeadline {
-		font-size: 5rem !important;
-		line-height: 5rem;
-	}
-
-	.heroSubTitle {
-		margin-top: 1rem;
-		font-size: 1.5rem !important;
-	}
-
-	.downArrows {
-		margin-top: 5rem;
-	}
+@keyframes upDown {
+  50% {
+    transform: translateY(1rem);
+  }
 }
 
-@media screen and (max-width: 500px) {
-  .heroHeadline {
-		margin-top: 4rem;
-		font-size: 3.5rem !important;
-		line-height: 3.5rem;
-	}
+@media screen and (max-width: 450px) {
+    .topPill {
+        font-size: .6rem !important;
+    }
+    
+    .heroTitle {
+        font-size: 2.8rem;
+        line-height: 3.3rem;
+    }
 
-	.heroSubTitle {
-		margin-top: 1rem;
-		font-size: 1.2rem !important;
-	}
-
-	.downArrows {
-		margin-top: 1rem;
-	}
+    .heroText {
+        font-size: 1.2rem;
+        width: 80%;
+    }
 }
