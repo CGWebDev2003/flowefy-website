@@ -18,10 +18,7 @@ export default function TestimonialChat() {
                     .order("created_at", { ascending: false });
 
             if (testimonialsError) {
-                console.error(
-                    "Fehler beim Laden der Testimonials:",
-                    testimonialsError
-                );
+                console.error("Fehler beim Laden der Testimonials:", testimonialsError);
                 setLoading(false);
                 return;
             }
@@ -57,7 +54,7 @@ export default function TestimonialChat() {
                     src={flowefyPB}
                     className='flowefyPB'
                     alt='flowefy Profilbild'
-                ></img>
+                />
                 <span className='chatTitle'>Kundenstimmen-Chat 💬</span>
             </div>
             <div className='chat-container'>
@@ -69,131 +66,85 @@ export default function TestimonialChat() {
                     ) : (
                         chatEntries.map(({ testimonial, answer }) => (
                             <div key={testimonial.id} className='chat-entry'>
+                                {/* Antwort zuerst */}
+                                {answer && (
+                                    <div className='answer-box'>
+                                        <p className='message-header answer-header'>
+                                            flowefy.
+                                        </p>
+                                        <p className='answer-text'>{answer.answer}</p>
+                                        <p className='answer-timestamp'>
+                                            {new Date(answer.created_at).toLocaleString()}
+                                        </p>
+                                    </div>
+                                )}
+
+                                {/* Danach Rezension */}
                                 <div className='testimonial-box'>
                                     <p className='message-header'>
                                         <span className='hover-name-wrapper'>
                                             {testimonial.name}
                                             {(testimonial.company ||
                                                 testimonial.role ||
-                                                testimonial.rating ||
-                                                typeof testimonial.recommendation ===
-                                                    "boolean") && (
+                                                testimonial.rating !== null ||
+                                                typeof testimonial.recommendation === "boolean") && (
                                                 <div className='info-panel'>
-                                                    {testimonial.company &&
-                                                        testimonial.company.trim() !==
-                                                            "" && (
-                                                            <p>
-                                                                <strong>
-                                                                    Unternehmen:
-                                                                </strong>{" "}
-                                                                {
-                                                                    testimonial.company
-                                                                }
-                                                            </p>
-                                                        )}
-                                                    {testimonial.role &&
-                                                        testimonial.role.trim() !==
-                                                            "" && (
-                                                            <p>
-                                                                <strong>
-                                                                    Rolle:
-                                                                </strong>{" "}
-                                                                {
-                                                                    testimonial.role
-                                                                }
-                                                            </p>
-                                                        )}
-                                                    {testimonial.rating !==
-                                                        null && (
+                                                    {testimonial.company?.trim() && (
+                                                        <p>
+                                                            <strong>Unternehmen:</strong>{" "}
+                                                            {testimonial.company}
+                                                        </p>
+                                                    )}
+                                                    {testimonial.role?.trim() && (
+                                                        <p>
+                                                            <strong>Rolle:</strong>{" "}
+                                                            {testimonial.role}
+                                                        </p>
+                                                    )}
+                                                    {testimonial.rating !== null && (
                                                         <p className='rating-stars'>
-                                                            <strong>
-                                                                Bewertung:
-                                                            </strong>{" "}
-                                                            {Array.from(
-                                                                { length: 5 },
-                                                                (_, i) =>
-                                                                    i <
-                                                                    testimonial.rating ? (
-                                                                        <i
-                                                                            key={
-                                                                                i
-                                                                            }
-                                                                            className='bi bi-star-fill'
-                                                                        />
-                                                                    ) : (
-                                                                        <i
-                                                                            key={
-                                                                                i
-                                                                            }
-                                                                            className='bi bi-star'
-                                                                        />
-                                                                    )
+                                                            <strong>Bewertung:</strong>{" "}
+                                                            {Array.from({ length: 5 }, (_, i) =>
+                                                                i < testimonial.rating ? (
+                                                                    <i key={i} className='bi bi-star-fill' />
+                                                                ) : (
+                                                                    <i key={i} className='bi bi-star' />
+                                                                )
                                                             )}
                                                         </p>
                                                     )}
-                                                    {typeof testimonial.recommendation ===
-                                                        "boolean" && (
+                                                    {typeof testimonial.recommendation === "boolean" && (
                                                         <p>
-                                                            <strong>
-                                                                Empfehlung:
-                                                            </strong>{" "}
-                                                            {testimonial.recommendation
-                                                                ? "Ja 👍"
-                                                                : "Nein 👎"}
+                                                            <strong>Empfehlung:</strong>{" "}
+                                                            {testimonial.recommendation ? "Ja 👍" : "Nein 👎"}
                                                         </p>
                                                     )}
                                                 </div>
                                             )}
                                         </span>
-
-                                        {testimonial.project_url &&
-                                            testimonial.project_url.trim() !==
-                                                "" && (
-                                                <a
-                                                    className='testimonialURL'
-                                                    href={
-                                                        testimonial.project_url
-                                                    }
-                                                    target='_blank'
-                                                    rel='noopener noreferrer'
-                                                >
-                                                    <i className='bi bi-box-arrow-up-right'></i>
-                                                </a>
-                                            )}
+                                        {testimonial.project_url?.trim() && (
+                                            <a
+                                                className='testimonialURL'
+                                                href={testimonial.project_url}
+                                                target='_blank'
+                                                rel='noopener noreferrer'
+                                            >
+                                                <i className='bi bi-box-arrow-up-right'></i>
+                                            </a>
+                                        )}
                                     </p>
-                                    <p className='testimonial-text'>
-                                        {testimonial.testimonial}
-                                    </p>
+                                    <p className='testimonial-text'>{testimonial.testimonial}</p>
                                     <p className='timestamp'>
-                                        {new Date(
-                                            testimonial.created_at
-                                        ).toLocaleString()}
+                                        {new Date(testimonial.created_at).toLocaleString()}
                                     </p>
                                 </div>
-                                {answer && (
-                                    <div className='answer-box'>
-                                        <p className='message-header answer-header '>
-                                            flowefy.
-                                        </p>
-                                        <p className='answer-text'>
-                                            {answer.answer}
-                                        </p>
-                                        <p className='answer-timestamp'>
-                                            {new Date(
-                                                answer.created_at
-                                            ).toLocaleString()}
-                                        </p>
-                                    </div>
-                                )}
                             </div>
                         ))
                     )}
                 </div>
             </div>
             <div className='flowefyProductBanner'>
-                <p className='flowefyProductBannerText'>
-                    v1.0.0 | Ein Produkt von flowefy.
-                </p>
+                <p className='flowefyProductBannerText'>v1.0.0 | Ein Produkt von flowefy.</p>
             </div>
         </div>
     );

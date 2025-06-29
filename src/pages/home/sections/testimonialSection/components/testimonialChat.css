@@ -46,6 +46,7 @@
     background-size: 120% 120% !important;
     animation: gradient-animation 12s ease infinite;
     border-radius: 3px 16px 16px 16px;
+    margin-top: 0.5rem;
 }
 
 .message-header {
@@ -109,7 +110,6 @@
     background-color: #ba6bff31;
     padding: 0.75rem;
     margin-left: 2rem;
-    margin-top: 0.5rem;
     border-radius: 16px 3px 16px 16px;
 }
 
