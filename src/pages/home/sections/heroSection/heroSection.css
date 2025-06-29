@@ -15,6 +15,7 @@
 }
 
 .topPill {
+    margin-top: 1rem;
     padding: .5rem 1rem;
     border-radius: 5rem;
     background-color: #e3d4ff;
