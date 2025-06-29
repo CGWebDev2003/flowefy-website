@@ -42,16 +42,16 @@ function Header() {
             </header>
             <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
                 <nav className="sidebarNav">
+                    <h3 className="sidebarHeadline">Menü</h3>
                     <a href="/#home" className="headerLink">Home</a>
                     <a href="/#about" className="headerLink">Über uns</a>
                     <a href="/checkup" className="headerLink">Check Up</a>
                     <a href="/#service" className="headerLink">Service</a>
                     <a href="/#testimonials" className="headerLink">Bewertungen</a>
                 </nav>
-                <a href="/anfragen" className="anfrageButton">
-                    Jetzt Anfragen
-                    <i className="bi bi-arrow-up-right"></i>
-                </a>
+                <div className="">
+                    
+                </div>
             </div>
         </div>
     );

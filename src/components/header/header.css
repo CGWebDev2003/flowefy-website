@@ -9,10 +9,6 @@
     justify-content: center;
     background-color: white;
     border-radius: 8px;
-    /*background: transparent !important; 
-    background: linear-gradient(300deg,#b969ff,#8f08ff) !important;
-    background-size: 120% 120% !important;
-    animation: gradient-animation 12s ease infinite;*/
     z-index: 1000000000000000;
 }
 
@@ -56,10 +52,10 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: -4px; /* etwas Abstand zum Text */
+    bottom: -4px;
     width: 0;
     height: 4px;
-    background-color: var(--accent); /* deine Akzentfarbe */
+    background-color: var(--accent);
     transition: width 0.3s ease-in-out;
     border-radius: 5rem;
 }
@@ -162,12 +158,22 @@
     right: -100%;
     height: 100vh;
     width: 250px;
-    background-color: var(--primary);
     display: flex;
     flex-direction: column;
     padding: 2rem;
     transition: right 0.3s ease;
     z-index: 999;
+    background: transparent !important; 
+    background: linear-gradient(300deg,#b969ff,#8f08ff) !important;
+    background-size: 120% 120% !important;
+    animation: gradient-animation 12s ease infinite;
+}
+
+.sidebarHeadline {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-bottom: 1rem;
 }
 
 .sidebar a {
