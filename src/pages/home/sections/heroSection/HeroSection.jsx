@@ -1,6 +1,5 @@
 import "./heroSection.css";
 import 'atropos/css';
-import Atropos from 'atropos/react';
 
 function HeroSection() {
     function scrollToSection() {
