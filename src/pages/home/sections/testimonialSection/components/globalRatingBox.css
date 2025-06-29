@@ -1,0 +1,45 @@
+.globalRatingContent {
+    padding: 3rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 15px;
+}
+
+.globalStars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    margin-bottom: 1rem; 
+}
+
+.ratingStars {
+    font-size: 2.5rem;
+    display: flex;
+    gap: .5rem;
+}
+
+.bi-star-half {
+    color: var(--accent);
+}
+
+.crBadge {
+    height: 6rem;
+}
+
+.recommendPercent {
+    font-weight: 900;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: var(--primary);
+    text-align: center;
+}
+
+.ratingCount {
+    color: var(--text-color);
+}
+
