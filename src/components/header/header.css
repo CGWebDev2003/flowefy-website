@@ -163,7 +163,6 @@
     padding: 2rem;
     transition: right 0.3s ease;
     z-index: 999;
-    background: transparent !important; 
     background: linear-gradient(300deg,#b969ff,#8f08ff) !important;
     background-size: 120% 120% !important;
     animation: gradient-animation 12s ease infinite;
