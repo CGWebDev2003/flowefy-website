@@ -144,7 +144,7 @@ export default function TestimonialChat() {
                 </div>
             </div>
             <div className='flowefyProductBanner'>
-                <p className='flowefyProductBannerText'>v1.0.0 | Ein Produkt von flowefy.</p>
+                <p className='flowefyProductBannerText'>v1.0.1 | Ein Produkt von flowefy.</p>
             </div>
         </div>
     );
