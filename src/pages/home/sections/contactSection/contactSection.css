@@ -1,6 +1,6 @@
 .contactUsSection {
 	width: 100vw;
-	height: 60vh;
+	height: 45vh;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -15,7 +15,9 @@
 	text-align: center;
 	margin-top: 5rem;
 	color: #ffffff !important;
-    text-schadow: 0px 0px 10px var(--primary);
+  text-schadow: 0px 0px 10px var(--primary);
+  font-weight: 900;
+  font-style: italic;
 }
 
 .contactText {
@@ -26,37 +28,18 @@
     text-schadow: 0px 0px 10px var(--primary);
 }	
 
-.contactButtonBox {
-	margin-top: 2rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 1.5rem;
-	color: #ffffff;
-	font-size: 1.2rem;
-	padding: .5rem;
-	border-radius: 50rem;
-	border: 1px solid #cecece;	
-}
-
-.inqButtonContact {
-  margin-top: 1rem;
-}
-
-.inqButtonContact:hover {
-  transition: .4s ease-in-out;
-  cursor: pointer;
-  background-color: var(--accent-hover);
-  animation: pulse 0.5s;
+.contactInqButton {
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 800px) {
   .contactUsSection {
-    height: 85vh;
+    height: 55vh;
   }
 
   .contactTitle {
     font-size: 4rem;
+    line-height: 4.5rem;
   }
   
   .contactUsBox {
@@ -64,19 +47,7 @@
     margin-top: 2rem;
   }
 
-  .contactButtonBox {
-    width: 90%;
-    margin: 2rem 0;
-    flex-direction: column;
-    gap: 0;
-    padding: 1rem !important;
-  }
-
-  .contactButtonBox p {
-    margin-top: 1rem;
-  }
-
   .contactInqButton {
-    margin-top: .5rem;
-  }
+  margin-top: 2rem;
+}
 }
