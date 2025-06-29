@@ -82,7 +82,7 @@
 }
 
 .bi-star-fill {
-    color: var(-accent);
+    color: var(--accent);
 }
 
 .bi-star {
@@ -142,4 +142,20 @@
     margin-right: 1rem;
     font-size: .8rem;
     color: var(--text-color);
+}
+
+@media screen and (max-width: 450px) {
+    .chatBoxElement {
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+
+    .chat-container {
+        width: 90% !important;
+        margin: auto;
+    }
 }

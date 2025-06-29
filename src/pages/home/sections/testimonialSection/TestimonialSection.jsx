@@ -1,4 +1,5 @@
 import TestimonialChat from "./components/TestimonialChat";
+import GlobalRatingBox from "./components/GlobalRatingBox";
 import "./testimonialSection.css";
 
 function TestimonialSection() {
@@ -6,7 +7,12 @@ function TestimonialSection() {
         <div className="testimonialSection" id="testimonials">
             <h1 className="headline testimonialHeadline">Das sagen Kunden</h1>
             <div className="testimonialBox">
-                <TestimonialChat />
+                <div className="customerReviewChat">
+                    <TestimonialChat />
+                </div>
+                <div className="globalRatingBox">
+                    <GlobalRatingBox />
+                </div>
             </div>
         </div>
     );
