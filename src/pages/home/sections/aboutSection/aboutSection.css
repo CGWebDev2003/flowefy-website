@@ -109,11 +109,12 @@
 
   .aboutContent {
     flex-direction: column-reverse;
+    height: auto;
   }
 
   .imageBox {
     width: 90%;
-    height: 30rem;
+    height: 20rem;
     margin-top: 2rem;
   }
 
@@ -150,8 +151,5 @@
 		font-size: 1rem;
 	}
 
-  .imageBox {
-    width: 90%;
-    height: 20rem;
-  }
+  
 }

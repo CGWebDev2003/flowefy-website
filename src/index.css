@@ -12,7 +12,7 @@
   --bg-darker: #ffffff;
   --bg-contrast: #121212;
 
-  --border-color: #cecece;
+  --border-color: #cecece7d;
 
   --text-color: #535b69;
   --text-white: #ffffff;
@@ -36,7 +36,7 @@
     --bg-darker: #121212;
     --bg-contrast: #ffffff;
 
-    --border-color:rgb(32, 32, 32);
+    --border-color: #ccc;
 
     --text-color: #ffffff;
     --text-color-reverse: #121212;
