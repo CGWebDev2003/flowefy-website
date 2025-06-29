@@ -31,10 +31,6 @@ function ServiceSection() {
                                 </div>
                             </div>
                         </div>
-                        <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
-                            Anfragen
-                            <i className="bi bi-arrow-up-right"></i>
-                        </a>
                     </div>
                 </Atropos>
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
@@ -55,10 +51,6 @@ function ServiceSection() {
                                 </div>
                             </div>
                         </div>
-                        <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
-                            Anfragen
-                            <i className="bi bi-arrow-up-right"></i>
-                        </a>
                     </div>
                 </Atropos>
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
@@ -79,10 +71,6 @@ function ServiceSection() {
                                 </div>
                             </div>
                         </div>
-                        <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
-                            Anfragen
-                            <i className="bi bi-arrow-up-right"></i>
-                        </a>
                     </div>
                 </Atropos>
                 <Atropos shadow={false} activeOffset={30} stretchZ={100} className="service-atropos">
@@ -103,10 +91,6 @@ function ServiceSection() {
                             </div>
                         </div>
                         </div>
-                        <a href="/anfragen" className="anfrageButton atropos-layer" data-atropos-offset="2">
-                            Anfragen
-                            <i className="bi bi-arrow-up-right"></i>
-                        </a>
                     </div>
                 </Atropos>
             </div>
@@ -134,9 +118,6 @@ function ServiceSection() {
                                         <i className="bi bi-check-circle"></i> SEO-Basics <br/>
                                     </div>
                                 </div>
-                                <div className="inqButtonBox">
-                                    <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
-                                </div>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -158,9 +139,6 @@ function ServiceSection() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="inqButtonBox">
-                                <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
-                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiperSlide">
@@ -180,9 +158,6 @@ function ServiceSection() {
                                         <i className="bi bi-check-circle"></i> SEO-Basics <br/>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="inqButtonBox">
-                                <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -204,9 +179,6 @@ function ServiceSection() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="inqButtonBox">
-                                <button type="button" className="inqButton" onClick={openInquiry}>Anfragen <i className="bi bi-arrow-up-right"></i></button>
-                            </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
@@ -216,8 +188,11 @@ function ServiceSection() {
                 Swipen
                 <i className="bi bi-chevron-double-right"></i>
             </span>
-            <div className="moreServiceBox">
-                
+            <div className="serviceButtonBox">
+                <a href="/anfragen" className="anfrageButton serviceAnfrageButton" data-atropos-offset="2">
+                            Anfragen
+                            <i className="bi bi-arrow-up-right"></i>
+                        </a>
             </div>
         </div>
     );

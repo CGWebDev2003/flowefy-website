@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     background-color: var(--bg-color);
+    padding-top: 8rem;
+    padding-bottom: 3rem;
 }
 
 .checkupInner {

@@ -8,11 +8,11 @@ function TestimonialSection() {
                 <div href="https://www.ratedo.de/profil/colin-grahm-media" target="_blank" className="testimonial">
                     <div className="testimonialTextBox">
                         <p className="testimonialText">
-                            "Unsere Erwartungen wurden weit übertroffen. Top Design, top Fachkenntnisse und super Service. Unsere Webseite wurde perfekt überarbeitet. Wir können Flowefy nur empfehlen!"
+                            "Vom ersten Gespräch bis zur finalen Umsetzung lief alles reibungslos und professionell. Unsere Wünsche wurden verstanden, kreativ umgesetzt und termingerecht realisiert. Absolute Empfehlung – wir sind sehr zufrieden!"
                         </p>
                     </div>
                     <div className="testimonialAuthorBox">
-                        <span className="authorPosition">KNS Beschichtung</span>
+                        <span className="authorPosition">Dachdeckerfachbetrieb Kaiser</span>
                     </div>
                 </div>
                 <div href="https://www.ratedo.de/profil/colin-grahm-media" target="_blank" className="testimonial">

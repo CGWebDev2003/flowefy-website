@@ -36,7 +36,7 @@ function CheckupSection() {
                         </p>
                     </div>
                     <a className='checkupButton' href='/checkup'>
-                        Testen Lassen <i className='bi bi-arrow-up-right'></i>
+                        Test Starten <i className='bi bi-arrow-up-right'></i>
                     </a>
                 </div>
             </div>
