@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import Anfragen from './pages/anfragen/Anfragen';
 import WebsiteCheck from './pages/websiteCheck/WebsiteCheck';
+import Bewerten from './pages/bewerten/Bewerten';
 import Impressum from './pages/impressum/Impressum';
 import Datenschutz from './pages/datenschutz/Datenschutz';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} /> 
         <Route path="/anfragen" element={<Anfragen />} />
         <Route path="/checkup" element={<WebsiteCheck />} />
+        <Route path="/bewerten" element={<Bewerten />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
       </Routes>

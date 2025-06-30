@@ -36,6 +36,9 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
 }
 
 ::selection {

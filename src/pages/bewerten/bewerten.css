@@ -1,0 +1,9 @@
+.bewertenSection {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw !important;
+    overflow: hidden !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
