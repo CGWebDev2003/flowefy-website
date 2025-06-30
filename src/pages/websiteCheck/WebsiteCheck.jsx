@@ -1,7 +1,5 @@
 import { useEffect } from "react";
 import emailjs from "@emailjs/browser";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import CheckHeroSection from "./sections/heroSection/HeroSection";
 import FeatureSection from "./sections/featureSection/FeatureSection";
 import ProcessSection from "./sections/processSection/ProcessSection";
@@ -23,7 +21,7 @@ function WebsiteCheck() {
             try {
                 await emailjs.sendForm(
                     "service_1faxzhf",
-                    "template_6ncuh1i", // dein Template
+                    "template_6ncuh1i",
                     form,
                     "pI_Fi-QXsToZikOzI"
                 );
@@ -47,14 +45,12 @@ function WebsiteCheck() {
 
     return (
         <>
-            <Header />
             <main>
                 <CheckHeroSection />
                 <FeatureSection />
                 <ProcessSection />
                 <CTASection />
             </main>
-            <Footer />
         </>
     );
 }

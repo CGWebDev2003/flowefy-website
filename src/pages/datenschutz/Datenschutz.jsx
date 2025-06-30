@@ -1,11 +1,8 @@
 import "./datenschutz.css";
-import Header from "../../components/header/Header.jsx";
-import Footer from "../../components/footer/Footer.jsx";
 
 function Datenschutz() {
     return (
         <>
-            <Header />
              <div className="mainContainerDatenschutz">
                 <div className="datenschutzBox">
                     <div className="datenschutzContent">
@@ -81,7 +78,6 @@ function Datenschutz() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import "./home.css";
-import Header from "../../components/header/Header";
 import HeroSection from "./sections/heroSection/HeroSection";
 import BannerSection from "./sections/bannerSection/BannerSection";
 import AboutSection from "./sections/aboutSection/AboutSection";
@@ -8,7 +7,6 @@ import CheckupSection from "./sections/checkupSection/CheckupSection";
 import ServiceSection from "./sections/serviceSection/ServiceSection";
 import TestimonialSection from "./sections/testimonialSection/TestimonialSection";
 import ContactSection from "./sections/contactSection/ContactSection";
-import Footer from "../../components/footer/Footer";
 
 function Home() {
     useEffect(() => {
@@ -25,7 +23,6 @@ function Home() {
 
     return (
         <>
-            <Header></Header>
             <main>
                 <div className="mainContent">
                     <HeroSection />
@@ -37,7 +34,6 @@ function Home() {
                     <ContactSection />
                 </div>
             </main>
-            <Footer />
         </>
     );
 }
