@@ -21,13 +21,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
 }
 
 .col1 {
-    width: 30%;
+    width: 20%;
     gap: 0.5rem;
+    justify-content: center !important;
 }
 
 .flowefyLogo {
@@ -53,8 +54,9 @@
 }
 
 .col2,
-.col3 {
-    width: 30%;
+.col3,
+.col4 {
+    width: 20%;
     gap: 1rem;
     display: flex;
     flex-direction: column;

@@ -66,7 +66,6 @@ export default function TestimonialChat() {
                     ) : (
                         chatEntries.map(({ testimonial, answer }) => (
                             <div key={testimonial.id} className='chat-entry'>
-                                {/* Antwort zuerst */}
                                 {answer && (
                                     <div className='answer-box'>
                                         <p className='message-header answer-header'>
@@ -78,8 +77,6 @@ export default function TestimonialChat() {
                                         </p>
                                     </div>
                                 )}
-
-                                {/* Danach Rezension */}
                                 <div className='testimonial-box'>
                                     <p className='message-header'>
                                         <span className='hover-name-wrapper'>

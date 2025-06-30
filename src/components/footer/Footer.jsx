@@ -24,18 +24,22 @@ function Footer() {
                         alt="Made in Germany Logo"
                     />
                 </div>
-
                 <div className="col col2">
                     <div className="footerNavigation">
                         <h2 className="footerColTitle">Links</h2>
                         <a className="footerLink" href="/#home">Home</a>
                         <a className="footerLink" href="/#about">Über uns</a>
-                        <a className="footerLink" href="/checkup">Check Up</a>
                         <a className="footerLink" href="/#service">Service</a>
                         <a className="footerLink" href="/#testimonials">Bewertungen</a>
                     </div>
                 </div>
-
+                <div className="col col4">
+                    <div className="footerNavigation">
+                        <h2 className="footerColTitle">Für Kunden</h2>
+                        <a className="footerLink" href="/checkup">Website Check</a>
+                        <a className="footerLink" href="/bewerten">flowefy. Bewerten</a>
+                    </div>
+                </div>
                 <div className="col col3">
                     <div className="footerNavigation">
                         <h2 className="footerColTitle">Kontakt</h2>
