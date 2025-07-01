@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
+import Produkte from './pages/produkte/Produkte';
 import Anfragen from './pages/anfragen/Anfragen';
 import WebsiteCheck from './pages/websiteCheck/WebsiteCheck';
 import Bewerten from './pages/bewerten/Bewerten';
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} /> 
+        <Route path="/produkte" element={<Produkte />} /> 
         <Route path="/anfragen" element={<Anfragen />} />
         <Route path="/checkup" element={<WebsiteCheck />} />
         <Route path="/bewerten" element={<Bewerten />} />

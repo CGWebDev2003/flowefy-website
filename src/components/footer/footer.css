@@ -123,8 +123,9 @@
 
     .col1,
     .col2,
-    .col3 {
-        width: 100%;
+    .col3,
+    .col4 {
+        width: 100% !important;
         align-items: center;
         text-align: center;
     }
