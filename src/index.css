@@ -36,6 +36,9 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
 }
 
 ::selection {
@@ -53,7 +56,7 @@ body {
 }
 
 .bigTitle {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif; 
   font-size: 5rem;
   color: #ffffff;
   font-weight: 700;
