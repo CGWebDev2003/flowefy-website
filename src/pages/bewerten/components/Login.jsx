@@ -9,7 +9,13 @@ export default function Login() {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        const { error } = await supabase.auth.signInWithOtp({ email });
+
+        const { error } = await supabase.auth.signInWithOtp({
+            email,
+            options: {
+                emailRedirectTo: "https://flowefy.de/bewerten", 
+            },
+        });
 
         if (error) {
             setError(error.message);
