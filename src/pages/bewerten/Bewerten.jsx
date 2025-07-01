@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { supabase } from "../../supabaseClient";
+import Login from "./components/Login";
 import "./bewerten.css";
 
 function Bewerten() {
@@ -16,6 +17,17 @@ function Bewerten() {
     const [loading, setLoading] = useState(false);
     const [submitted, setSubmitted] = useState(false);
     const [error, setError] = useState("");
+    const [user, setUser] = useState(null);
+
+    useEffect(() => {
+        const checkUser = async () => {
+            const { data, error } = await supabase.auth.getUser();
+            if (data?.user) {
+                setUser(data.user);
+            }
+        };
+        checkUser();
+    }, []);
 
     const verifyProject = async () => {
         setLoading(true);
@@ -64,7 +76,9 @@ function Bewerten() {
         <div className="bewertenSection">
             <h1>Projekt bewerten</h1>
 
-            {!isVerified && !submitted && (
+            {!user ? (
+                <Login />
+            ) : !isVerified && !submitted ? (
                 <div className="verifyProjectBox">
                     <p>Bitte gib deine Projekt-ID ein:</p>
                     <input
@@ -78,9 +92,7 @@ function Bewerten() {
                     </button>
                     {error && <p className="errorText">{error}</p>}
                 </div>
-            )}
-
-            {isVerified && !submitted && (
+            ) : !submitted ? (
                 <form className="testimonialForm" onSubmit={handleSubmit}>
                     <input
                         type="text"
@@ -139,9 +151,7 @@ function Bewerten() {
                     </button>
                     {error && <p className="errorText">{error}</p>}
                 </form>
-            )}
-
-            {submitted && (
+            ) : (
                 <div className="successMessage">
                     <h2>Vielen Dank für dein Feedback!</h2>
                     <p>Deine Bewertung wurde erfolgreich übermittelt.</p>
