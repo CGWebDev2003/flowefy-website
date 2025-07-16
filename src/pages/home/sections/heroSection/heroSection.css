@@ -1,6 +1,6 @@
 .heroSection {
     width: 100vw;
-    min-height: calc(100vh - 6rem);
+    min-height: 100vh;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -71,31 +71,50 @@
     cursor: pointer;
 }
 
-.heroDownButton {
-    margin-top: 1rem;
-  font-size: 1.8rem;
-  color: #535b69;
-  animation: upDown 10s infinite;
-}
-
 @keyframes upDown {
   50% {
     transform: translateY(1rem);
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 850px) {
+    .heroTitle {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .heroTitle {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .heroTitle {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        width: 90%;
+    }
+
+    .heroText {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .topPill {
         font-size: .6rem !important;
     }
     
     .heroTitle {
-        font-size: 2.8rem;
-        line-height: 3.3rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
     }
 
     .heroText {
-        font-size: 1.2rem;
+        font-size: 1rem;
         width: 80%;
     }
 }

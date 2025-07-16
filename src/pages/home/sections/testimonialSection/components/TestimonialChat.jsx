@@ -55,7 +55,7 @@ export default function TestimonialChat() {
                     className='flowefyPB'
                     alt='flowefy Profilbild'
                 />
-                <span className='chatTitle'>Kundenstimmen-Chat 💬</span>
+                <span className='chatTitle'>💬 Kundenstimmen-Chat</span>
             </div>
             <div className='chat-container'>
                 <div className='chatMessageBox'>
