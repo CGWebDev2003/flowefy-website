@@ -37,7 +37,6 @@ function Footer() {
                     <div className="footerNavigation">
                         <h2 className="footerColTitle">Für Kunden</h2>
                         <a className="footerLink" href="/checkup">Website Check</a>
-                        <a className="footerLink" href="/bewerten">flowefy. Bewerten</a>
                     </div>
                 </div>
                 <div className="col col3">
