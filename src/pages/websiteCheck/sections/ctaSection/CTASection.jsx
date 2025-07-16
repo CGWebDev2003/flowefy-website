@@ -5,7 +5,7 @@ function CTASection() {
         <div className="ctaSection">
             <div className="ctaContent">
                 <h1 className="ctaHeadline">
-                    Bereit für einen ehrlichen Blick auf deine Website?
+                    Bereit für einen Blick auf deine Website?
                 </h1>
                 <h2 className="ctaSubTitle">
                     100% unverbindlich – keine versteckten Kosten
