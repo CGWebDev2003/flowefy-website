@@ -1,6 +1,6 @@
 .heroSection {
     width: 100vw;
-    min-height: calc(100vh - 6rem);
+    min-height: 100vh;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -69,13 +69,6 @@
     transition: .3s ease-in-out;
     background-color: var(--primary-hover);
     cursor: pointer;
-}
-
-.heroDownButton {
-    margin-top: 1rem;
-  font-size: 1.8rem;
-  color: #535b69;
-  animation: upDown 10s infinite;
 }
 
 @keyframes upDown {

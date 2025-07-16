@@ -17,7 +17,6 @@ function HeroSection() {
                 <span className="highlighted bold">Schnell. Individuell. Bezahlbar.</span>
             </p>
             <a href="#service" target="_blank" className="heroCTAButton" type="button">Usere Produkte <i className="bi bi-arrow-down"></i></a>
-            <a href="#banner-section" className="heroDownButton"><i class="bi bi-mouse"></i></a>
         </div>
     );
 }
