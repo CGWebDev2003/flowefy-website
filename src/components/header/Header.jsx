@@ -18,11 +18,11 @@ function Header() {
                 </div>
                 <div className="linkBox">
                     <nav className="headerNav">
-                        <a href="/#home" className="headerLink">Home</a>
-                        <a href="/#about" className="headerLink">Über uns</a>
-                        <a href="/checkup" className="headerLink">Check Up</a>
-                        <a href="/#service" className="headerLink">Service</a>
-                        <a href="/#testimonials" className="headerLink">Bewertungen</a>
+                        <a href="/#home" className="headerLink" aria-label="Gehe zur Home-Seite">Home</a>
+                        <a href="/#about" className="headerLink" aria-label="Gehe zu Über uns-Seite">Über uns</a>
+                        <a href="/checkup" className="headerLink" aria-label="Gehe zur Webseiten-Checkup-Seite">Check Up</a>
+                        <a href="/#service" className="headerLink" aria-label="Gehe zu Service">Service</a>
+                        <a href="/#testimonials" className="headerLink" aria-label="Gehe zu bewertungen">Bewertungen</a>
                     </nav>
                 </div>
                 <div className="buttonBox">
@@ -43,17 +43,17 @@ function Header() {
             <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
                 <nav className="sidebarNav">
                     <h1 className="sidebarHeadline">Menü</h1>
-                    <a href="/#home" className="headerLink">Home</a>
-                    <a href="/#about" className="headerLink">Über uns</a>
-                    <a href="/checkup" className="headerLink">Check Up</a>
-                    <a href="/#service" className="headerLink">Service</a>
-                    <a href="/#testimonials" className="headerLink">Bewertungen</a>
+                    <a href="/#home" className="headerLink" aria-label="Gehe zu Home-Seite">Home</a>
+                    <a href="/#about" className="headerLink" aria-label="Gehe zu Über uns-Seite">Über uns</a>
+                    <a href="/checkup" className="headerLink" aria-label="Gehe zur Webseiten-Checkup-Seite">Check Up</a>
+                    <a href="/#service" className="headerLink" aria-label="Gehe zu Service">Service</a>
+                    <a href="/#testimonials" className="headerLink" aria-label="Gehe zu bewertungen">Bewertungen</a>
                 </nav>
                 <div className="sidebarButtonBox">
                     <div className="sidebarSocialButtonBox">
-                        <a target="_blank" href="https://www.instagram.com/flowefy/" className="sidebarSocialButton"><i className="bi bi-instagram"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/company/flowefy/" className="sidebarSocialButton"><i className="bi bi-linkedin"></i></a>
-                        <a target="_blank" href="https://www.behance.net/colingrahm2" className="sidebarSocialButton"><i className="bi bi-behance"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/flowefy/" className="sidebarSocialButton" aria-label="Gehe zum Instagram Profil"><i className="bi bi-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/flowefy/" className="sidebarSocialButton" aria-label="Gehe zum LinkedIn Profil"><i className="bi bi-linkedin"></i></a>
+                        <a target="_blank" href="https://www.behance.net/colingrahm2" className="sidebarSocialButton" aria-label="Gehe zum Behance-Profil"><i className="bi bi-behance"></i></a>
                     </div>
                     <a href="/anfragen" className="anfrageButton sidebarInquiryButton">Jetzt anfragen <i className="bi bi-arrow-up-right"></i></a>
                 </div>
