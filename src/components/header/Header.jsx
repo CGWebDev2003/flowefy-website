@@ -42,7 +42,7 @@ function Header() {
             </header>
             <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
                 <nav className="sidebarNav">
-                    <h3 className="sidebarHeadline">Menü</h3>
+                    <h1 className="sidebarHeadline">Menü</h1>
                     <a href="/#home" className="headerLink">Home</a>
                     <a href="/#about" className="headerLink">Über uns</a>
                     <a href="/checkup" className="headerLink">Check Up</a>
