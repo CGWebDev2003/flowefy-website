@@ -34,7 +34,11 @@
 
 @media screen and (max-width: 800px) {
   .contactUsSection {
+<<<<<<< Updated upstream
     height: 55vh;
+=======
+    height: 70vh;
+>>>>>>> Stashed changes
   }
 
   .contactTitle {
