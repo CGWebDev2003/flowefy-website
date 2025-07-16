@@ -19,16 +19,13 @@
     gap: .5rem;
     overflow: hidden;
     border-radius: 35px;
-    background-image: url(../../../../assets/checkup/checkupCTAImage.webp);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-color: var(--primary);
 }
 
 .ctaHeadline {
     width: 90%;
     text-align: center;
-    color: var(--accent);
+    color: white;
     line-height: 4rem;
     font-size: 3.5rem;
     font-weight: 900;

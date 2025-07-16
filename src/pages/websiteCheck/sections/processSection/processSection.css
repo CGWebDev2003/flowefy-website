@@ -74,14 +74,14 @@
 .processCardIcon {
     width: 100%;
     font-size: 2.5rem;
-    color: #121212;
+    color: var(--sub-title-color);
     display: flex;
     justify-content: center;
     margin-bottom: .5rem;
 }
 
 .processCardTitle {
-    color: #121212;
+    color: var(--sub-title-color);
     margin-bottom: .5rem;
     text-align: start;
     width: 80%;
