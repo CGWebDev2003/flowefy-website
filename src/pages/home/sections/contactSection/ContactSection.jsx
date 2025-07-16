@@ -12,7 +12,7 @@ function ContactSection() {
                 <p className="contactText">
                     Ganz einfach eine Nachricht schreiben und wir melden uns bei dir!
                 </p>
-                <a href="/anfragen" className="inqButton contactInqButton">Jetzt Anfragen <i className="bi bi-arrow-up-right"></i></a>
+                <a href="/anfragen" className="inqButton contactInqButton" aria-label="Webseite Anfragen">Jetzt Anfragen <i className="bi bi-arrow-up-right"></i></a>
             </div>
         </div>
     );

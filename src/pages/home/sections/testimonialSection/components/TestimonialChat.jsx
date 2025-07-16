@@ -125,6 +125,7 @@ export default function TestimonialChat() {
                                                 href={testimonial.project_url}
                                                 target='_blank'
                                                 rel='noopener noreferrer'
+                                                aria-label="Gehe zu Projektwebseite"
                                             >
                                                 <i className='bi bi-box-arrow-up-right'></i>
                                             </a>

@@ -189,7 +189,7 @@ function ServiceSection() {
                 <i className="bi bi-chevron-double-right"></i>
             </span>
             <div className="serviceButtonBox">
-                <a href="/anfragen" className="anfrageButton serviceAnfrageButton" data-atropos-offset="2">
+                <a href="/anfragen" className="anfrageButton serviceAnfrageButton" data-atropos-offset="2"  aria-label="Webseite Anfragen">
                             Anfragen
                             <i className="bi bi-arrow-up-right"></i>
                         </a>

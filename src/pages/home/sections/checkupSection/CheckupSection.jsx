@@ -35,7 +35,7 @@ function CheckupSection() {
                             SEO
                         </p>
                     </div>
-                    <a className='checkupButton' href='/checkup'>
+                    <a className='checkupButton' href='/checkup aria-label="Webseite Anfragen"'>
                         Test Starten <i className='bi bi-arrow-up-right'></i>
                     </a>
                 </div>

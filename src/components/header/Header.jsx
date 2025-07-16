@@ -55,7 +55,7 @@ function Header() {
                         <a target="_blank" href="https://www.linkedin.com/company/flowefy/" className="sidebarSocialButton" aria-label="Gehe zum LinkedIn Profil"><i className="bi bi-linkedin"></i></a>
                         <a target="_blank" href="https://www.behance.net/colingrahm2" className="sidebarSocialButton" aria-label="Gehe zum Behance-Profil"><i className="bi bi-behance"></i></a>
                     </div>
-                    <a href="/anfragen" className="anfrageButton sidebarInquiryButton">Jetzt anfragen <i className="bi bi-arrow-up-right"></i></a>
+                    <a href="/anfragen" className="anfrageButton sidebarInquiryButton" aria-label="Webseite anfragen">Jetzt anfragen <i className="bi bi-arrow-up-right"></i></a>
                 </div>
             </div>
         </div>
