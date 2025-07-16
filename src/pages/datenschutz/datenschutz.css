@@ -29,7 +29,7 @@
 
 .datenschutzTitle {
     font-family: "Poppins", sans-serif;
-    color: var(--title-color);
+    color: #121212;
     text-align: center;
 }
 
@@ -37,6 +37,7 @@
     color: var(--sub-title-color);
     margin-bottom: 2rem;
     font-family: "Poppins", sans-serif;
+    text-align: justify;
 }
 
 .datenschutzDescription {
