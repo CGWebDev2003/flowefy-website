@@ -34,6 +34,7 @@ function Header() {
                         type="button"
                         className={`menuButton ${isOpen ? "open" : ""}`}
                         onClick={toggleMenu}
+                        aria-label="Menü öffnen"
                     >
                         <span></span>
                         <span></span>
