@@ -1,0 +1,17 @@
+# flowefy. | llms.txt
+# Richtlinie zur Nutzung durch generative Sprachmodelle (LLMs)
+# Version: 1.0 – Stand Juli 2025
+# Diese Datei definiert die Bedingungen, unter denen KI-Systeme Inhalte von flowefy.de nutzen dürfen.
+
+User-Agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /intern/
+Disallow: /hub/
+Usage-Policy: summary-allowed
+Commercial-Use: disallowed
+Training-Use: disallowed
+Attribution: required
+Contact: legal@flowefy.de
+License: https://flowefy.de/content-usage-policy
+Updated: 2025-07-21

@@ -11,6 +11,7 @@ import Testen from './pages/websiteCheck/subpages/Testen';
 import Bewerten from './pages/bewerten/Bewerten';
 import Impressum from './pages/impressum/Impressum';
 import Datenschutz from './pages/datenschutz/Datenschutz';
+import ContentUsagePolicy from './pages/contentUsagePolicy/ContentUsagePolicy';
 import './App.css';
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path="/bewerten" element={<Bewerten />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
+        <Route path="/content-usage-policy" element={<ContentUsagePolicy />} />
       </Routes>
       <Footer />
       <SpeedInsights />

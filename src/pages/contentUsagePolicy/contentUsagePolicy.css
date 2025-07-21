@@ -1,0 +1,27 @@
+.contentUsagePolicy {
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contentUsagePolicyBox {
+    margin-top: 6rem;
+    width: calc(100vw - 10rem);
+    height: auto;
+    padding: 6rem 3rem;
+    background-color: white;
+    border-radius: 15px;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+.contentUsagePolicyBox h1 {
+    font-family: "Poppins", sans-serif; 
+}
+
+.contentUsagePolicyBox a {
+    color: var(--primary);
+}
