@@ -38,6 +38,7 @@ function Footer() {
                         <h2 className="footerColTitle">Für Kunden</h2>
                         <a className="footerLink" href="/checkup" aria-label="Gehe zu Webseiten-Checkup">Website Check</a>
                         <a className="footerLink" href="/freelancer" aria-label="Gehe zu Webseiten-Checkup">Freelancer</a>
+                        <a className="footerLink" href="https://tally.so/r/nPZNVx" target="_blank" aria-label="flowefy bewerten">flowefy. bewerten</a>
                     </div>
                 </div>
                 <div className="col col3">
