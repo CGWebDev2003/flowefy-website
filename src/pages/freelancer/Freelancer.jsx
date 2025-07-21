@@ -9,8 +9,8 @@ export default function Freelancer() {
         <div>
             <FreelancerHeroSection />
             <FreelancerServiceSection />
-            <TechStackSection />
             <AdvantageSection />
+            <TechStackSection />
         </div>
     )
 }
