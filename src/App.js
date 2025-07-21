@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import Anfragen from './pages/anfragen/Anfragen';
 import WebsiteCheck from './pages/websiteCheck/WebsiteCheck';
+import Freelancer from './pages/freelancer/Freelancer';
 import Testen from './pages/websiteCheck/subpages/Testen';
 import Bewerten from './pages/bewerten/Bewerten';
 import Impressum from './pages/impressum/Impressum';
@@ -41,6 +42,7 @@ function App() {
         <Route path="/anfragen" element={<Anfragen />} />
         <Route path="/checkup" element={<WebsiteCheck />} />
         <Route path="/checkup/testen" element={<Testen />} />
+        <Route path="/freelancer" element={<Freelancer />} />
         <Route path="/bewerten" element={<Bewerten />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />

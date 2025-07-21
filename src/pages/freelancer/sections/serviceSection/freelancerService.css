@@ -1,0 +1,22 @@
+.freelanceServiceSection {
+    width: 100vw;
+    height: auto;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+}
+
+.freelanceCardTitle {
+    color: var(--primary);
+}
+
+.featureCTABox {
+    border-left: 4px solid var(--primary);
+    padding-left: .5rem;
+}
+
+.featureCTA {
+    color: var(--primary);
+}

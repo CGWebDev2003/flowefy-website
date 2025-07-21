@@ -37,6 +37,7 @@ function Footer() {
                     <div className="footerNavigation">
                         <h2 className="footerColTitle">Für Kunden</h2>
                         <a className="footerLink" href="/checkup" aria-label="Gehe zu Webseiten-Checkup">Website Check</a>
+                        <a className="footerLink" href="/freelancer" aria-label="Gehe zu Webseiten-Checkup">Freelancer</a>
                     </div>
                 </div>
                 <div className="col col3">
