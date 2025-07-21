@@ -161,6 +161,10 @@
         line-height: 2.5rem;
     }
 
+    .featureCard {
+        width: 300px !important;
+    }
+
     .checkInquiryButton {
         justify-content: center;
         width: 9rem;

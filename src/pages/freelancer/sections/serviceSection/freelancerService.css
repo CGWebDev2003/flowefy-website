@@ -3,9 +3,33 @@
     height: auto;
     background-color: var(--bg-color);
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 6rem 0;
+}
+
+.freelancerServiceContent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureList {
+    width: 100%;
+}
+
+.freelanceServiceCard {
+    width: 27%;
+    min-width: 17rem !important;
+    background-color: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .freelanceCardTitle {

@@ -1,0 +1,36 @@
+.advantageSection {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+    background-color: var(--bg-color);
+}
+
+.advantageText {
+    width: 80%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--primary);
+}
+
+.advantageQualities {
+    color: #121212;
+    background-color: var(--accent);
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .advantageText {
+        width: 90%;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .advantageText {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+}
