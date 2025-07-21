@@ -31,7 +31,7 @@ export default function FreelancerServiceSection() {
                     </div>
                 </div>
                 <div className="processButtonBox">
-                    <a href="/book-freelancer" className="checkInquiryButton" >Jetzt Buchen <i className="bi bi-arrow-up-right"></i></a>
+                    <a href="https://tally.so/r/m66Y6O" target="_blank" className="checkInquiryButton" >Jetzt Buchen <i className="bi bi-arrow-up-right"></i></a>
                 </div>
             </div>
         </div>
