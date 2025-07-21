@@ -87,6 +87,7 @@
     .heroTitle {
         font-size: 4rem;
         line-height: 4.5rem;
+        height: auto !important;
     }
 }
 
