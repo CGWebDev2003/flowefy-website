@@ -26,6 +26,13 @@ function Footer() {
                 </div>
                 <div className="col col2">
                     <div className="footerNavigation">
+                        <h2 className="footerColTitle">Kontakt</h2>
+                        <a className="footerLink" href="mailto:hey@flowefy.de" aria-label="Schreieb eine Email an flowefy">hey<i className="bi bi-at"></i>flowefy.de</a>
+                        <a className="footerLink" href="https://wa.me/4917624693418" target="_blank" aria-label="WhatsApp schreiben"><i className="bi bi-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+                <div className="col col3">
+                    <div className="footerNavigation">
                         <h2 className="footerColTitle">Links</h2>
                         <a className="footerLink" href="/#home" aria-label="Gehe zu Home-Seite">Home</a>
                         <a className="footerLink" href="/#about" aria-label="Gehe zu Über uns Seite">Über uns</a>
@@ -41,19 +48,12 @@ function Footer() {
                         <a className="footerLink" href="https://tally.so/r/nPZNVx" target="_blank" aria-label="flowefy bewerten">flowefy. bewerten</a>
                     </div>
                 </div>
-                <div className="col col3">
+                <div className="col col5">
                     <div className="footerNavigation">
                         <h2 className="footerColTitle">Legal Links</h2>
                         <a className="footerLink" href="/impressum" aria-label="Gehe zu Impressum">Impressum</a>
                         <a className="footerLink" href="/datenschutz" aria-label="Gehe zu Datenschutz">Datenschutz</a>
                         <a className="footerLink" href="/content-usage-policy" aria-label="Gehe zu Content Usage Policy">Content Usage Policy</a>
-                    </div>
-                </div>
-                <div className="col col3">
-                    <div className="footerNavigation">
-                        <h2 className="footerColTitle">Kontakt</h2>
-                        <a className="footerLink" href="mailto:hey@flowefy.de" aria-label="Schreieb eine Email an flowefy">hey<i className="bi bi-at"></i>flowefy.de</a>
-                        <a className="footerLink" href="https://wa.me/4917624693418" target="_blank" aria-label="WhatsApp schreiben"><i className="bi bi-whatsapp"></i> WhatsApp</a>
                     </div>
                 </div>
             </div>
