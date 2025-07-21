@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import 'animate.css';
 import "./advantageSection.css";
 
 const CustomerExpectations = () => {
@@ -22,7 +21,7 @@ const CustomerExpectations = () => {
     <div className="advantageSection">
       <h2 className="advantageText">
         Was Kunden von der Zusammenarbeit mit mir erwarten können:{" "}
-        <span key={index} className="advantageQualities animate__animated animate__bounceInRight">
+        <span className="advantageQualities">
             {qualities[index]}.
         </span>
       </h2>
