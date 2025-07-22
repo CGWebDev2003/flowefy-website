@@ -27,7 +27,7 @@ function Impressum() {
                         <br />
                         Tel:{" "}
                         <a className='link' href='tel:017624693418'>
-                            0177-4821477
+                            Anrufen
                         </a>
                         <br />
                         E-Mail:{" "}
