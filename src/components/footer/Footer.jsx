@@ -33,7 +33,7 @@ function Footer() {
                 </div>
                 <div className="col col3">
                     <div className="footerNavigation">
-                        <h2 className="footerColTitle">Links</h2>
+                        <h2 className="footerColTitle">Unternehmen</h2>
                         <a className="footerLink" href="/#home" aria-label="Gehe zu Home-Seite">Home</a>
                         <a className="footerLink" href="/#about" aria-label="Gehe zu Über uns Seite">Über uns</a>
                         <a className="footerLink" href="/#service" aria-label="Gehe zu Service">Service</a>
@@ -50,7 +50,7 @@ function Footer() {
                 </div>
                 <div className="col col5">
                     <div className="footerNavigation">
-                        <h2 className="footerColTitle">Legal Links</h2>
+                        <h2 className="footerColTitle">Rechtliches</h2>
                         <a className="footerLink" href="/impressum" aria-label="Gehe zu Impressum">Impressum</a>
                         <a className="footerLink" href="/datenschutz" aria-label="Gehe zu Datenschutz">Datenschutz</a>
                         <a className="footerLink" href="/content-usage-policy" aria-label="Gehe zu Content Usage Policy">Content Usage Policy</a>
