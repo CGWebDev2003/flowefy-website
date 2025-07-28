@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-bottom: 6rem;
 }
 
 .techStackItem {
@@ -48,6 +49,7 @@
 @media screen and (max-width: 750px) {
     .techStackList {
         width: 90% !important;
+        margin-bottom: 10rem !important;
     }
 
     .techStackLogo {

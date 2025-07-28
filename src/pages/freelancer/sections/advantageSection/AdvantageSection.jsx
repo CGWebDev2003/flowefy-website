@@ -3,10 +3,11 @@ import "./advantageSection.css";
 
 const CustomerExpectations = () => {
   const qualities = [
-    "schnelle & saubere Umsetzung",
+    "Schnelle & saubere Umsetzung",
     "Kommunikation auf Augenhöhe",
-    "effiziente, skalierbare Lösungen",
-    "Fokus auf Markenverständnis & Nutzererlebnis"
+    "Effiziente, skalierbare Lösungen",
+    "Fokus auf Markenverständnis",
+    "Performance-Orientiert"
   ];
   const [index, setIndex] = useState(0);
 
