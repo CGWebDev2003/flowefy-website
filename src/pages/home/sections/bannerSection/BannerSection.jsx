@@ -14,17 +14,6 @@ function BannerSection() {
                         </div>
                     </div>
                 </div>
-
-                <div className="runningBanner runningBanner-bottom">
-                    <div className="banner-track reverse">
-                        <div className="banner-text">
-                            Websites • One Pager • Flyer • Visitenkarten • &nbsp;
-                        </div>
-                        <div className="banner-text">
-                            Websites • One Pager • Flyer • Visitenkarten • &nbsp;
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     );
