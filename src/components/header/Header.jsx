@@ -18,7 +18,7 @@ function Header() {
                 </div>
                 <div className="linkBox">
                     <nav className="headerNav">
-                        <a href="/#home" className="headerLink" aria-label="Gehe zur Home-Seite">Home</a>
+                        <a href="/" className="headerLink" aria-label="Gehe zur Home-Seite">Home</a>
                         <a href="/freelancer" className="headerLink" aria-label="Gehe zu Freelance-Seite">Freelance</a>
                         <a href="/checkup" className="headerLink" aria-label="Gehe zur Webseiten-Checkup-Seite">Free Check Up</a>
                     </nav>
@@ -42,7 +42,7 @@ function Header() {
             <div className={`sidebar ${isOpen ? "sidebarOpen" : ""}`}>
                 <nav className="sidebarNav">
                     <h1 className="sidebarHeadline">Menü</h1>
-                    <a href="/#home" className="headerLink" aria-label="Gehe zu Home-Seite">Home</a>
+                    <a href="/" className="headerLink" aria-label="Gehe zu Home-Seite">Home</a>
                     <a href="/freelancer" className="headerLink" aria-label="Gehe zu Freelance-Seite">Freelance</a>
                     <a href="/checkup" className="headerLink" aria-label="Gehe zur Webseiten-Checkup-Seite">Free Check Up</a>
                 </nav>
