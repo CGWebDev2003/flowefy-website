@@ -16,7 +16,7 @@ function HeroSection() {
                 Wir denken uns in eure Marke und eure Kunden hinein – und gestalten Websites, die nicht nur gut aussehen, sondern funktionieren. Kreativ, durchdacht und mit dem Anspruch, echte Qualität abzuliefern.
                 <span className="highlighted bold">Schnell. Individuell. Bezahlbar.</span>
             </p>
-            <a href="#service" target="_blank" className="heroCTAButton" type="button" aria-label="Gehe zu Services">Usere Produkte <i className="bi bi-arrow-down"></i></a>
+            <a href="#service" className="heroCTAButton" type="button" aria-label="Gehe zu Services">Usere Produkte <i className="bi bi-arrow-down"></i></a>
         </div>
     );
 }
