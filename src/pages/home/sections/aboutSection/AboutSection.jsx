@@ -10,9 +10,9 @@ function AboutSection() {
                     <div className="aboutImage3"></div>
                 </div>
                 <div className="textBox">
-                    <h1 className="headline">We are <span className="primaryHighlight nunitoText">flowefy.</span></h1>
+                    <h1 className="headline">This is <span className="primaryHighlight nunitoText">flowefy.</span></h1>
                     <p className="aboutText">
-                        Wir sind eine kreative Webdesign-Agentur mit Sitz nahe Leipzig. Unser Ziel ist es, individuelle und ansprechende Websites zu erstellen, die den Bedürfnissen unserer Kunden entsprechen. Egal, ob du ein kleines Unternehmen oder ein großes Unternehmen bist, wir haben die Lösungen, die du brauchst.
+                        Gegründet von Colin Grahm in der Nähe von Leipzig, steht flowefy. für individuelles Webdesign, das Marken nicht nur digital abbildet, sondern tiefgreifend versteht. Jede Website entsteht auf Basis echter Einblicke – oft direkt vor Ort beim Unternehmen, um Kultur, Werte und Zielgruppen unmittelbar zu erfassen.
                     </p>
                     <a href="/anfragen" className="anfrageButton"  aria-label="Webseite Anfragen">
                         Jetzt Anfragen
