@@ -44,6 +44,7 @@
   border-radius: 2rem;
   background-image: url("../../../../assets/about_image.webp");
   background-size: cover;
+  background-position: center;
 }
 
 .aboutImage2 {
