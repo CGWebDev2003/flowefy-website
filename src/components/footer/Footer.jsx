@@ -8,14 +8,17 @@ function Footer() {
                 <div className="col col1">
                     <h1 className="flowefyLogo">flowefy.</h1>
                     <div className="footerSocialButtons">
-                        <a aria-label="Gehe zu Instagram Profil" className="socialLink" href="https://www.instagram.com/flowefy/" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-instagram"></i>
-                        </a>
-                        <a aria-label="Gehe zu LinkedIn Profil" className="socialLink" href="https://www.linkedin.com/company/flowefy/" target="_blank" rel="noopener noreferrer">
+                        <a aria-label="Gehe zum LinkedIn Profil" className="socialLink" href="https://www.linkedin.com/company/flowefy/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-linkedin"></i>
                         </a>
-                        <a aria-label="Gehe zu Behance-Profil" className="socialLink" href="https://www.behance.net/colingrahm2" target="_blank" rel="noopener noreferrer">
+                        <a aria-label="Gehe zum Behance-Profil" className="socialLink" href="https://www.behance.net/colingrahm2" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-behance"></i>
+                        </a>
+                        <a aria-label="Gehe zum Instagram Profil" className="socialLink" href="https://www.instagram.com/flowefy/" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-instagram"></i>
+                        </a>
+                        <a aria-label="Gehe zum Threads Profil" className="socialLink" href="https://www.threads.com/@flowefy" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-threads"></i>
                         </a>
                     </div>
                     <a href="https://www.german-ma.de/" target="_blank" aria-label="Link zum Made-In-Germany-Siegel"><img
