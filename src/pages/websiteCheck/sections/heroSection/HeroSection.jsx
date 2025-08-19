@@ -6,7 +6,7 @@ function CheckHeroSection() {
             <div className="checkHeroSectionContent">
                 <span className="topPill"><i className="bi bi-check2-circle"></i> 100% kostenlos & unverbindlich</span>
                 <h1 className="checkHeroTitle">Kostenloser<br/>Website-Check</h1>
-                <p className="checkHeroText">Analysiere deine Website in <span className="highlighted bold">5 wichtigen Bereichen</span> und erhalte sofort professionelle Verbesserungsvorschläge</p>
+                <p className="checkHeroText">Analysiere deine Website in <span className="highlighted bold">5 wichtigen Bereichen</span> und erhalte innerhalb von 3 Tagen professionelle Verbesserungsvorschläge.</p>
                 <div className="checkHeroFeatures">
                     <span className="heroFeature"><i className="bi bi-check2-circle checkFeatureIcon"></i> Design-Analyse</span>
                     <span className="heroFeature"><i className="bi bi-check2-circle checkFeatureIcon"></i> Performance-Check</span>
