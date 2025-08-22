@@ -6,6 +6,7 @@ import AboutSection from "./sections/aboutSection/AboutSection";
 import CheckupSection from "./sections/checkupSection/CheckupSection";
 import ServiceSection from "./sections/serviceSection/ServiceSection";
 import TestimonialSection from "./sections/testimonialSection/TestimonialSection";
+import FaqSection from "./sections/faqSection/FaqSection";
 import ContactSection from "./sections/contactSection/ContactSection";
 
 function Home() {
@@ -31,6 +32,7 @@ function Home() {
                     <CheckupSection />
                     <ServiceSection />
                     <TestimonialSection />
+                    <FaqSection />
                     <ContactSection />
                 </div>
             </main>

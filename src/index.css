@@ -66,6 +66,7 @@ body {
   color: #ffffff !important;
   font-family: "Poppins", sans-serif;
   font-size: 4rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {
