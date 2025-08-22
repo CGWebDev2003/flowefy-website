@@ -101,7 +101,6 @@ function ServiceSection() {
                         <div class="serviceCard">
                             <div class="content">
                                 <div class="title">Landingpage</div>
-                                <div class="price"><span className="ab">ab</span> 999€</div>
                                 <div class="description">
                                     Für Kampagnen, Produkte oder Events. Klar fokussiert, schnell & individuell. <br/>
 
@@ -121,7 +120,6 @@ function ServiceSection() {
                         <div class="serviceCard">
                             <div class="content">
                                 <div class="title">Onepager</div>
-                                <div class="price"><span className="ab">ab</span> 1999€</div>
                                 <div class="description">
                                     Ideal für Startups, Freelancer & kleine Unternehmen. Alle Inhalte auf einer Seite – klar & effektiv. <br/>
 
@@ -141,7 +139,6 @@ function ServiceSection() {
                         <div class="serviceCard">
                             <div class="content">
                                 <div class="title">Full Website</div>
-                                <div class="price"><span className="ab">ab</span> 4999€</div>
                                 <div class="description">
                                     Für Unternehmen mit mehreren Seiten & komplexeren Anforderungen. <br/>
 
@@ -161,7 +158,6 @@ function ServiceSection() {
                         <div class="serviceCard">
                             <div class="content">
                                 <div class="title">Startup Bundle</div>
-                                <div class="price">2499€</div>
                                 <div class="description">
                                     Kompakt, professionell & sofort startklar. <br/>
 
