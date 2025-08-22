@@ -5,7 +5,7 @@ const useClasses = makeStyles({
   aboutSection: {
     width: "100vw",
     backgroundColor: "var(--bg-color)",
-    padding: "4rem 1rem",
+    padding: "6rem 1rem",
     display: "flex",
     justifyContent: "center",
     boxSizing: "border-box",
