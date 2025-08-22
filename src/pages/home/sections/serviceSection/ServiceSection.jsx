@@ -17,7 +17,6 @@ function ServiceSection() {
                     <div class="serviceCard">
                         <div class="content">
                             <div class="title atropos-layer" data-atropos-offset="1">🚀 Landingpage</div>
-                            <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 999€</div>
                             <div class="description atropos-layer" data-atropos-offset="1">
                                 Für Kampagnen, Produkte oder Events. Klar fokussiert, schnell & individuell. <br/>
 
@@ -37,7 +36,6 @@ function ServiceSection() {
                     <div class="serviceCard">
                         <div class="content">
                             <div class="title atropos-layer" data-atropos-offset="1">📄 Onepager</div>
-                            <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 1999€</div>
                             <div class="description atropos-layer" data-atropos-offset="1">
                                 Ideal für Startups, Freelancer & kleine Unternehmen. Alle Inhalte auf einer Seite – klar & effektiv. <br/>
 
@@ -57,7 +55,6 @@ function ServiceSection() {
                     <div class="serviceCard">
                         <div class="content">
                             <div class="title atropos-layer" data-atropos-offset="1">🌐 Full Website</div>
-                            <div class="price atropos-layer" data-atropos-offset="2"><span className="ab">ab</span> 4999€</div>
                             <div class="description atropos-layer" data-atropos-offset="1">
                                 Für Unternehmen mit mehreren Seiten & komplexeren Anforderungen. <br/>
 
@@ -77,7 +74,6 @@ function ServiceSection() {
                     <div class="serviceCard">
                         <div class="content">
                             <div class="title atropos-layer" data-atropos-offset="1">🌱 Startup Bundle</div>
-                            <div class="price atropos-layer" data-atropos-offset="2">2499€</div>
                             <div class="description atropos-layer" data-atropos-offset="1">Das Komplettpaket für Gründer:innen.
                             Kompakt, professionell & sofort startklar. <br/>
 
