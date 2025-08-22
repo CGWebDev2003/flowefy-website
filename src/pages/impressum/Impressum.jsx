@@ -9,6 +9,7 @@ function Impressum() {
                     <h2 className='impressumHeadline'>
                         Angaben gemäß § 5 TMG:
                     </h2>
+                    <img src="/cg_wappen.webp" className="cgWappen" alt="Familienwappen Colin Grahm/Logo Colin Grahm Media & Commerce" />
                     <h3 className='impressumSubTitle'>
                         Colin Grahm Media & Commerce
                     </h3>

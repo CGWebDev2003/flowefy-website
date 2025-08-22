@@ -7,8 +7,9 @@
 }
 
 .impressumBox {
+    margin-top: 2rem;
     width: 70%;
-    height: 32rem;
+    height: 34rem;
     background-color: #ffffff;
     border-radius: 25px;
     display: flex;
@@ -30,6 +31,11 @@
     font-weight: 600;
     color: var(--title-color) !important;
     margin-bottom: 1rem !important;
+}
+
+.cgWappen {
+    height: 7rem;
+    margin-bottom: 1rem;
 }
 
 .impressumSubTitle {
