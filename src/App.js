@@ -12,6 +12,7 @@ import Bewerten from './pages/bewerten/Bewerten';
 import Impressum from './pages/impressum/Impressum';
 import Datenschutz from './pages/datenschutz/Datenschutz';
 import ContentUsagePolicy from './pages/contentUsagePolicy/ContentUsagePolicy';
+import NotFound from './pages/notFound/notFound';
 import './App.css';
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/content-usage-policy" element={<ContentUsagePolicy />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
       <SpeedInsights />
