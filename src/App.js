@@ -9,6 +9,7 @@ import WebsiteCheck from './pages/websiteCheck/WebsiteCheck';
 import Freelancer from './pages/freelancer/Freelancer';
 import Testen from './pages/websiteCheck/subpages/Testen';
 import Bewerten from './pages/bewerten/Bewerten';
+import Portfolio from './pages/portfolio/Portfolio';
 import Impressum from './pages/impressum/Impressum';
 import Datenschutz from './pages/datenschutz/Datenschutz';
 import ContentUsagePolicy from './pages/contentUsagePolicy/ContentUsagePolicy';
@@ -45,6 +46,7 @@ function App() {
         <Route path="/checkup" element={<WebsiteCheck />} />
         <Route path="/checkup/testen" element={<Testen />} />
         <Route path="/freelancer" element={<Freelancer />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/bewerten" element={<Bewerten />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
