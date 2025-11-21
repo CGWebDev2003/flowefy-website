@@ -19,7 +19,7 @@ function Header() {
                 <div className="linkBox">
                     <nav className="headerNav">
                         <a href="/" className="headerLink" aria-label="Gehe zur Home-Seite">Home</a>
-                        <a href="/portfolio" className="headerLink" aria-label="Gehe zur Portfolio-Seite">Portfolio</a>
+                        {/* <a href="/portfolio" className="headerLink" aria-label="Gehe zur Portfolio-Seite">Portfolio</a> */}
                         <a href="/freelancer" className="headerLink" aria-label="Gehe zu Freelance-Seite">Freelance</a>
                     </nav>
                 </div>
