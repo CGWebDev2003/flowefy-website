@@ -29,9 +29,7 @@
     font-size: 5rem;
     line-height: 5.5rem;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(90deg, rgba(93, 74, 234, 1) 0%, rgba(148, 77, 234, 1) 50%, rgba(93, 74, 234, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
     text-shadow: -10px 10px 25px rgba(0, 0, 0, 0.25);
 }
 
