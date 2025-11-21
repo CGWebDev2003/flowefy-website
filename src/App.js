@@ -42,9 +42,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} /> 
-        <Route path="/anfragen" element={<Anfragen />} />
+        {/* <Route path="/anfragen" element={<Anfragen />} />
         <Route path="/checkup" element={<WebsiteCheck />} />
-        <Route path="/checkup/testen" element={<Testen />} />
+        <Route path="/checkup/testen" element={<Testen />} /> */}
         <Route path="/freelancer" element={<Freelancer />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/bewerten" element={<Bewerten />} />
